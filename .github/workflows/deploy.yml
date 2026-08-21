@@ -9,6 +9,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     name: Deploy
+    env:
+      HUSKY: 0
     steps:
       - uses: actions/checkout@v4
 
