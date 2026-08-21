@@ -238,8 +238,15 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
     if (wordState.hasWrong) {
       const timer = setTimeout(() => {
         setWordState((state) => {
-          state.inputWord = ''
-          state.letterStates = new Array(state.letterStates.length).fill('normal')
+          // 只清空最后一个错误字符，保留前面已经输入正确的部分
+          const wrongIndex = state.inputWord.length - 1
+          if (wrongIndex >= 0) {
+            state.inputWord = state.inputWord.slice(0, wrongIndex)
+          }
+          // 把错误位置的字母状态重置为 normal
+          if (wrongIndex >= 0 && wrongIndex < state.letterStates.length) {
+            state.letterStates[wrongIndex] = 'normal'
+          }
           state.hasWrong = false
         })
       }, 300)
@@ -269,7 +276,14 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
         letterMistake: wordState.letterMistake,
       })
 
-      onFinish()
+      // 完成输入后等待 1 秒，让用户看清完成的视觉反馈，再跳转下一环节
+      const timer = setTimeout(() => {
+        onFinish()
+      }, 1000)
+
+      return () => {
+        clearTimeout(timer)
+      }
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [wordState.isFinished])

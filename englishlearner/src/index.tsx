@@ -77,5 +77,4 @@ function Root() {
 }
 
 const container = document.getElementById('root')
-
 container && createRoot(container).render(<Root />)
