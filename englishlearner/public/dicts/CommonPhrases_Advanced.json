@@ -1,0 +1,3782 @@
+[
+  {
+    "name": "abide by",
+    "trans": [
+      "phrase. 遵守；信守"
+    ]
+  },
+  {
+    "name": "abound in",
+    "trans": [
+      "phrase. 富于；充满"
+    ]
+  },
+  {
+    "name": "abound with",
+    "trans": [
+      "phrase. 充满；有大量的"
+    ]
+  },
+  {
+    "name": "absolve from",
+    "trans": [
+      "phrase. 免除；赦免"
+    ]
+  },
+  {
+    "name": "abstain from",
+    "trans": [
+      "phrase. 戒除；放弃"
+    ]
+  },
+  {
+    "name": "accede to",
+    "trans": [
+      "phrase. 同意；答应"
+    ]
+  },
+  {
+    "name": "accommodate oneself to",
+    "trans": [
+      "phrase. 适应于"
+    ]
+  },
+  {
+    "name": "accrue to",
+    "trans": [
+      "phrase. 归于；积累"
+    ]
+  },
+  {
+    "name": "acquaint oneself with",
+    "trans": [
+      "phrase. 熟悉；了解"
+    ]
+  },
+  {
+    "name": "acquit oneself of",
+    "trans": [
+      "phrase. 履行；完成"
+    ]
+  },
+  {
+    "name": "adhere to",
+    "trans": [
+      "phrase. 坚持；遵守"
+    ]
+  },
+  {
+    "name": "adjourn to",
+    "trans": [
+      "phrase. 移至（另一房间）继续"
+    ]
+  },
+  {
+    "name": "adjudicate on",
+    "trans": [
+      "phrase. 裁决；判决"
+    ]
+  },
+  {
+    "name": "allude to",
+    "trans": [
+      "phrase. 暗指；间接提到"
+    ]
+  },
+  {
+    "name": "allude at",
+    "trans": [
+      "phrase. 暗示"
+    ]
+  },
+  {
+    "name": "apologize for",
+    "trans": [
+      "phrase. 为...道歉"
+    ]
+  },
+  {
+    "name": "apprise of",
+    "trans": [
+      "phrase. 通知；告知"
+    ]
+  },
+  {
+    "name": "appropriate for",
+    "trans": [
+      "phrase. 拨款作...之用"
+    ]
+  },
+  {
+    "name": "arbitrate between",
+    "trans": [
+      "phrase. 在...之间仲裁"
+    ]
+  },
+  {
+    "name": "ascribe to",
+    "trans": [
+      "phrase. 归因于"
+    ]
+  },
+  {
+    "name": "assail with",
+    "trans": [
+      "phrase. 用...攻击"
+    ]
+  },
+  {
+    "name": "assent to",
+    "trans": [
+      "phrase. 同意；赞同"
+    ]
+  },
+  {
+    "name": "assuage guilt",
+    "trans": [
+      "phrase. 缓解内疚"
+    ]
+  },
+  {
+    "name": "atone for",
+    "trans": [
+      "phrase. 赎罪；弥补"
+    ]
+  },
+  {
+    "name": "attribute to",
+    "trans": [
+      "phrase. 归因于"
+    ]
+  },
+  {
+    "name": "avail oneself of",
+    "trans": [
+      "phrase. 利用"
+    ]
+  },
+  {
+    "name": "awaken to",
+    "trans": [
+      "phrase. 意识到；醒悟"
+    ]
+  },
+  {
+    "name": "back down from",
+    "trans": [
+      "phrase. 撤回；退让"
+    ]
+  },
+  {
+    "name": "back out of",
+    "trans": [
+      "phrase. 退出；食言"
+    ]
+  },
+  {
+    "name": "balk at",
+    "trans": [
+      "phrase. 犹豫；拒绝"
+    ]
+  },
+  {
+    "name": "bandy about",
+    "trans": [
+      "phrase. 随意谈论；到处散布"
+    ]
+  },
+  {
+    "name": "bargain for",
+    "trans": [
+      "phrase. 预料；指望"
+    ]
+  },
+  {
+    "name": "bargain on",
+    "trans": [
+      "phrase. 指望；依靠"
+    ]
+  },
+  {
+    "name": "bear out",
+    "trans": [
+      "phrase. 证实；支持"
+    ]
+  },
+  {
+    "name": "bear with",
+    "trans": [
+      "phrase. 容忍；耐心对待"
+    ]
+  },
+  {
+    "name": "beat down",
+    "trans": [
+      "phrase. 压价；太阳暴晒"
+    ]
+  },
+  {
+    "name": "beat up on",
+    "trans": [
+      "phrase. 袭击；痛打"
+    ]
+  },
+  {
+    "name": "become of",
+    "trans": [
+      "phrase. 发生于；使遭遇"
+    ]
+  },
+  {
+    "name": "beef up",
+    "trans": [
+      "phrase. 加强；增援"
+    ]
+  },
+  {
+    "name": "belabor the point",
+    "trans": [
+      "phrase. 过多阐述；喋喋不休"
+    ]
+  },
+  {
+    "name": "believe in",
+    "trans": [
+      "phrase. 信仰；信任"
+    ]
+  },
+  {
+    "name": "belittle someone",
+    "trans": [
+      "phrase. 贬低某人"
+    ]
+  },
+  {
+    "name": "bemoan the fact",
+    "trans": [
+      "phrase. 哀叹事实"
+    ]
+  },
+  {
+    "name": "benefit from",
+    "trans": [
+      "phrase. 从...中受益"
+    ]
+  },
+  {
+    "name": "beseech someone to",
+    "trans": [
+      "phrase. 恳求某人做"
+    ]
+  },
+  {
+    "name": "betray oneself",
+    "trans": [
+      "phrase. 暴露自己的真实情感"
+    ]
+  },
+  {
+    "name": "bide one's time",
+    "trans": [
+      "phrase. 等待时机"
+    ]
+  },
+  {
+    "name": "blanch at",
+    "trans": [
+      "phrase. 畏缩；犹豫"
+    ]
+  },
+  {
+    "name": "blank out",
+    "trans": [
+      "phrase. 突然忘记；变得空白"
+    ]
+  },
+  {
+    "name": "blaze a trail",
+    "trans": [
+      "phrase. 开辟道路；创新"
+    ]
+  },
+  {
+    "name": "blurt out",
+    "trans": [
+      "phrase. 脱口而出"
+    ]
+  },
+  {
+    "name": "boast about",
+    "trans": [
+      "phrase. 吹嘘；夸耀"
+    ]
+  },
+  {
+    "name": "boil down to",
+    "trans": [
+      "phrase. 归结为；实质上是"
+    ]
+  },
+  {
+    "name": "book into",
+    "trans": [
+      "phrase. 登记入住"
+    ]
+  },
+  {
+    "name": "boot out",
+    "trans": [
+      "phrase. 赶走；解雇"
+    ]
+  },
+  {
+    "name": "border on",
+    "trans": [
+      "phrase. 接近；近乎"
+    ]
+  },
+  {
+    "name": "botch up",
+    "trans": [
+      "phrase. 搞砸；弄糟"
+    ]
+  },
+  {
+    "name": "bow to",
+    "trans": [
+      "phrase. 屈从于；向...让步"
+    ]
+  },
+  {
+    "name": "brace oneself for",
+    "trans": [
+      "phrase. 为...做好准备"
+    ]
+  },
+  {
+    "name": "branch out",
+    "trans": [
+      "phrase. 扩展业务；分枝"
+    ]
+  },
+  {
+    "name": "break away from",
+    "trans": [
+      "phrase. 脱离；摆脱"
+    ]
+  },
+  {
+    "name": "break even",
+    "trans": [
+      "phrase. 收支平衡；不盈不亏"
+    ]
+  },
+  {
+    "name": "break new ground",
+    "trans": [
+      "phrase. 创新；开拓新领域"
+    ]
+  },
+  {
+    "name": "break the news",
+    "trans": [
+      "phrase. 公布消息；告知"
+    ]
+  },
+  {
+    "name": "breathe down one's neck",
+    "trans": [
+      "phrase. 紧盯着；紧迫不舍"
+    ]
+  },
+  {
+    "name": "brick up",
+    "trans": [
+      "phrase. 用砖封堵"
+    ]
+  },
+  {
+    "name": "bring about",
+    "trans": [
+      "phrase. 引起；导致"
+    ]
+  },
+  {
+    "name": "bring to light",
+    "trans": [
+      "phrase. 揭露；曝光"
+    ]
+  },
+  {
+    "name": "bring to terms",
+    "trans": [
+      "phrase. 使屈服；使接受条件"
+    ]
+  },
+  {
+    "name": "bristle at",
+    "trans": [
+      "phrase. 对...表示愤怒"
+    ]
+  },
+  {
+    "name": "brook no",
+    "trans": [
+      "phrase. 不容许；不容忍"
+    ]
+  },
+  {
+    "name": "brush aside",
+    "trans": [
+      "phrase. 不理会；忽视"
+    ]
+  },
+  {
+    "name": "brush up on",
+    "trans": [
+      "phrase. 温习；复习"
+    ]
+  },
+  {
+    "name": "buckle down",
+    "trans": [
+      "phrase. 认真开始干"
+    ]
+  },
+  {
+    "name": "build up",
+    "trans": [
+      "phrase. 积累；增强"
+    ]
+  },
+  {
+    "name": "bump into",
+    "trans": [
+      "phrase. 偶遇；撞见"
+    ]
+  },
+  {
+    "name": "bundle up",
+    "trans": [
+      "phrase. 穿暖和；裹紧"
+    ]
+  },
+  {
+    "name": "burn out",
+    "trans": [
+      "phrase. 精疲力竭；烧尽"
+    ]
+  },
+  {
+    "name": "burn the midnight oil",
+    "trans": [
+      "phrase. 熬夜工作；挑灯夜战"
+    ]
+  },
+  {
+    "name": "burst at the seams",
+    "trans": [
+      "phrase. 挤爆；过于拥挤"
+    ]
+  },
+  {
+    "name": "bury the hatchet",
+    "trans": [
+      "phrase. 言归于好；和解"
+    ]
+  },
+  {
+    "name": "butter up",
+    "trans": [
+      "phrase. 巴结；奉承"
+    ]
+  },
+  {
+    "name": "buy off",
+    "trans": [
+      "phrase. 收买；贿赂"
+    ]
+  },
+  {
+    "name": "buy out",
+    "trans": [
+      "phrase. 买断股权"
+    ]
+  },
+  {
+    "name": "buy time",
+    "trans": [
+      "phrase. 争取时间"
+    ]
+  },
+  {
+    "name": "call into question",
+    "trans": [
+      "phrase. 质疑；引起怀疑"
+    ]
+  },
+  {
+    "name": "call the shots",
+    "trans": [
+      "phrase. 做主；发号施令"
+    ]
+  },
+  {
+    "name": "cancel out",
+    "trans": [
+      "phrase. 抵消；中和"
+    ]
+  },
+  {
+    "name": "cap off",
+    "trans": [
+      "phrase. 以...结束；圆满完成"
+    ]
+  },
+  {
+    "name": "care for",
+    "trans": [
+      "phrase. 关心；喜欢"
+    ]
+  },
+  {
+    "name": "carry clout",
+    "trans": [
+      "phrase. 有影响力；有分量"
+    ]
+  },
+  {
+    "name": "carry weight",
+    "trans": [
+      "phrase. 有影响力；有分量"
+    ]
+  },
+  {
+    "name": "carve out",
+    "trans": [
+      "phrase. 开创；努力获得"
+    ]
+  },
+  {
+    "name": "cash in on",
+    "trans": [
+      "phrase. 从中获利；利用"
+    ]
+  },
+  {
+    "name": "cast aspersions on",
+    "trans": [
+      "phrase. 诽谤；中伤"
+    ]
+  },
+  {
+    "name": "cast doubt on",
+    "trans": [
+      "phrase. 引起对...的怀疑"
+    ]
+  },
+  {
+    "name": "cast light on",
+    "trans": [
+      "phrase. 阐明；使明了"
+    ]
+  },
+  {
+    "name": "catch on",
+    "trans": [
+      "phrase. 变得流行；理解"
+    ]
+  },
+  {
+    "name": "cave in",
+    "trans": [
+      "phrase. 塌陷；屈服"
+    ]
+  },
+  {
+    "name": "cater to",
+    "trans": [
+      "phrase. 迎合；满足需要"
+    ]
+  },
+  {
+    "name": "caveat emptor",
+    "trans": [
+      "phrase. 买者自负（拉丁语）"
+    ]
+  },
+  {
+    "name": "chafe at",
+    "trans": [
+      "phrase. 对...感到恼怒"
+    ]
+  },
+  {
+    "name": "chalk up to",
+    "trans": [
+      "phrase. 归因于"
+    ]
+  },
+  {
+    "name": "champion a cause",
+    "trans": [
+      "phrase. 捍卫事业；支持运动"
+    ]
+  },
+  {
+    "name": "chance upon",
+    "trans": [
+      "phrase. 偶然发现；偶遇"
+    ]
+  },
+  {
+    "name": "change hands",
+    "trans": [
+      "phrase. 易手；转手"
+    ]
+  },
+  {
+    "name": "change one's tune",
+    "trans": [
+      "phrase. 改变态度；变卦"
+    ]
+  },
+  {
+    "name": "chase down",
+    "trans": [
+      "phrase. 追查；找到"
+    ]
+  },
+  {
+    "name": "chase up",
+    "trans": [
+      "phrase. 催促；追讨"
+    ]
+  },
+  {
+    "name": "cheat on",
+    "trans": [
+      "phrase. 对...不忠"
+    ]
+  },
+  {
+    "name": "check up on",
+    "trans": [
+      "phrase. 调查；监视"
+    ]
+  },
+  {
+    "name": "chew out",
+    "trans": [
+      "phrase. 严厉斥责"
+    ]
+  },
+  {
+    "name": "chew over",
+    "trans": [
+      "phrase. 深思熟虑；仔细考虑"
+    ]
+  },
+  {
+    "name": "chime in",
+    "trans": [
+      "phrase. 插话；附和"
+    ]
+  },
+  {
+    "name": "chop and change",
+    "trans": [
+      "phrase. 朝令夕改；反复无常"
+    ]
+  },
+  {
+    "name": "churn out",
+    "trans": [
+      "phrase. 大量生产；粗制滥造"
+    ]
+  },
+  {
+    "name": "clemency toward",
+    "trans": [
+      "phrase. 对...宽大"
+    ]
+  },
+  {
+    "name": "clamor for",
+    "trans": [
+      "phrase. 强烈要求"
+    ]
+  },
+  {
+    "name": "clean up one's act",
+    "trans": [
+      "phrase. 改邪归正；端正行为"
+    ]
+  },
+  {
+    "name": "clear the air",
+    "trans": [
+      "phrase. 消除误会；澄清事实"
+    ]
+  },
+  {
+    "name": "climb down",
+    "trans": [
+      "phrase. 认错；退让"
+    ]
+  },
+  {
+    "name": "cling to",
+    "trans": [
+      "phrase. 紧抓；依附"
+    ]
+  },
+  {
+    "name": "clock in",
+    "trans": [
+      "phrase. 打卡上班"
+    ]
+  },
+  {
+    "name": "clock out",
+    "trans": [
+      "phrase. 打卡下班"
+    ]
+  },
+  {
+    "name": "close ranks",
+    "trans": [
+      "phrase. 团结一致"
+    ]
+  },
+  {
+    "name": "cloud the issue",
+    "trans": [
+      "phrase. 混淆视听"
+    ]
+  },
+  {
+    "name": "clue in",
+    "trans": [
+      "phrase. 告知；使了解"
+    ]
+  },
+  {
+    "name": "coast along",
+    "trans": [
+      "phrase. 漫不经心地做；不费力前进"
+    ]
+  },
+  {
+    "name": "coincide with",
+    "trans": [
+      "phrase. 与...一致；同时发生"
+    ]
+  },
+  {
+    "name": "comb through",
+    "trans": [
+      "phrase. 仔细搜查"
+    ]
+  },
+  {
+    "name": "come across",
+    "trans": [
+      "phrase. 偶遇；给人...印象"
+    ]
+  },
+  {
+    "name": "come by",
+    "trans": [
+      "phrase. 获得；经过"
+    ]
+  },
+  {
+    "name": "come clean",
+    "trans": [
+      "phrase. 坦白交代"
+    ]
+  },
+  {
+    "name": "come down with",
+    "trans": [
+      "phrase. 染上（病）"
+    ]
+  },
+  {
+    "name": "come in for",
+    "trans": [
+      "phrase. 受到；遭到"
+    ]
+  },
+  {
+    "name": "come to terms with",
+    "trans": [
+      "phrase. 接受；妥协"
+    ]
+  },
+  {
+    "name": "come up against",
+    "trans": [
+      "phrase. 遇到；面对"
+    ]
+  },
+  {
+    "name": "come up trumps",
+    "trans": [
+      "phrase. 出乎意料地成功"
+    ]
+  },
+  {
+    "name": "come what may",
+    "trans": [
+      "phrase. 无论如何"
+    ]
+  },
+  {
+    "name": "commit oneself to",
+    "trans": [
+      "phrase. 致力于；承诺"
+    ]
+  },
+  {
+    "name": "commiserate with",
+    "trans": [
+      "phrase. 同情；怜悯"
+    ]
+  },
+  {
+    "name": "commute to",
+    "trans": [
+      "phrase. 通勤到"
+    ]
+  },
+  {
+    "name": "compare notes",
+    "trans": [
+      "phrase. 交换意见"
+    ]
+  },
+  {
+    "name": "compensate for",
+    "trans": [
+      "phrase. 补偿；弥补"
+    ]
+  },
+  {
+    "name": "comply with",
+    "trans": [
+      "phrase. 遵守；服从"
+    ]
+  },
+  {
+    "name": "conceive of",
+    "trans": [
+      "phrase. 构想；设想"
+    ]
+  },
+  {
+    "name": "condescend to",
+    "trans": [
+      "phrase. 屈尊；俯就"
+    ]
+  },
+  {
+    "name": "confer with",
+    "trans": [
+      "phrase. 商谈；协商"
+    ]
+  },
+  {
+    "name": "confide in",
+    "trans": [
+      "phrase. 信任；吐露秘密"
+    ]
+  },
+  {
+    "name": "confine to",
+    "trans": [
+      "phrase. 限制在"
+    ]
+  },
+  {
+    "name": "conform to",
+    "trans": [
+      "phrase. 符合；遵从"
+    ]
+  },
+  {
+    "name": "confront with",
+    "trans": [
+      "phrase. 使面对"
+    ]
+  },
+  {
+    "name": "conjure up",
+    "trans": [
+      "phrase. 使浮现；唤起"
+    ]
+  },
+  {
+    "name": "consign to",
+    "trans": [
+      "phrase. 委托；交付"
+    ]
+  },
+  {
+    "name": "consist of",
+    "trans": [
+      "phrase. 由...组成"
+    ]
+  },
+  {
+    "name": "consort with",
+    "trans": [
+      "phrase. 与...交往"
+    ]
+  },
+  {
+    "name": "conspire against",
+    "trans": [
+      "phrase. 共谋反对"
+    ]
+  },
+  {
+    "name": "constitute a threat",
+    "trans": [
+      "phrase. 构成威胁"
+    ]
+  },
+  {
+    "name": "construe as",
+    "trans": [
+      "phrase. 解释为；理解为"
+    ]
+  },
+  {
+    "name": "contend with",
+    "trans": [
+      "phrase. 应付；对付"
+    ]
+  },
+  {
+    "name": "contract out",
+    "trans": [
+      "phrase. 外包"
+    ]
+  },
+  {
+    "name": "converge on",
+    "trans": [
+      "phrase. 汇聚于"
+    ]
+  },
+  {
+    "name": "converse with",
+    "trans": [
+      "phrase. 与...交谈"
+    ]
+  },
+  {
+    "name": "convert to",
+    "trans": [
+      "phrase. 转变为；改信"
+    ]
+  },
+  {
+    "name": "convict of",
+    "trans": [
+      "phrase. 判定有罪"
+    ]
+  },
+  {
+    "name": "cope with",
+    "trans": [
+      "phrase. 应对；处理"
+    ]
+  },
+  {
+    "name": "copy out",
+    "trans": [
+      "phrase. 抄写；誊写"
+    ]
+  },
+  {
+    "name": "correlate with",
+    "trans": [
+      "phrase. 与...相关"
+    ]
+  },
+  {
+    "name": "correspond to",
+    "trans": [
+      "phrase. 相当于；对应"
+    ]
+  },
+  {
+    "name": "count against",
+    "trans": [
+      "phrase. 对...不利"
+    ]
+  },
+  {
+    "name": "count among",
+    "trans": [
+      "phrase. 把...算作"
+    ]
+  },
+  {
+    "name": "count on",
+    "trans": [
+      "phrase. 指望；依靠"
+    ]
+  },
+  {
+    "name": "count toward",
+    "trans": [
+      "phrase. 计入；算作"
+    ]
+  },
+  {
+    "name": "cover for",
+    "trans": [
+      "phrase. 代替；掩护"
+    ]
+  },
+  {
+    "name": "cover one's tracks",
+    "trans": [
+      "phrase. 隐匿行踪；掩盖痕迹"
+    ]
+  },
+  {
+    "name": "covertly attempt",
+    "trans": [
+      "phrase. 暗中尝试"
+    ]
+  },
+  {
+    "name": "coward out of",
+    "trans": [
+      "phrase. 因害怕而退出"
+    ]
+  },
+  {
+    "name": "crack down on",
+    "trans": [
+      "phrase. 严厉打击；取缔"
+    ]
+  },
+  {
+    "name": "crack up",
+    "trans": [
+      "phrase. 崩溃；大笑"
+    ]
+  },
+  {
+    "name": "cram for",
+    "trans": [
+      "phrase. 临时抱佛脚"
+    ]
+  },
+  {
+    "name": "crank out",
+    "trans": [
+      "phrase. 快速生产"
+    ]
+  },
+  {
+    "name": "crank up",
+    "trans": [
+      "phrase. 提高；增加"
+    ]
+  },
+  {
+    "name": "creek without a paddle",
+    "trans": [
+      "phrase. 陷入困境；无可奈何"
+    ]
+  },
+  {
+    "name": "creep up on",
+    "trans": [
+      "phrase. 悄悄接近"
+    ]
+  },
+  {
+    "name": "crop up",
+    "trans": [
+      "phrase. 突然出现；意外发生"
+    ]
+  },
+  {
+    "name": "cross paths with",
+    "trans": [
+      "phrase. 偶然相遇"
+    ]
+  },
+  {
+    "name": "crow about",
+    "trans": [
+      "phrase. 自夸；吹嘘"
+    ]
+  },
+  {
+    "name": "crumble away",
+    "trans": [
+      "phrase. 逐渐崩塌"
+    ]
+  },
+  {
+    "name": "cry foul",
+    "trans": [
+      "phrase. 投诉不公"
+    ]
+  },
+  {
+    "name": "cry over spilled milk",
+    "trans": [
+      "phrase. 覆水难收；后悔无益"
+    ]
+  },
+  {
+    "name": "culminate in",
+    "trans": [
+      "phrase. 以...告终"
+    ]
+  },
+  {
+    "name": "culpable for",
+    "trans": [
+      "phrase. 对...有罪"
+    ]
+  },
+  {
+    "name": "cut and dried",
+    "trans": [
+      "phrase. 已定的；现成的"
+    ]
+  },
+  {
+    "name": "cut back on",
+    "trans": [
+      "phrase. 削减；缩减"
+    ]
+  },
+  {
+    "name": "cut corners",
+    "trans": [
+      "phrase. 走捷径；偷工减料"
+    ]
+  },
+  {
+    "name": "cut no ice with",
+    "trans": [
+      "phrase. 对...不起作用"
+    ]
+  },
+  {
+    "name": "cut off one's nose",
+    "trans": [
+      "phrase. 自毁前程"
+    ]
+  },
+  {
+    "name": "cut one's losses",
+    "trans": [
+      "phrase. 及时止损"
+    ]
+  },
+  {
+    "name": "cut out for",
+    "trans": [
+      "phrase. 天生适合"
+    ]
+  },
+  {
+    "name": "cut to the chase",
+    "trans": [
+      "phrase. 直奔主题"
+    ]
+  },
+  {
+    "name": "dally over",
+    "trans": [
+      "phrase. 慢条斯理地做"
+    ]
+  },
+  {
+    "name": "damp down",
+    "trans": [
+      "phrase. 抑制；减弱"
+    ]
+  },
+  {
+    "name": "dapple with",
+    "trans": [
+      "phrase. 点缀；斑驳"
+    ]
+  },
+  {
+    "name": "dawn on",
+    "trans": [
+      "phrase. 突然明白；醒悟"
+    ]
+  },
+  {
+    "name": "deal a blow to",
+    "trans": [
+      "phrase. 给以打击"
+    ]
+  },
+  {
+    "name": "deal in",
+    "trans": [
+      "phrase. 经营；从事"
+    ]
+  },
+  {
+    "name": "deal with",
+    "trans": [
+      "phrase. 处理；应对"
+    ]
+  },
+  {
+    "name": "decide on",
+    "trans": [
+      "phrase. 决定；选定"
+    ]
+  },
+  {
+    "name": "deck out",
+    "trans": [
+      "phrase. 装饰；打扮"
+    ]
+  },
+  {
+    "name": "decline to comment",
+    "trans": [
+      "phrase. 拒绝评论"
+    ]
+  },
+  {
+    "name": "deem necessary",
+    "trans": [
+      "phrase. 认为必要"
+    ]
+  },
+  {
+    "name": "default on",
+    "trans": [
+      "phrase. 拖欠；违约"
+    ]
+  },
+  {
+    "name": "defer to",
+    "trans": [
+      "phrase. 遵从；听从"
+    ]
+  },
+  {
+    "name": "deflect from",
+    "trans": [
+      "phrase. 转移；使偏离"
+    ]
+  },
+  {
+    "name": "deliberate on",
+    "trans": [
+      "phrase. 审议；仔细考虑"
+    ]
+  },
+  {
+    "name": "delineate from",
+    "trans": [
+      "phrase. 从...描绘"
+    ]
+  },
+  {
+    "name": "delve into",
+    "trans": [
+      "phrase. 深入探究"
+    ]
+  },
+  {
+    "name": "demand of",
+    "trans": [
+      "phrase. 要求"
+    ]
+  },
+  {
+    "name": "demur at",
+    "trans": [
+      "phrase. 对...表示异议"
+    ]
+  },
+  {
+    "name": "depart from",
+    "trans": [
+      "phrase. 偏离；背离"
+    ]
+  },
+  {
+    "name": "deprive of",
+    "trans": [
+      "phrase. 剥夺"
+    ]
+  },
+  {
+    "name": "derive from",
+    "trans": [
+      "phrase. 源于；得自"
+    ]
+  },
+  {
+    "name": "descend on",
+    "trans": [
+      "phrase. 袭击；突然到来"
+    ]
+  },
+  {
+    "name": "descend to",
+    "trans": [
+      "phrase. 堕落到；沦至"
+    ]
+  },
+  {
+    "name": "desist from",
+    "trans": [
+      "phrase. 停止；断绝"
+    ]
+  },
+  {
+    "name": "despise for",
+    "trans": [
+      "phrase. 因...而鄙视"
+    ]
+  },
+  {
+    "name": "detach from",
+    "trans": [
+      "phrase. 从...分离"
+    ]
+  },
+  {
+    "name": "deter from",
+    "trans": [
+      "phrase. 阻止；威慑"
+    ]
+  },
+  {
+    "name": "detract from",
+    "trans": [
+      "phrase. 贬低；减损"
+    ]
+  },
+  {
+    "name": "deviate from",
+    "trans": [
+      "phrase. 偏离；脱离"
+    ]
+  },
+  {
+    "name": "dictate to",
+    "trans": [
+      "phrase. 发号施令"
+    ]
+  },
+  {
+    "name": "differ from",
+    "trans": [
+      "phrase. 与...不同"
+    ]
+  },
+  {
+    "name": "dig in one's heels",
+    "trans": [
+      "phrase. 固执己见；不肯让步"
+    ]
+  },
+  {
+    "name": "dig up",
+    "trans": [
+      "phrase. 挖出；发现"
+    ]
+  },
+  {
+    "name": "dilute with",
+    "trans": [
+      "phrase. 用...稀释"
+    ]
+  },
+  {
+    "name": "dine out on",
+    "trans": [
+      "phrase. 凭...受到款待"
+    ]
+  },
+  {
+    "name": "dip into",
+    "trans": [
+      "phrase. 动用；浏览"
+    ]
+  },
+  {
+    "name": "disabuse of",
+    "trans": [
+      "phrase. 纠正；使省悟"
+    ]
+  },
+  {
+    "name": "disagree with",
+    "trans": [
+      "phrase. 不同意；不适合"
+    ]
+  },
+  {
+    "name": "disassociate from",
+    "trans": [
+      "phrase. 与...撇清关系"
+    ]
+  },
+  {
+    "name": "dispense with",
+    "trans": [
+      "phrase. 省去；免除"
+    ]
+  },
+  {
+    "name": "dispose of",
+    "trans": [
+      "phrase. 处理；处置"
+    ]
+  },
+  {
+    "name": "dispose toward",
+    "trans": [
+      "phrase. 使倾向于"
+    ]
+  },
+  {
+    "name": "disqualify from",
+    "trans": [
+      "phrase. 取消资格"
+    ]
+  },
+  {
+    "name": "dissuade from",
+    "trans": [
+      "phrase. 劝阻"
+    ]
+  },
+  {
+    "name": "distinguish between",
+    "trans": [
+      "phrase. 区分；辨别"
+    ]
+  },
+  {
+    "name": "distinguish from",
+    "trans": [
+      "phrase. 区别于"
+    ]
+  },
+  {
+    "name": "diverge from",
+    "trans": [
+      "phrase. 偏离；分歧"
+    ]
+  },
+  {
+    "name": "divest of",
+    "trans": [
+      "phrase. 剥夺；使放弃"
+    ]
+  },
+  {
+    "name": "divest oneself of",
+    "trans": [
+      "phrase. 放弃；摆脱"
+    ]
+  },
+  {
+    "name": "divvy up",
+    "trans": [
+      "phrase. 分摊；分配"
+    ]
+  },
+  {
+    "name": "do away with",
+    "trans": [
+      "phrase. 废除；去掉"
+    ]
+  },
+  {
+    "name": "do justice to",
+    "trans": [
+      "phrase. 公平对待；恰当处理"
+    ]
+  },
+  {
+    "name": "do one's bidding",
+    "trans": [
+      "phrase. 听命于某人"
+    ]
+  },
+  {
+    "name": "do the honors",
+    "trans": [
+      "phrase. 尽地主之谊"
+    ]
+  },
+  {
+    "name": "dole out",
+    "trans": [
+      "phrase. 发放；少量给予"
+    ]
+  },
+  {
+    "name": "dolly up",
+    "trans": [
+      "phrase. 打扮"
+    ]
+  },
+  {
+    "name": "doom to",
+    "trans": [
+      "phrase. 注定"
+    ]
+  },
+  {
+    "name": "doss about",
+    "trans": [
+      "phrase. 游手好闲"
+    ]
+  },
+  {
+    "name": "dote on",
+    "trans": [
+      "phrase. 溺爱；宠爱"
+    ]
+  },
+  {
+    "name": "doubtful of",
+    "trans": [
+      "phrase. 怀疑"
+    ]
+  },
+  {
+    "name": "drag on",
+    "trans": [
+      "phrase. 拖延；持续太久"
+    ]
+  },
+  {
+    "name": "drag out",
+    "trans": [
+      "phrase. 拖延；拉长"
+    ]
+  },
+  {
+    "name": "drift apart",
+    "trans": [
+      "phrase. 逐渐疏远"
+    ]
+  },
+  {
+    "name": "droned on about",
+    "trans": [
+      "phrase. 喋喋不休地说"
+    ]
+  },
+  {
+    "name": "drop out of",
+    "trans": [
+      "phrase. 退出"
+    ]
+  },
+  {
+    "name": "drown out",
+    "trans": [
+      "phrase. 淹没；压过"
+    ]
+  },
+  {
+    "name": "drum into",
+    "trans": [
+      "phrase. 反复灌输"
+    ]
+  },
+  {
+    "name": "drum up",
+    "trans": [
+      "phrase. 招揽；激发"
+    ]
+  },
+  {
+    "name": "dwell on",
+    "trans": [
+      "phrase. 老是想着；详述"
+    ]
+  },
+  {
+    "name": "dye in the wool",
+    "trans": [
+      "phrase. 彻头彻尾的；根深蒂固的"
+    ]
+  },
+  {
+    "name": "ease off",
+    "trans": [
+      "phrase. 减轻；缓和"
+    ]
+  },
+  {
+    "name": "ease up on",
+    "trans": [
+      "phrase. 放松；宽容"
+    ]
+  },
+  {
+    "name": "eat away at",
+    "trans": [
+      "phrase. 侵蚀；消耗"
+    ]
+  },
+  {
+    "name": "eat humble pie",
+    "trans": [
+      "phrase. 低声下气；忍辱含垢"
+    ]
+  },
+  {
+    "name": "eat into",
+    "trans": [
+      "phrase. 消耗；侵蚀"
+    ]
+  },
+  {
+    "name": "eat out of one's hand",
+    "trans": [
+      "phrase. 完全顺从"
+    ]
+  },
+  {
+    "name": "eke out",
+    "trans": [
+      "phrase. 勉强维持；弥补"
+    ]
+  },
+  {
+    "name": "elaborate on",
+    "trans": [
+      "phrase. 详细阐述"
+    ]
+  },
+  {
+    "name": "elbow out",
+    "trans": [
+      "phrase. 排挤出去"
+    ]
+  },
+  {
+    "name": "elect to",
+    "trans": [
+      "phrase. 选择做"
+    ]
+  },
+  {
+    "name": "elevate to",
+    "trans": [
+      "phrase. 提升到"
+    ]
+  },
+  {
+    "name": "elicit from",
+    "trans": [
+      "phrase. 从...引出"
+    ]
+  },
+  {
+    "name": "elude to",
+    "trans": [
+      "phrase. 逃避；躲避"
+    ]
+  },
+  {
+    "name": "embark on",
+    "trans": [
+      "phrase. 着手；开始"
+    ]
+  },
+  {
+    "name": "embed in",
+    "trans": [
+      "phrase. 嵌入；扎根于"
+    ]
+  },
+  {
+    "name": "embrace",
+    "trans": [
+      "phrase. 拥抱；欣然接受"
+    ]
+  },
+  {
+    "name": "emend a text",
+    "trans": [
+      "phrase. 校勘文本"
+    ]
+  },
+  {
+    "name": "emerge from",
+    "trans": [
+      "phrase. 从...中出现"
+    ]
+  },
+  {
+    "name": "emigrate from",
+    "trans": [
+      "phrase. 从...移出"
+    ]
+  },
+  {
+    "name": "emote over",
+    "trans": [
+      "phrase. 对...感情用事"
+    ]
+  },
+  {
+    "name": "emphasize the importance",
+    "trans": [
+      "phrase. 强调重要性"
+    ]
+  },
+  {
+    "name": "empower to",
+    "trans": [
+      "phrase. 授权"
+    ]
+  },
+  {
+    "name": "enable to",
+    "trans": [
+      "phrase. 使能够"
+    ]
+  },
+  {
+    "name": "enact into law",
+    "trans": [
+      "phrase. 制定为法律"
+    ]
+  },
+  {
+    "name": "encroach on",
+    "trans": [
+      "phrase. 侵占；侵犯"
+    ]
+  },
+  {
+    "name": "encumber with",
+    "trans": [
+      "phrase. 拖累；阻塞"
+    ]
+  },
+  {
+    "name": "end up",
+    "trans": [
+      "phrase. 最终成为；结果"
+    ]
+  },
+  {
+    "name": "endow with",
+    "trans": [
+      "phrase. 赋予；赐予"
+    ]
+  },
+  {
+    "name": "endure to",
+    "trans": [
+      "phrase. 忍受到"
+    ]
+  },
+  {
+    "name": "enforce on",
+    "trans": [
+      "phrase. 强制实施"
+    ]
+  },
+  {
+    "name": "engage in",
+    "trans": [
+      "phrase. 参与；从事"
+    ]
+  },
+  {
+    "name": "engrave on",
+    "trans": [
+      "phrase. 铭刻于"
+    ]
+  },
+  {
+    "name": "engrossed in",
+    "trans": [
+      "phrase. 全神贯注于"
+    ]
+  },
+  {
+    "name": "enhance the quality",
+    "trans": [
+      "phrase. 提高质量"
+    ]
+  },
+  {
+    "name": "enlighten about",
+    "trans": [
+      "phrase. 启发；使明了"
+    ]
+  },
+  {
+    "name": "enlist in",
+    "trans": [
+      "phrase. 参军；加入"
+    ]
+  },
+  {
+    "name": "ensue from",
+    "trans": [
+      "phrase. 由...产生"
+    ]
+  },
+  {
+    "name": "ensure against",
+    "trans": [
+      "phrase. 防止；防范"
+    ]
+  },
+  {
+    "name": "entail",
+    "trans": [
+      "phrase. 需要；意味着"
+    ]
+  },
+  {
+    "name": "enter into",
+    "trans": [
+      "phrase. 缔结；开始讨论"
+    ]
+  },
+  {
+    "name": "entitle to",
+    "trans": [
+      "phrase. 有权享有"
+    ]
+  },
+  {
+    "name": "entrust with",
+    "trans": [
+      "phrase. 委托"
+    ]
+  },
+  {
+    "name": "envelop in",
+    "trans": [
+      "phrase. 包裹；笼罩"
+    ]
+  },
+  {
+    "name": "envision as",
+    "trans": [
+      "phrase. 设想为"
+    ]
+  },
+  {
+    "name": "epitomize",
+    "trans": [
+      "phrase. 成为...的缩影"
+    ]
+  },
+  {
+    "name": "equate to",
+    "trans": [
+      "phrase. 等同于"
+    ]
+  },
+  {
+    "name": "equate with",
+    "trans": [
+      "phrase. 把...等同"
+    ]
+  },
+  {
+    "name": "eradicate from",
+    "trans": [
+      "phrase. 根除"
+    ]
+  },
+  {
+    "name": "err on the side of",
+    "trans": [
+      "phrase. 偏于；宁可"
+    ]
+  },
+  {
+    "name": "escalate into",
+    "trans": [
+      "phrase. 升级为"
+    ]
+  },
+  {
+    "name": "eschew",
+    "trans": [
+      "phrase. 避开；回避"
+    ]
+  },
+  {
+    "name": "establish as",
+    "trans": [
+      "phrase. 确立为"
+    ]
+  },
+  {
+    "name": "estrange from",
+    "trans": [
+      "phrase. 疏远"
+    ]
+  },
+  {
+    "name": "eulogize over",
+    "trans": [
+      "phrase. 颂扬"
+    ]
+  },
+  {
+    "name": "euphemize",
+    "trans": [
+      "phrase. 委婉表达"
+    ]
+  },
+  {
+    "name": "evacuate from",
+    "trans": [
+      "phrase. 从...撤离"
+    ]
+  },
+  {
+    "name": "evade",
+    "trans": [
+      "phrase. 逃避；规避"
+    ]
+  },
+  {
+    "name": "even out",
+    "trans": [
+      "phrase. 使平；使均衡"
+    ]
+  },
+  {
+    "name": "evidence of",
+    "trans": [
+      "phrase. ...的证据"
+    ]
+  },
+  {
+    "name": "evoke from",
+    "trans": [
+      "phrase. 从...唤起"
+    ]
+  },
+  {
+    "name": "evolve from",
+    "trans": [
+      "phrase. 从...进化"
+    ]
+  },
+  {
+    "name": "evolve into",
+    "trans": [
+      "phrase. 进化为"
+    ]
+  },
+  {
+    "name": "exacerbate",
+    "trans": [
+      "phrase. 加剧；恶化"
+    ]
+  },
+  {
+    "name": "exact from",
+    "trans": [
+      "phrase. 强求；勒索"
+    ]
+  },
+  {
+    "name": "exalt",
+    "trans": [
+      "phrase. 赞扬；提升"
+    ]
+  },
+  {
+    "name": "exceed expectations",
+    "trans": [
+      "phrase. 超出预期"
+    ]
+  },
+  {
+    "name": "excel at",
+    "trans": [
+      "phrase. 擅长"
+    ]
+  },
+  {
+    "name": "excel in",
+    "trans": [
+      "phrase. 精通"
+    ]
+  },
+  {
+    "name": "except from",
+    "trans": [
+      "phrase. 把...除外"
+    ]
+  },
+  {
+    "name": "excerpt from",
+    "trans": [
+      "phrase. 从...摘录"
+    ]
+  },
+  {
+    "name": "exempt from",
+    "trans": [
+      "phrase. 免除"
+    ]
+  },
+  {
+    "name": "exert oneself",
+    "trans": [
+      "phrase. 努力；尽力"
+    ]
+  },
+  {
+    "name": "exhaust from",
+    "trans": [
+      "phrase. 因...而筋疲力尽"
+    ]
+  },
+  {
+    "name": "exhibit",
+    "trans": [
+      "phrase. 展示；表现"
+    ]
+  },
+  {
+    "name": "exhort to",
+    "trans": [
+      "phrase. 力劝；告诫"
+    ]
+  },
+  {
+    "name": "exonerate from",
+    "trans": [
+      "phrase. 免除责任"
+    ]
+  },
+  {
+    "name": "exorcise from",
+    "trans": [
+      "phrase. 驱除"
+    ]
+  },
+  {
+    "name": "expand on",
+    "trans": [
+      "phrase. 详细说明"
+    ]
+  },
+  {
+    "name": "expatiate on",
+    "trans": [
+      "phrase. 详述"
+    ]
+  },
+  {
+    "name": "expedite",
+    "trans": [
+      "phrase. 加速；促进"
+    ]
+  },
+  {
+    "name": "expel from",
+    "trans": [
+      "phrase. 驱逐；开除"
+    ]
+  },
+  {
+    "name": "expend on",
+    "trans": [
+      "phrase. 花费在"
+    ]
+  },
+  {
+    "name": "expert at",
+    "trans": [
+      "phrase. 熟练于"
+    ]
+  },
+  {
+    "name": "expire",
+    "trans": [
+      "phrase. 到期；终止"
+    ]
+  },
+  {
+    "name": "explain away",
+    "trans": [
+      "phrase. 为...辩解"
+    ]
+  },
+  {
+    "name": "explicitly state",
+    "trans": [
+      "phrase. 明确声明"
+    ]
+  },
+  {
+    "name": "exploit",
+    "trans": [
+      "phrase. 利用；剥削"
+    ]
+  },
+  {
+    "name": "expound on",
+    "trans": [
+      "phrase. 详述"
+    ]
+  },
+  {
+    "name": "express one's gratitude",
+    "trans": [
+      "phrase. 表达感激"
+    ]
+  },
+  {
+    "name": "expropriate",
+    "trans": [
+      "phrase. 没收；征用"
+    ]
+  },
+  {
+    "name": "expunge from",
+    "trans": [
+      "phrase. 删除；抹去"
+    ]
+  },
+  {
+    "name": "extirpate",
+    "trans": [
+      "phrase. 根除；消灭"
+    ]
+  },
+  {
+    "name": "extort from",
+    "trans": [
+      "phrase. 勒索"
+    ]
+  },
+  {
+    "name": "extrapolate from",
+    "trans": [
+      "phrase. 推断"
+    ]
+  },
+  {
+    "name": "extricate from",
+    "trans": [
+      "phrase. 从...解脱"
+    ]
+  },
+  {
+    "name": "exude confidence",
+    "trans": [
+      "phrase. 散发自信"
+    ]
+  },
+  {
+    "name": "exult in",
+    "trans": [
+      "phrase. 狂喜；欢欣鼓舞"
+    ]
+  },
+  {
+    "name": "exult over",
+    "trans": [
+      "phrase. 幸灾乐祸"
+    ]
+  },
+  {
+    "name": "face the music",
+    "trans": [
+      "phrase. 承担后果；面对现实"
+    ]
+  },
+  {
+    "name": "facilitate",
+    "trans": [
+      "phrase. 促进；使便利"
+    ]
+  },
+  {
+    "name": "fall back on",
+    "trans": [
+      "phrase. 依靠；求助于"
+    ]
+  },
+  {
+    "name": "fall behind with",
+    "trans": [
+      "phrase. 落后于；拖欠"
+    ]
+  },
+  {
+    "name": "fall foul of",
+    "trans": [
+      "phrase. 触犯；与...冲突"
+    ]
+  },
+  {
+    "name": "fall in with",
+    "trans": [
+      "phrase. 结交；同意"
+    ]
+  },
+  {
+    "name": "fall out of",
+    "trans": [
+      "phrase. 不再"
+    ]
+  },
+  {
+    "name": "fall prey to",
+    "trans": [
+      "phrase. 成为...的牺牲品"
+    ]
+  },
+  {
+    "name": "fall short of",
+    "trans": [
+      "phrase. 未达到；缺乏"
+    ]
+  },
+  {
+    "name": "falter in",
+    "trans": [
+      "phrase. 在...中踌躇"
+    ]
+  },
+  {
+    "name": "familiarize with",
+    "trans": [
+      "phrase. 使熟悉"
+    ]
+  },
+  {
+    "name": "fancy up",
+    "trans": [
+      "phrase. 打扮；装饰"
+    ]
+  },
+  {
+    "name": "farm out",
+    "trans": [
+      "phrase. 外包；分包"
+    ]
+  },
+  {
+    "name": "fathom out",
+    "trans": [
+      "phrase. 理解；弄清"
+    ]
+  },
+  {
+    "name": "fawn over",
+    "trans": [
+      "phrase. 巴结；讨好"
+    ]
+  },
+  {
+    "name": "faze",
+    "trans": [
+      "phrase. 使担忧；使惊慌"
+    ]
+  },
+  {
+    "name": "feast on",
+    "trans": [
+      "phrase. 享用；大快朵颐"
+    ]
+  },
+  {
+    "name": "feign ignorance",
+    "trans": [
+      "phrase. 装作不知"
+    ]
+  },
+  {
+    "name": "fence in",
+    "trans": [
+      "phrase. 围住；限制"
+    ]
+  },
+  {
+    "name": "fend for oneself",
+    "trans": [
+      "phrase. 自谋生计"
+    ]
+  },
+  {
+    "name": "ferret out",
+    "trans": [
+      "phrase. 搜出；查明"
+    ]
+  },
+  {
+    "name": "ferry across",
+    "trans": [
+      "phrase. 摆渡"
+    ]
+  },
+  {
+    "name": "fess up",
+    "trans": [
+      "phrase. 坦白；承认"
+    ]
+  },
+  {
+    "name": "fester",
+    "trans": [
+      "phrase. 溃烂；恶化"
+    ]
+  },
+  {
+    "name": "fend off",
+    "trans": [
+      "phrase. 挡开；避开"
+    ]
+  },
+  {
+    "name": "festoon with",
+    "trans": [
+      "phrase. 用...装饰"
+    ]
+  },
+  {
+    "name": "fetch up",
+    "trans": [
+      "phrase. 最终到达"
+    ]
+  },
+  {
+    "name": "fidget with",
+    "trans": [
+      "phrase. 摆弄"
+    ]
+  },
+  {
+    "name": "figure out",
+    "trans": [
+      "phrase. 弄明白；解决"
+    ]
+  },
+  {
+    "name": "file for",
+    "trans": [
+      "phrase. 申请"
+    ]
+  },
+  {
+    "name": "fill in for",
+    "trans": [
+      "phrase. 代替"
+    ]
+  },
+  {
+    "name": "fill the bill",
+    "trans": [
+      "phrase. 符合要求；正合适"
+    ]
+  },
+  {
+    "name": "filthy rich",
+    "trans": [
+      "phrase. 非常富有"
+    ]
+  },
+  {
+    "name": "filter out",
+    "trans": [
+      "phrase. 过滤掉"
+    ]
+  },
+  {
+    "name": "finagle",
+    "trans": [
+      "phrase. 欺骗；巧妙获得"
+    ]
+  },
+  {
+    "name": "find fault with",
+    "trans": [
+      "phrase. 挑剔；找茬"
+    ]
+  },
+  {
+    "name": "find one's feet",
+    "trans": [
+      "phrase. 站稳脚跟；适应"
+    ]
+  },
+  {
+    "name": "fine-tune",
+    "trans": [
+      "phrase. 微调"
+    ]
+  },
+  {
+    "name": "fingerprint",
+    "trans": [
+      "phrase. 取指纹"
+    ]
+  },
+  {
+    "name": "finish up",
+    "trans": [
+      "phrase. 完成；结束"
+    ]
+  },
+  {
+    "name": "fire away",
+    "trans": [
+      "phrase. 尽管问；开始说"
+    ]
+  },
+  {
+    "name": "fish for",
+    "trans": [
+      "phrase. 暗中打听"
+    ]
+  },
+  {
+    "name": "fish out",
+    "trans": [
+      "phrase. 掏出；捞出"
+    ]
+  },
+  {
+    "name": "fit in with",
+    "trans": [
+      "phrase. 适应；融入"
+    ]
+  },
+  {
+    "name": "fit the mold",
+    "trans": [
+      "phrase. 符合模式"
+    ]
+  },
+  {
+    "name": "fizzle out",
+    "trans": [
+      "phrase. 虎头蛇尾；无果而终"
+    ]
+  },
+  {
+    "name": "flake out",
+    "trans": [
+      "phrase. 累倒；睡着"
+    ]
+  },
+  {
+    "name": "flame out",
+    "trans": [
+      "phrase. 突然失败"
+    ]
+  },
+  {
+    "name": "flare up",
+    "trans": [
+      "phrase. 突然发作"
+    ]
+  },
+  {
+    "name": "flash back to",
+    "trans": [
+      "phrase. 回想起"
+    ]
+  },
+  {
+    "name": "flesh out",
+    "trans": [
+      "phrase. 充实；完善"
+    ]
+  },
+  {
+    "name": "flick through",
+    "trans": [
+      "phrase. 浏览"
+    ]
+  },
+  {
+    "name": "flinch from",
+    "trans": [
+      "phrase. 畏缩；退缩"
+    ]
+  },
+  {
+    "name": "fling oneself into",
+    "trans": [
+      "phrase. 投身于"
+    ]
+  },
+  {
+    "name": "flip through",
+    "trans": [
+      "phrase. 翻阅"
+    ]
+  },
+  {
+    "name": "flock to",
+    "trans": [
+      "phrase. 蜂拥而至"
+    ]
+  },
+  {
+    "name": "flog a dead horse",
+    "trans": [
+      "phrase. 白费力气"
+    ]
+  },
+  {
+    "name": "flood in",
+    "trans": [
+      "phrase. 涌入"
+    ]
+  },
+  {
+    "name": "floss over",
+    "trans": [
+      "phrase. 忽视；掩饰"
+    ]
+  },
+  {
+    "name": "flounder in",
+    "trans": [
+      "phrase. 在...中挣扎"
+    ]
+  },
+  {
+    "name": "flout the law",
+    "trans": [
+      "phrase. 无视法律"
+    ]
+  },
+  {
+    "name": "flower into",
+    "trans": [
+      "phrase. 发展为"
+    ]
+  },
+  {
+    "name": "fluff up",
+    "trans": [
+      "phrase. 抖松；弄乱"
+    ]
+  },
+  {
+    "name": "fly off the handle",
+    "trans": [
+      "phrase. 大发雷霆"
+    ]
+  },
+  {
+    "name": "fob off",
+    "trans": [
+      "phrase. 敷衍；推诿"
+    ]
+  },
+  {
+    "name": "foist on",
+    "trans": [
+      "phrase. 强加于"
+    ]
+  },
+  {
+    "name": "fold up",
+    "trans": [
+      "phrase. 倒闭；折叠"
+    ]
+  },
+  {
+    "name": "follow through",
+    "trans": [
+      "phrase. 坚持到底"
+    ]
+  },
+  {
+    "name": "follow up on",
+    "trans": [
+      "phrase. 跟进；追踪"
+    ]
+  },
+  {
+    "name": "fool around",
+    "trans": [
+      "phrase. 胡闹；闲荡"
+    ]
+  },
+  {
+    "name": "foot the bill",
+    "trans": [
+      "phrase. 买单"
+    ]
+  },
+  {
+    "name": "forbear from",
+    "trans": [
+      "phrase. 克制；忍耐"
+    ]
+  },
+  {
+    "name": "force one's hand",
+    "trans": [
+      "phrase. 迫使行动"
+    ]
+  },
+  {
+    "name": "forestall",
+    "trans": [
+      "phrase. 预先阻止"
+    ]
+  },
+  {
+    "name": "forgo",
+    "trans": [
+      "phrase. 放弃"
+    ]
+  },
+  {
+    "name": "fork out",
+    "trans": [
+      "phrase. 掏钱；支付"
+    ]
+  },
+  {
+    "name": "formulate",
+    "trans": [
+      "phrase. 制定；系统地阐述"
+    ]
+  },
+  {
+    "name": "forsake",
+    "trans": [
+      "phrase. 放弃；抛弃"
+    ]
+  },
+  {
+    "name": "fortify against",
+    "trans": [
+      "phrase. 防范"
+    ]
+  },
+  {
+    "name": "foul up",
+    "trans": [
+      "phrase. 搞砸"
+    ]
+  },
+  {
+    "name": "frame for",
+    "trans": [
+      "phrase. 诬陷"
+    ]
+  },
+  {
+    "name": "fraternize with",
+    "trans": [
+      "phrase. 亲近交往"
+    ]
+  },
+  {
+    "name": "fraught with",
+    "trans": [
+      "phrase. 充满"
+    ]
+  },
+  {
+    "name": "freak out",
+    "trans": [
+      "phrase. 大惊小怪；崩溃"
+    ]
+  },
+  {
+    "name": "free up",
+    "trans": [
+      "phrase. 释放；腾出"
+    ]
+  },
+  {
+    "name": "freeze out",
+    "trans": [
+      "phrase. 排挤；冷落"
+    ]
+  },
+  {
+    "name": "fret about",
+    "trans": [
+      "phrase. 为...发愁"
+    ]
+  },
+  {
+    "name": "fritter away",
+    "trans": [
+      "phrase. 浪费"
+    ]
+  },
+  {
+    "name": "frizz up",
+    "trans": [
+      "phrase. 使卷曲"
+    ]
+  },
+  {
+    "name": "frock up",
+    "trans": [
+      "phrase. 盛装打扮"
+    ]
+  },
+  {
+    "name": "frolic in",
+    "trans": [
+      "phrase. 在...中嬉戏"
+    ]
+  },
+  {
+    "name": "frown upon",
+    "trans": [
+      "phrase. 不赞成；不悦"
+    ]
+  },
+  {
+    "name": "fruitful collaboration",
+    "trans": [
+      "phrase. 富有成效的合作"
+    ]
+  },
+  {
+    "name": "fudge the issue",
+    "trans": [
+      "phrase. 含糊其辞；敷衍"
+    ]
+  },
+  {
+    "name": "fulminate against",
+    "trans": [
+      "phrase. 怒斥；强烈反对"
+    ]
+  },
+  {
+    "name": "function as",
+    "trans": [
+      "phrase. 充当；起...作用"
+    ]
+  },
+  {
+    "name": "fundamental to",
+    "trans": [
+      "phrase. 对...至关重要"
+    ]
+  },
+  {
+    "name": "furlough from",
+    "trans": [
+      "phrase. 从...休假"
+    ]
+  },
+  {
+    "name": "furnish with",
+    "trans": [
+      "phrase. 提供；配备"
+    ]
+  },
+  {
+    "name": "gallivant around",
+    "trans": [
+      "phrase. 闲逛；到处游玩"
+    ]
+  },
+  {
+    "name": "gamble away",
+    "trans": [
+      "phrase. 赌输"
+    ]
+  },
+  {
+    "name": "gamy",
+    "trans": [
+      "phrase. 有胆量的"
+    ]
+  },
+  {
+    "name": "gander at",
+    "trans": [
+      "phrase. 瞥一眼"
+    ]
+  },
+  {
+    "name": "gang up on",
+    "trans": [
+      "phrase. 联合对付"
+    ]
+  },
+  {
+    "name": "garnish with",
+    "trans": [
+      "phrase. 用...装饰（菜肴）"
+    ]
+  },
+  {
+    "name": "gasp for",
+    "trans": [
+      "phrase. 气喘吁吁地要"
+    ]
+  },
+  {
+    "name": "gather up",
+    "trans": [
+      "phrase. 收集；聚拢"
+    ]
+  },
+  {
+    "name": "gaze at",
+    "trans": [
+      "phrase. 凝视"
+    ]
+  },
+  {
+    "name": "gear up for",
+    "trans": [
+      "phrase. 为...做准备"
+    ]
+  },
+  {
+    "name": "gee up",
+    "trans": [
+      "phrase. 激励；催促"
+    ]
+  },
+  {
+    "name": "get a grip on",
+    "trans": [
+      "phrase. 控制；把握"
+    ]
+  },
+  {
+    "name": "get across",
+    "trans": [
+      "phrase. 使理解；传达"
+    ]
+  },
+  {
+    "name": "get ahead of oneself",
+    "trans": [
+      "phrase. 操之过急"
+    ]
+  },
+  {
+    "name": "get at",
+    "trans": [
+      "phrase. 意指；暗示"
+    ]
+  },
+  {
+    "name": "get back at",
+    "trans": [
+      "phrase. 报复"
+    ]
+  },
+  {
+    "name": "get cold feet",
+    "trans": [
+      "phrase. 临阵退缩"
+    ]
+  },
+  {
+    "name": "get down to brass tacks",
+    "trans": [
+      "phrase. 谈正事"
+    ]
+  },
+  {
+    "name": "get down to business",
+    "trans": [
+      "phrase. 开始办正事"
+    ]
+  },
+  {
+    "name": "get even with",
+    "trans": [
+      "phrase. 与...算账；报复"
+    ]
+  },
+  {
+    "name": "get in on the act",
+    "trans": [
+      "phrase. 趁机参与"
+    ]
+  },
+  {
+    "name": "get in with",
+    "trans": [
+      "phrase. 巴结；结交"
+    ]
+  },
+  {
+    "name": "get off the ground",
+    "trans": [
+      "phrase. 顺利开始；起步"
+    ]
+  },
+  {
+    "name": "get out of hand",
+    "trans": [
+      "phrase. 失控"
+    ]
+  },
+  {
+    "name": "get rid of",
+    "trans": [
+      "phrase. 摆脱；去除"
+    ]
+  },
+  {
+    "name": "get short shrift",
+    "trans": [
+      "phrase. 被冷落；被拒绝"
+    ]
+  },
+  {
+    "name": "get the better of",
+    "trans": [
+      "phrase. 战胜；占上风"
+    ]
+  },
+  {
+    "name": "get the hang of",
+    "trans": [
+      "phrase. 掌握；学会"
+    ]
+  },
+  {
+    "name": "get wind of",
+    "trans": [
+      "phrase. 风闻；获悉"
+    ]
+  },
+  {
+    "name": "get wise to",
+    "trans": [
+      "phrase. 识破；察觉"
+    ]
+  },
+  {
+    "name": "ghoul around",
+    "trans": [
+      "phrase. 在...附近徘徊"
+    ]
+  },
+  {
+    "name": "gild the lily",
+    "trans": [
+      "phrase. 画蛇添足"
+    ]
+  },
+  {
+    "name": "gird one's loins",
+    "trans": [
+      "phrase. 准备行动"
+    ]
+  },
+  {
+    "name": "give away",
+    "trans": [
+      "phrase. 泄露；赠送"
+    ]
+  },
+  {
+    "name": "give ground",
+    "trans": [
+      "phrase. 退让；让步"
+    ]
+  },
+  {
+    "name": "give it a whirl",
+    "trans": [
+      "phrase. 试一试"
+    ]
+  },
+  {
+    "name": "give oneself away",
+    "trans": [
+      "phrase. 露马脚"
+    ]
+  },
+  {
+    "name": "give pause",
+    "trans": [
+      "phrase. 使犹豫"
+    ]
+  },
+  {
+    "name": "give rise to",
+    "trans": [
+      "phrase. 引起；导致"
+    ]
+  },
+  {
+    "name": "give the slip",
+    "trans": [
+      "phrase. 甩掉；逃脱"
+    ]
+  },
+  {
+    "name": "glaze over",
+    "trans": [
+      "phrase. 变呆滞；变得模糊"
+    ]
+  },
+  {
+    "name": "glean from",
+    "trans": [
+      "phrase. 从...收集"
+    ]
+  },
+  {
+    "name": "glom onto",
+    "trans": [
+      "phrase. 抓住；攫取"
+    ]
+  },
+  {
+    "name": "gloss over",
+    "trans": [
+      "phrase. 掩饰；粉饰"
+    ]
+  },
+  {
+    "name": "gnaw at",
+    "trans": [
+      "phrase. 啃咬；使烦恼"
+    ]
+  },
+  {
+    "name": "go against the grain",
+    "trans": [
+      "phrase. 违背意愿；不合习惯"
+    ]
+  },
+  {
+    "name": "go belly up",
+    "trans": [
+      "phrase. 破产；倒闭"
+    ]
+  },
+  {
+    "name": "go by the board",
+    "trans": [
+      "phrase. 被放弃；被丢弃"
+    ]
+  },
+  {
+    "name": "go cold turkey",
+    "trans": [
+      "phrase. 彻底戒除"
+    ]
+  },
+  {
+    "name": "go down in flames",
+    "trans": [
+      "phrase. 彻底失败"
+    ]
+  },
+  {
+    "name": "go Dutch",
+    "trans": [
+      "phrase. 各付各的"
+    ]
+  },
+  {
+    "name": "go fly a kite",
+    "trans": [
+      "phrase. 走开；别烦"
+    ]
+  },
+  {
+    "name": "go haywire",
+    "trans": [
+      "phrase. 出故障；乱套"
+    ]
+  },
+  {
+    "name": "go off the deep end",
+    "trans": [
+      "phrase. 大发脾气；走极端"
+    ]
+  },
+  {
+    "name": "go out of one's way",
+    "trans": [
+      "phrase. 特意；不怕麻烦"
+    ]
+  },
+  {
+    "name": "go out the window",
+    "trans": [
+      "phrase. 丧失；消失"
+    ]
+  },
+  {
+    "name": "go overboard",
+    "trans": [
+      "phrase. 做过头"
+    ]
+  },
+  {
+    "name": "go South",
+    "trans": [
+      "phrase. 下降；变糟"
+    ]
+  },
+  {
+    "name": "go stale",
+    "trans": [
+      "phrase. 变得不新鲜；失去兴趣"
+    ]
+  },
+  {
+    "name": "go through with",
+    "trans": [
+      "phrase. 完成；实现"
+    ]
+  },
+  {
+    "name": "go to seed",
+    "trans": [
+      "phrase. 衰败；变得不修边幅"
+    ]
+  },
+  {
+    "name": "go to town",
+    "trans": [
+      "phrase. 大干一场；尽情做"
+    ]
+  },
+  {
+    "name": "go up in smoke",
+    "trans": [
+      "phrase. 化为乌有；失败"
+    ]
+  },
+  {
+    "name": "goad into",
+    "trans": [
+      "phrase. 煽动；激怒"
+    ]
+  },
+  {
+    "name": "golden handcuffs",
+    "trans": [
+      "phrase. 金手铐（挽留高管的优厚待遇）"
+    ]
+  },
+  {
+    "name": "gnaw away at",
+    "trans": [
+      "phrase. 不断侵蚀"
+    ]
+  },
+  {
+    "name": "goof off",
+    "trans": [
+      "phrase. 游手好闲；混日子"
+    ]
+  },
+  {
+    "name": "grant permission",
+    "trans": [
+      "phrase. 授予许可"
+    ]
+  },
+  {
+    "name": "grapple with",
+    "trans": [
+      "phrase. 努力应对；搏斗"
+    ]
+  },
+  {
+    "name": "grate on",
+    "trans": [
+      "phrase. 惹人烦躁"
+    ]
+  },
+  {
+    "name": "gravel at",
+    "trans": [
+      "phrase. 困惑；为难"
+    ]
+  },
+  {
+    "name": "grease someone's palm",
+    "trans": [
+      "phrase. 贿赂"
+    ]
+  },
+  {
+    "name": "great minds think alike",
+    "trans": [
+      "phrase. 英雄所见略同"
+    ]
+  },
+  {
+    "name": "grief over",
+    "trans": [
+      "phrase. 为...悲伤"
+    ]
+  },
+  {
+    "name": "grind away at",
+    "trans": [
+      "phrase. 刻苦钻研"
+    ]
+  },
+  {
+    "name": "grind down",
+    "trans": [
+      "phrase. 折磨；压迫"
+    ]
+  },
+  {
+    "name": "grind to a halt",
+    "trans": [
+      "phrase. 停滞不前"
+    ]
+  },
+  {
+    "name": "groan under",
+    "trans": [
+      "phrase. 在...重压下呻吟"
+    ]
+  },
+  {
+    "name": "gross out",
+    "trans": [
+      "phrase. 使恶心"
+    ]
+  },
+  {
+    "name": "grossly underestimate",
+    "trans": [
+      "phrase. 严重低估"
+    ]
+  },
+  {
+    "name": "ground in",
+    "trans": [
+      "phrase. 在...方面打下基础"
+    ]
+  },
+  {
+    "name": "group under",
+    "trans": [
+      "phrase. 归入...类"
+    ]
+  },
+  {
+    "name": "grow out of",
+    "trans": [
+      "phrase. 由...产生；长大不适用"
+    ]
+  },
+  {
+    "name": "grumble about",
+    "trans": [
+      "phrase. 抱怨"
+    ]
+  },
+  {
+    "name": "guarantee against",
+    "trans": [
+      "phrase. 保证不发生"
+    ]
+  },
+  {
+    "name": "guard against",
+    "trans": [
+      "phrase. 防范；预防"
+    ]
+  },
+  {
+    "name": "guess at",
+    "trans": [
+      "phrase. 猜测"
+    ]
+  },
+  {
+    "name": "gulp down",
+    "trans": [
+      "phrase. 狼吞虎咽"
+    ]
+  },
+  {
+    "name": "gun for",
+    "trans": [
+      "phrase. 追逐；图谋"
+    ]
+  },
+  {
+    "name": "gussy up",
+    "trans": [
+      "phrase. 打扮"
+    ]
+  },
+  {
+    "name": "haggle over",
+    "trans": [
+      "phrase. 讨价还价"
+    ]
+  },
+  {
+    "name": "hail from",
+    "trans": [
+      "phrase. 来自"
+    ]
+  },
+  {
+    "name": "hail as",
+    "trans": [
+      "phrase. 被誉为"
+    ]
+  },
+  {
+    "name": "ham it up",
+    "trans": [
+      "phrase. 夸张表演"
+    ]
+  },
+  {
+    "name": "hammer home",
+    "trans": [
+      "phrase. 反复强调"
+    ]
+  },
+  {
+    "name": "hammer out",
+    "trans": [
+      "phrase. 苦心制定；解决"
+    ]
+  },
+  {
+    "name": "hamper from",
+    "trans": [
+      "phrase. 阻碍"
+    ]
+  },
+  {
+    "name": "hand in glove",
+    "trans": [
+      "phrase. 狼狈为奸；密切合作"
+    ]
+  },
+  {
+    "name": "handle with kid gloves",
+    "trans": [
+      "phrase. 小心翼翼地对待"
+    ]
+  },
+  {
+    "name": "hang by a thread",
+    "trans": [
+      "phrase. 千钧一发；岌岌可危"
+    ]
+  },
+  {
+    "name": "hang in the balance",
+    "trans": [
+      "phrase. 悬而未决"
+    ]
+  },
+  {
+    "name": "hang on one's words",
+    "trans": [
+      "phrase. 全神贯注地听"
+    ]
+  },
+  {
+    "name": "hang out to dry",
+    "trans": [
+      "phrase. 抛弃；置之不理"
+    ]
+  },
+  {
+    "name": "hanker after",
+    "trans": [
+      "phrase. 渴望"
+    ]
+  },
+  {
+    "name": "harp on",
+    "trans": [
+      "phrase. 唠叨；反复说"
+    ]
+  },
+  {
+    "name": "hash out",
+    "trans": [
+      "phrase. 经讨论后解决"
+    ]
+  },
+  {
+    "name": "hatch a plot",
+    "trans": [
+      "phrase. 策划阴谋"
+    ]
+  },
+  {
+    "name": "hate one's guts",
+    "trans": [
+      "phrase. 恨之入骨"
+    ]
+  },
+  {
+    "name": "haul over the coals",
+    "trans": [
+      "phrase. 严厉批评"
+    ]
+  },
+  {
+    "name": "haunt about",
+    "trans": [
+      "phrase. 常去；萦绕"
+    ]
+  },
+  {
+    "name": "have a chip on one's shoulder",
+    "trans": [
+      "phrase. 心怀不满"
+    ]
+  },
+  {
+    "name": "have a go at",
+    "trans": [
+      "phrase. 尝试；批评"
+    ]
+  },
+  {
+    "name": "have a vested interest",
+    "trans": [
+      "phrase. 有既得利益"
+    ]
+  },
+  {
+    "name": "have an edge over",
+    "trans": [
+      "phrase. 占有优势"
+    ]
+  },
+  {
+    "name": "have one's hands full",
+    "trans": [
+      "phrase. 忙得不可开交"
+    ]
+  },
+  {
+    "name": "have the last laugh",
+    "trans": [
+      "phrase. 笑到最后"
+    ]
+  },
+  {
+    "name": "have the whip hand",
+    "trans": [
+      "phrase. 掌握主动权"
+    ]
+  },
+  {
+    "name": "head off at the pass",
+    "trans": [
+      "phrase. 预先阻止"
+    ]
+  },
+  {
+    "name": "heap praise on",
+    "trans": [
+      "phrase. 大加赞赏"
+    ]
+  },
+  {
+    "name": "hear on the grapevine",
+    "trans": [
+      "phrase. 道听途说"
+    ]
+  },
+  {
+    "name": "hearken to",
+    "trans": [
+      "phrase. 倾听"
+    ]
+  },
+  {
+    "name": "hedge against",
+    "trans": [
+      "phrase. 防范；套期保值"
+    ]
+  },
+  {
+    "name": "hedge one's bets",
+    "trans": [
+      "phrase. 两面下注；分散风险"
+    ]
+  },
+  {
+    "name": "hem and haw",
+    "trans": [
+      "phrase. 吞吞吐吐"
+    ]
+  },
+  {
+    "name": "herald as",
+    "trans": [
+      "phrase. 预示"
+    ]
+  },
+  {
+    "name": "herd together",
+    "trans": [
+      "phrase. 聚集"
+    ]
+  },
+  {
+    "name": "hide one's light under a bushel",
+    "trans": [
+      "phrase. 藏而不露"
+    ]
+  },
+  {
+    "name": "hijack",
+    "trans": [
+      "phrase. 劫持；操纵"
+    ]
+  },
+  {
+    "name": "hike up",
+    "trans": [
+      "phrase. 提高；拉起"
+    ]
+  },
+  {
+    "name": "hinder from",
+    "trans": [
+      "phrase. 阻止"
+    ]
+  },
+  {
+    "name": "hinge on",
+    "trans": [
+      "phrase. 取决于"
+    ]
+  },
+  {
+    "name": "hint at",
+    "trans": [
+      "phrase. 暗示"
+    ]
+  },
+  {
+    "name": "hire out",
+    "trans": [
+      "phrase. 出租"
+    ]
+  },
+  {
+    "name": "hit below the belt",
+    "trans": [
+      "phrase. 暗箭伤人；不公平打击"
+    ]
+  },
+  {
+    "name": "hit the books",
+    "trans": [
+      "phrase. 用功读书"
+    ]
+  },
+  {
+    "name": "hit the ground running",
+    "trans": [
+      "phrase. 一炮打响；迅速展开"
+    ]
+  },
+  {
+    "name": "hit the nail on the head",
+    "trans": [
+      "phrase. 一针见血"
+    ]
+  },
+  {
+    "name": "hit the roof",
+    "trans": [
+      "phrase. 勃然大怒"
+    ]
+  },
+  {
+    "name": "hit the sack",
+    "trans": [
+      "phrase. 上床睡觉"
+    ]
+  },
+  {
+    "name": "hitch a ride",
+    "trans": [
+      "phrase. 搭便车"
+    ]
+  },
+  {
+    "name": "hold a candle to",
+    "trans": [
+      "phrase. 与...相媲美"
+    ]
+  },
+  {
+    "name": "hold all the cards",
+    "trans": [
+      "phrase. 占尽优势"
+    ]
+  },
+  {
+    "name": "hold at bay",
+    "trans": [
+      "phrase. 牵制；不让逼近"
+    ]
+  },
+  {
+    "name": "hold court",
+    "trans": [
+      "phrase. 像法官一样主持"
+    ]
+  },
+  {
+    "name": "hold no brief for",
+    "trans": [
+      "phrase. 不支持"
+    ]
+  },
+  {
+    "name": "hold one's own",
+    "trans": [
+      "phrase. 不落下风"
+    ]
+  },
+  {
+    "name": "hold sway over",
+    "trans": [
+      "phrase. 统治；支配"
+    ]
+  },
+  {
+    "name": "hold the line",
+    "trans": [
+      "phrase. 坚守；维持不变"
+    ]
+  },
+  {
+    "name": "hold water",
+    "trans": [
+      "phrase. 站得住脚"
+    ]
+  },
+  {
+    "name": "home in on",
+    "trans": [
+      "phrase. 锁定；专注于"
+    ]
+  },
+  {
+    "name": "hook up",
+    "trans": [
+      "phrase. 连接；勾搭"
+    ]
+  },
+  {
+    "name": "hop to it",
+    "trans": [
+      "phrase. 赶紧行动"
+    ]
+  },
+  {
+    "name": "horn in on",
+    "trans": [
+      "phrase. 闯入；干涉"
+    ]
+  },
+  {
+    "name": "horse around",
+    "trans": [
+      "phrase. 胡闹"
+    ]
+  },
+  {
+    "name": "hose down",
+    "trans": [
+      "phrase. 用水管冲洗"
+    ]
+  },
+  {
+    "name": "hover around",
+    "trans": [
+      "phrase. 在附近徘徊"
+    ]
+  },
+  {
+    "name": "howl with laughter",
+    "trans": [
+      "phrase. 哈哈大笑"
+    ]
+  },
+  {
+    "name": "huddle together",
+    "trans": [
+      "phrase. 挤成一团"
+    ]
+  },
+  {
+    "name": "hunger for",
+    "trans": [
+      "phrase. 渴望"
+    ]
+  },
+  {
+    "name": "hunker down",
+    "trans": [
+      "phrase. 蹲守；固守"
+    ]
+  },
+  {
+    "name": "hunt down",
+    "trans": [
+      "phrase. 追捕到底"
+    ]
+  },
+  {
+    "name": "hustle for",
+    "trans": [
+      "phrase. 奋力争取"
+    ]
+  }
+]

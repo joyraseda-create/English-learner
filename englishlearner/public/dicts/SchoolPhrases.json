@@ -1,0 +1,2036 @@
+[
+  {
+    "name": "look at",
+    "trans": [
+      "phrase. 看"
+    ]
+  },
+  {
+    "name": "look for",
+    "trans": [
+      "phrase. 寻找"
+    ]
+  },
+  {
+    "name": "look after",
+    "trans": [
+      "phrase. 照顾"
+    ]
+  },
+  {
+    "name": "look up",
+    "trans": [
+      "phrase. 查阅；仰望"
+    ]
+  },
+  {
+    "name": "look out",
+    "trans": [
+      "phrase. 小心；当心"
+    ]
+  },
+  {
+    "name": "look like",
+    "trans": [
+      "phrase. 看起来像"
+    ]
+  },
+  {
+    "name": "look the same",
+    "trans": [
+      "phrase. 看起来一样"
+    ]
+  },
+  {
+    "name": "look forward to",
+    "trans": [
+      "phrase. 期待"
+    ]
+  },
+  {
+    "name": "look down upon",
+    "trans": [
+      "phrase. 轻视；看不起"
+    ]
+  },
+  {
+    "name": "look up to",
+    "trans": [
+      "phrase. 尊敬；仰望"
+    ]
+  },
+  {
+    "name": "look back on",
+    "trans": [
+      "phrase. 回顾"
+    ]
+  },
+  {
+    "name": "look into",
+    "trans": [
+      "phrase. 调查"
+    ]
+  },
+  {
+    "name": "listen to",
+    "trans": [
+      "phrase. 听"
+    ]
+  },
+  {
+    "name": "listen for",
+    "trans": [
+      "phrase. 倾听等候"
+    ]
+  },
+  {
+    "name": "hear from",
+    "trans": [
+      "phrase. 收到来信"
+    ]
+  },
+  {
+    "name": "hear of",
+    "trans": [
+      "phrase. 听说"
+    ]
+  },
+  {
+    "name": "hear about",
+    "trans": [
+      "phrase. 听说关于"
+    ]
+  },
+  {
+    "name": "talk about",
+    "trans": [
+      "phrase. 谈论"
+    ]
+  },
+  {
+    "name": "talk to",
+    "trans": [
+      "phrase. 对...说话"
+    ]
+  },
+  {
+    "name": "talk with",
+    "trans": [
+      "phrase. 与...交谈"
+    ]
+  },
+  {
+    "name": "talk over",
+    "trans": [
+      "phrase. 商量；讨论"
+    ]
+  },
+  {
+    "name": "speak to",
+    "trans": [
+      "phrase. 对...说话"
+    ]
+  },
+  {
+    "name": "speak out",
+    "trans": [
+      "phrase. 大声说；大胆表态"
+    ]
+  },
+  {
+    "name": "speak up",
+    "trans": [
+      "phrase. 大声点说"
+    ]
+  },
+  {
+    "name": "say to",
+    "trans": [
+      "phrase. 对...说"
+    ]
+  },
+  {
+    "name": "say hello to",
+    "trans": [
+      "phrase. 向...问好"
+    ]
+  },
+  {
+    "name": "say goodbye to",
+    "trans": [
+      "phrase. 向...告别"
+    ]
+  },
+  {
+    "name": "say sorry to",
+    "trans": [
+      "phrase. 向...道歉"
+    ]
+  },
+  {
+    "name": "say thanks to",
+    "trans": [
+      "phrase. 向...道谢"
+    ]
+  },
+  {
+    "name": "tell about",
+    "trans": [
+      "phrase. 告诉关于"
+    ]
+  },
+  {
+    "name": "tell from",
+    "trans": [
+      "phrase. 区分；辨别"
+    ]
+  },
+  {
+    "name": "ask for",
+    "trans": [
+      "phrase. 请求；索要"
+    ]
+  },
+  {
+    "name": "ask about",
+    "trans": [
+      "phrase. 询问"
+    ]
+  },
+  {
+    "name": "answer for",
+    "trans": [
+      "phrase. 对...负责"
+    ]
+  },
+  {
+    "name": "reply to",
+    "trans": [
+      "phrase. 回答"
+    ]
+  },
+  {
+    "name": "write down",
+    "trans": [
+      "phrase. 写下"
+    ]
+  },
+  {
+    "name": "write to",
+    "trans": [
+      "phrase. 写信给"
+    ]
+  },
+  {
+    "name": "write back",
+    "trans": [
+      "phrase. 回信"
+    ]
+  },
+  {
+    "name": "read aloud",
+    "trans": [
+      "phrase. 朗读"
+    ]
+  },
+  {
+    "name": "read through",
+    "trans": [
+      "phrase. 通读"
+    ]
+  },
+  {
+    "name": "get up",
+    "trans": [
+      "phrase. 起床"
+    ]
+  },
+  {
+    "name": "get on",
+    "trans": [
+      "phrase. 上车；进展"
+    ]
+  },
+  {
+    "name": "get off",
+    "trans": [
+      "phrase. 下车"
+    ]
+  },
+  {
+    "name": "get in",
+    "trans": [
+      "phrase. 进入；到达"
+    ]
+  },
+  {
+    "name": "get out",
+    "trans": [
+      "phrase. 出去"
+    ]
+  },
+  {
+    "name": "get back",
+    "trans": [
+      "phrase. 回来；取回"
+    ]
+  },
+  {
+    "name": "get to",
+    "trans": [
+      "phrase. 到达"
+    ]
+  },
+  {
+    "name": "get home",
+    "trans": [
+      "phrase. 到家"
+    ]
+  },
+  {
+    "name": "get ready for",
+    "trans": [
+      "phrase. 为...做准备"
+    ]
+  },
+  {
+    "name": "get well",
+    "trans": [
+      "phrase. 康复"
+    ]
+  },
+  {
+    "name": "get angry",
+    "trans": [
+      "phrase. 生气"
+    ]
+  },
+  {
+    "name": "get tired",
+    "trans": [
+      "phrase. 疲倦"
+    ]
+  },
+  {
+    "name": "get lost",
+    "trans": [
+      "phrase. 迷路"
+    ]
+  },
+  {
+    "name": "get married",
+    "trans": [
+      "phrase. 结婚"
+    ]
+  },
+  {
+    "name": "get dressed",
+    "trans": [
+      "phrase. 穿好衣服"
+    ]
+  },
+  {
+    "name": "get changed",
+    "trans": [
+      "phrase. 换衣服"
+    ]
+  },
+  {
+    "name": "go to school",
+    "trans": [
+      "phrase. 上学"
+    ]
+  },
+  {
+    "name": "go to bed",
+    "trans": [
+      "phrase. 上床睡觉"
+    ]
+  },
+  {
+    "name": "go home",
+    "trans": [
+      "phrase. 回家"
+    ]
+  },
+  {
+    "name": "go on",
+    "trans": [
+      "phrase. 继续；发生"
+    ]
+  },
+  {
+    "name": "go out",
+    "trans": [
+      "phrase. 出去"
+    ]
+  },
+  {
+    "name": "go away",
+    "trans": [
+      "phrase. 离开"
+    ]
+  },
+  {
+    "name": "go back",
+    "trans": [
+      "phrase. 回去"
+    ]
+  },
+  {
+    "name": "go for a walk",
+    "trans": [
+      "phrase. 去散步"
+    ]
+  },
+  {
+    "name": "go shopping",
+    "trans": [
+      "phrase. 去购物"
+    ]
+  },
+  {
+    "name": "go swimming",
+    "trans": [
+      "phrase. 去游泳"
+    ]
+  },
+  {
+    "name": "go fishing",
+    "trans": [
+      "phrase. 去钓鱼"
+    ]
+  },
+  {
+    "name": "go hiking",
+    "trans": [
+      "phrase. 去远足"
+    ]
+  },
+  {
+    "name": "go camping",
+    "trans": [
+      "phrase. 去露营"
+    ]
+  },
+  {
+    "name": "go skiing",
+    "trans": [
+      "phrase. 去滑雪"
+    ]
+  },
+  {
+    "name": "go skating",
+    "trans": [
+      "phrase. 去滑冰"
+    ]
+  },
+  {
+    "name": "go abroad",
+    "trans": [
+      "phrase. 出国"
+    ]
+  },
+  {
+    "name": "go ahead",
+    "trans": [
+      "phrase. 前进；开始"
+    ]
+  },
+  {
+    "name": "go through",
+    "trans": [
+      "phrase. 经历；通过"
+    ]
+  },
+  {
+    "name": "go over",
+    "trans": [
+      "phrase. 复习；检查"
+    ]
+  },
+  {
+    "name": "go wrong",
+    "trans": [
+      "phrase. 出毛病"
+    ]
+  },
+  {
+    "name": "go blind",
+    "trans": [
+      "phrase. 变瞎"
+    ]
+  },
+  {
+    "name": "come in",
+    "trans": [
+      "phrase. 进来"
+    ]
+  },
+  {
+    "name": "come back",
+    "trans": [
+      "phrase. 回来"
+    ]
+  },
+  {
+    "name": "come from",
+    "trans": [
+      "phrase. 来自"
+    ]
+  },
+  {
+    "name": "come on",
+    "trans": [
+      "phrase. 快点；加油"
+    ]
+  },
+  {
+    "name": "come out",
+    "trans": [
+      "phrase. 出来；出版"
+    ]
+  },
+  {
+    "name": "come true",
+    "trans": [
+      "phrase. 实现；成真"
+    ]
+  },
+  {
+    "name": "come up with",
+    "trans": [
+      "phrase. 想出；提出"
+    ]
+  },
+  {
+    "name": "come across",
+    "trans": [
+      "phrase. 偶遇"
+    ]
+  },
+  {
+    "name": "come to an end",
+    "trans": [
+      "phrase. 结束"
+    ]
+  },
+  {
+    "name": "come to school",
+    "trans": [
+      "phrase. 来学校"
+    ]
+  },
+  {
+    "name": "come to nothing",
+    "trans": [
+      "phrase. 落空"
+    ]
+  },
+  {
+    "name": "put on",
+    "trans": [
+      "phrase. 穿上"
+    ]
+  },
+  {
+    "name": "put up",
+    "trans": [
+      "phrase. 搭起；张贴"
+    ]
+  },
+  {
+    "name": "put away",
+    "trans": [
+      "phrase. 收好"
+    ]
+  },
+  {
+    "name": "put off",
+    "trans": [
+      "phrase. 推迟"
+    ]
+  },
+  {
+    "name": "put down",
+    "trans": [
+      "phrase. 放下；写下"
+    ]
+  },
+  {
+    "name": "put out",
+    "trans": [
+      "phrase. 扑灭"
+    ]
+  },
+  {
+    "name": "put up with",
+    "trans": [
+      "phrase. 忍受"
+    ]
+  },
+  {
+    "name": "put into",
+    "trans": [
+      "phrase. 放入；翻译成"
+    ]
+  },
+  {
+    "name": "take away",
+    "trans": [
+      "phrase. 拿走"
+    ]
+  },
+  {
+    "name": "take out",
+    "trans": [
+      "phrase. 拿出"
+    ]
+  },
+  {
+    "name": "take off",
+    "trans": [
+      "phrase. 脱下；起飞"
+    ]
+  },
+  {
+    "name": "take back",
+    "trans": [
+      "phrase. 收回"
+    ]
+  },
+  {
+    "name": "take down",
+    "trans": [
+      "phrase. 取下；记下"
+    ]
+  },
+  {
+    "name": "take care of",
+    "trans": [
+      "phrase. 照顾"
+    ]
+  },
+  {
+    "name": "take part in",
+    "trans": [
+      "phrase. 参加"
+    ]
+  },
+  {
+    "name": "take place",
+    "trans": [
+      "phrase. 发生"
+    ]
+  },
+  {
+    "name": "take turns",
+    "trans": [
+      "phrase. 轮流"
+    ]
+  },
+  {
+    "name": "take up",
+    "trans": [
+      "phrase. 开始从事；占据"
+    ]
+  },
+  {
+    "name": "take after",
+    "trans": [
+      "phrase. 像（长辈）"
+    ]
+  },
+  {
+    "name": "take over",
+    "trans": [
+      "phrase. 接管"
+    ]
+  },
+  {
+    "name": "take medicine",
+    "trans": [
+      "phrase. 吃药"
+    ]
+  },
+  {
+    "name": "take a photo",
+    "trans": [
+      "phrase. 拍照"
+    ]
+  },
+  {
+    "name": "take a walk",
+    "trans": [
+      "phrase. 散步"
+    ]
+  },
+  {
+    "name": "take a rest",
+    "trans": [
+      "phrase. 休息"
+    ]
+  },
+  {
+    "name": "take a bath",
+    "trans": [
+      "phrase. 洗澡"
+    ]
+  },
+  {
+    "name": "take a shower",
+    "trans": [
+      "phrase. 淋浴"
+    ]
+  },
+  {
+    "name": "take a taxi",
+    "trans": [
+      "phrase. 打的"
+    ]
+  },
+  {
+    "name": "take a bus",
+    "trans": [
+      "phrase. 乘公交车"
+    ]
+  },
+  {
+    "name": "take a train",
+    "trans": [
+      "phrase. 乘火车"
+    ]
+  },
+  {
+    "name": "take a plane",
+    "trans": [
+      "phrase. 乘飞机"
+    ]
+  },
+  {
+    "name": "bring back",
+    "trans": [
+      "phrase. 带回来"
+    ]
+  },
+  {
+    "name": "bring up",
+    "trans": [
+      "phrase. 抚养；提出"
+    ]
+  },
+  {
+    "name": "bring about",
+    "trans": [
+      "phrase. 引起；导致"
+    ]
+  },
+  {
+    "name": "bring out",
+    "trans": [
+      "phrase. 推出；显示"
+    ]
+  },
+  {
+    "name": "bring in",
+    "trans": [
+      "phrase. 引进；赚得"
+    ]
+  },
+  {
+    "name": "carry on",
+    "trans": [
+      "phrase. 继续；进行"
+    ]
+  },
+  {
+    "name": "carry out",
+    "trans": [
+      "phrase. 执行；完成"
+    ]
+  },
+  {
+    "name": "carry away",
+    "trans": [
+      "phrase. 搬走；冲昏头脑"
+    ]
+  },
+  {
+    "name": "give up",
+    "trans": [
+      "phrase. 放弃"
+    ]
+  },
+  {
+    "name": "give back",
+    "trans": [
+      "phrase. 归还"
+    ]
+  },
+  {
+    "name": "give out",
+    "trans": [
+      "phrase. 分发"
+    ]
+  },
+  {
+    "name": "give away",
+    "trans": [
+      "phrase. 赠送；泄露"
+    ]
+  },
+  {
+    "name": "give in",
+    "trans": [
+      "phrase. 屈服"
+    ]
+  },
+  {
+    "name": "give off",
+    "trans": [
+      "phrase. 散发"
+    ]
+  },
+  {
+    "name": "turn on",
+    "trans": [
+      "phrase. 打开（电器）"
+    ]
+  },
+  {
+    "name": "turn off",
+    "trans": [
+      "phrase. 关掉（电器）"
+    ]
+  },
+  {
+    "name": "turn up",
+    "trans": [
+      "phrase. 出现；调高"
+    ]
+  },
+  {
+    "name": "turn down",
+    "trans": [
+      "phrase. 拒绝；调低"
+    ]
+  },
+  {
+    "name": "turn over",
+    "trans": [
+      "phrase. 翻转"
+    ]
+  },
+  {
+    "name": "turn into",
+    "trans": [
+      "phrase. 变成"
+    ]
+  },
+  {
+    "name": "turn to",
+    "trans": [
+      "phrase. 求助于；翻到"
+    ]
+  },
+  {
+    "name": "turn around",
+    "trans": [
+      "phrase. 转身"
+    ]
+  },
+  {
+    "name": "turn out",
+    "trans": [
+      "phrase. 结果是"
+    ]
+  },
+  {
+    "name": "pick up",
+    "trans": [
+      "phrase. 捡起；接人；学会"
+    ]
+  },
+  {
+    "name": "pick out",
+    "trans": [
+      "phrase. 挑出"
+    ]
+  },
+  {
+    "name": "hand in",
+    "trans": [
+      "phrase. 上交"
+    ]
+  },
+  {
+    "name": "hand out",
+    "trans": [
+      "phrase. 分发"
+    ]
+  },
+  {
+    "name": "hand back",
+    "trans": [
+      "phrase. 退还"
+    ]
+  },
+  {
+    "name": "hand over",
+    "trans": [
+      "phrase. 移交"
+    ]
+  },
+  {
+    "name": "hand down",
+    "trans": [
+      "phrase. 传下来"
+    ]
+  },
+  {
+    "name": "pass on",
+    "trans": [
+      "phrase. 传递"
+    ]
+  },
+  {
+    "name": "pass away",
+    "trans": [
+      "phrase. 去世"
+    ]
+  },
+  {
+    "name": "pass by",
+    "trans": [
+      "phrase. 路过"
+    ]
+  },
+  {
+    "name": "pass through",
+    "trans": [
+      "phrase. 经过"
+    ]
+  },
+  {
+    "name": "show around",
+    "trans": [
+      "phrase. 带领参观"
+    ]
+  },
+  {
+    "name": "show off",
+    "trans": [
+      "phrase. 炫耀"
+    ]
+  },
+  {
+    "name": "show up",
+    "trans": [
+      "phrase. 出现"
+    ]
+  },
+  {
+    "name": "show out",
+    "trans": [
+      "phrase. 引出去"
+    ]
+  },
+  {
+    "name": "work out",
+    "trans": [
+      "phrase. 锻炼；解决"
+    ]
+  },
+  {
+    "name": "work on",
+    "trans": [
+      "phrase. 致力于"
+    ]
+  },
+  {
+    "name": "work as",
+    "trans": [
+      "phrase. 担任...工作"
+    ]
+  },
+  {
+    "name": "work for",
+    "trans": [
+      "phrase. 为...工作"
+    ]
+  },
+  {
+    "name": "find out",
+    "trans": [
+      "phrase. 查明；发现"
+    ]
+  },
+  {
+    "name": "find one's way",
+    "trans": [
+      "phrase. 找到路"
+    ]
+  },
+  {
+    "name": "point out",
+    "trans": [
+      "phrase. 指出"
+    ]
+  },
+  {
+    "name": "point at",
+    "trans": [
+      "phrase. 指向"
+    ]
+  },
+  {
+    "name": "point to",
+    "trans": [
+      "phrase. 指向"
+    ]
+  },
+  {
+    "name": "think about",
+    "trans": [
+      "phrase. 考虑"
+    ]
+  },
+  {
+    "name": "think of",
+    "trans": [
+      "phrase. 想起；想到"
+    ]
+  },
+  {
+    "name": "think over",
+    "trans": [
+      "phrase. 仔细考虑"
+    ]
+  },
+  {
+    "name": "think up",
+    "trans": [
+      "phrase. 想出"
+    ]
+  },
+  {
+    "name": "think back",
+    "trans": [
+      "phrase. 回想"
+    ]
+  },
+  {
+    "name": "worry about",
+    "trans": [
+      "phrase. 担心"
+    ]
+  },
+  {
+    "name": "care about",
+    "trans": [
+      "phrase. 在乎"
+    ]
+  },
+  {
+    "name": "care for",
+    "trans": [
+      "phrase. 照顾；喜欢"
+    ]
+  },
+  {
+    "name": "wait for",
+    "trans": [
+      "phrase. 等待"
+    ]
+  },
+  {
+    "name": "wait on",
+    "trans": [
+      "phrase. 服侍"
+    ]
+  },
+  {
+    "name": "call on",
+    "trans": [
+      "phrase. 拜访；号召"
+    ]
+  },
+  {
+    "name": "call at",
+    "trans": [
+      "phrase. 访问（某地）"
+    ]
+  },
+  {
+    "name": "call up",
+    "trans": [
+      "phrase. 打电话；征召"
+    ]
+  },
+  {
+    "name": "call for",
+    "trans": [
+      "phrase. 需要；去接"
+    ]
+  },
+  {
+    "name": "call in",
+    "trans": [
+      "phrase. 召来；来访"
+    ]
+  },
+  {
+    "name": "call back",
+    "trans": [
+      "phrase. 回电话"
+    ]
+  },
+  {
+    "name": "call out",
+    "trans": [
+      "phrase. 大声叫唤"
+    ]
+  },
+  {
+    "name": "send for",
+    "trans": [
+      "phrase. 派人去请"
+    ]
+  },
+  {
+    "name": "send out",
+    "trans": [
+      "phrase. 发送"
+    ]
+  },
+  {
+    "name": "send back",
+    "trans": [
+      "phrase. 退回"
+    ]
+  },
+  {
+    "name": "send up",
+    "trans": [
+      "phrase. 发射"
+    ]
+  },
+  {
+    "name": "pay for",
+    "trans": [
+      "phrase. 付款"
+    ]
+  },
+  {
+    "name": "pay back",
+    "trans": [
+      "phrase. 还钱"
+    ]
+  },
+  {
+    "name": "pay off",
+    "trans": [
+      "phrase. 还清；得到回报"
+    ]
+  },
+  {
+    "name": "pay attention to",
+    "trans": [
+      "phrase. 注意"
+    ]
+  },
+  {
+    "name": "belong to",
+    "trans": [
+      "phrase. 属于"
+    ]
+  },
+  {
+    "name": "happen to",
+    "trans": [
+      "phrase. 发生于"
+    ]
+  },
+  {
+    "name": "lead to",
+    "trans": [
+      "phrase. 导致；通向"
+    ]
+  },
+  {
+    "name": "stick to",
+    "trans": [
+      "phrase. 坚持"
+    ]
+  },
+  {
+    "name": "refer to",
+    "trans": [
+      "phrase. 指的是；参考"
+    ]
+  },
+  {
+    "name": "adapt to",
+    "trans": [
+      "phrase. 适应"
+    ]
+  },
+  {
+    "name": "adjust to",
+    "trans": [
+      "phrase. 适应"
+    ]
+  },
+  {
+    "name": "agree to",
+    "trans": [
+      "phrase. 同意（提议）"
+    ]
+  },
+  {
+    "name": "agree with",
+    "trans": [
+      "phrase. 同意（某人）；适合"
+    ]
+  },
+  {
+    "name": "agree on",
+    "trans": [
+      "phrase. 就...达成一致"
+    ]
+  },
+  {
+    "name": "apply for",
+    "trans": [
+      "phrase. 申请"
+    ]
+  },
+  {
+    "name": "apply to",
+    "trans": [
+      "phrase. 适用于"
+    ]
+  },
+  {
+    "name": "arrive at",
+    "trans": [
+      "phrase. 到达（小地点）"
+    ]
+  },
+  {
+    "name": "arrive in",
+    "trans": [
+      "phrase. 到达（大地点）"
+    ]
+  },
+  {
+    "name": "depend on",
+    "trans": [
+      "phrase. 依靠；取决于"
+    ]
+  },
+  {
+    "name": "rely on",
+    "trans": [
+      "phrase. 依赖"
+    ]
+  },
+  {
+    "name": "believe in",
+    "trans": [
+      "phrase. 信仰；信任"
+    ]
+  },
+  {
+    "name": "deal with",
+    "trans": [
+      "phrase. 处理；应付"
+    ]
+  },
+  {
+    "name": "do with",
+    "trans": [
+      "phrase. 处理；将就"
+    ]
+  },
+  {
+    "name": "begin with",
+    "trans": [
+      "phrase. 以...开始"
+    ]
+  },
+  {
+    "name": "end with",
+    "trans": [
+      "phrase. 以...结束"
+    ]
+  },
+  {
+    "name": "start with",
+    "trans": [
+      "phrase. 以...开始"
+    ]
+  },
+  {
+    "name": "fill with",
+    "trans": [
+      "phrase. 装满"
+    ]
+  },
+  {
+    "name": "fill in",
+    "trans": [
+      "phrase. 填写"
+    ]
+  },
+  {
+    "name": "fill out",
+    "trans": [
+      "phrase. 填写"
+    ]
+  },
+  {
+    "name": "cover with",
+    "trans": [
+      "phrase. 用...覆盖"
+    ]
+  },
+  {
+    "name": "provide with",
+    "trans": [
+      "phrase. 提供"
+    ]
+  },
+  {
+    "name": "provide for",
+    "trans": [
+      "phrase. 供养；为...做准备"
+    ]
+  },
+  {
+    "name": "supply with",
+    "trans": [
+      "phrase. 供应"
+    ]
+  },
+  {
+    "name": "equip with",
+    "trans": [
+      "phrase. 配备"
+    ]
+  },
+  {
+    "name": "compare with",
+    "trans": [
+      "phrase. 与...比较"
+    ]
+  },
+  {
+    "name": "compare to",
+    "trans": [
+      "phrase. 比作"
+    ]
+  },
+  {
+    "name": "connect to",
+    "trans": [
+      "phrase. 连接到"
+    ]
+  },
+  {
+    "name": "connect with",
+    "trans": [
+      "phrase. 与...相连"
+    ]
+  },
+  {
+    "name": "join in",
+    "trans": [
+      "phrase. 参加（活动）"
+    ]
+  },
+  {
+    "name": "join up",
+    "trans": [
+      "phrase. 参军；联合"
+    ]
+  },
+  {
+    "name": "add to",
+    "trans": [
+      "phrase. 增加"
+    ]
+  },
+  {
+    "name": "add up to",
+    "trans": [
+      "phrase. 总计达"
+    ]
+  },
+  {
+    "name": "change into",
+    "trans": [
+      "phrase. 变成"
+    ]
+  },
+  {
+    "name": "change from to",
+    "trans": [
+      "phrase. 从...变成..."
+    ]
+  },
+  {
+    "name": "divide into",
+    "trans": [
+      "phrase. 分成"
+    ]
+  },
+  {
+    "name": "share with",
+    "trans": [
+      "phrase. 与...分享"
+    ]
+  },
+  {
+    "name": "exchange for",
+    "trans": [
+      "phrase. 交换"
+    ]
+  },
+  {
+    "name": "separate from",
+    "trans": [
+      "phrase. 与...分开"
+    ]
+  },
+  {
+    "name": "keep on",
+    "trans": [
+      "phrase. 继续做"
+    ]
+  },
+  {
+    "name": "keep up",
+    "trans": [
+      "phrase. 保持；不落后"
+    ]
+  },
+  {
+    "name": "keep up with",
+    "trans": [
+      "phrase. 跟上"
+    ]
+  },
+  {
+    "name": "keep away from",
+    "trans": [
+      "phrase. 远离"
+    ]
+  },
+  {
+    "name": "keep in touch with",
+    "trans": [
+      "phrase. 与...保持联系"
+    ]
+  },
+  {
+    "name": "keep in mind",
+    "trans": [
+      "phrase. 记住"
+    ]
+  },
+  {
+    "name": "stay in touch",
+    "trans": [
+      "phrase. 保持联系"
+    ]
+  },
+  {
+    "name": "get in touch with",
+    "trans": [
+      "phrase. 与...取得联系"
+    ]
+  },
+  {
+    "name": "lose touch with",
+    "trans": [
+      "phrase. 失去联系"
+    ]
+  },
+  {
+    "name": "catch up with",
+    "trans": [
+      "phrase. 赶上"
+    ]
+  },
+  {
+    "name": "run out of",
+    "trans": [
+      "phrase. 用完；耗尽"
+    ]
+  },
+  {
+    "name": "run after",
+    "trans": [
+      "phrase. 追逐"
+    ]
+  },
+  {
+    "name": "run into",
+    "trans": [
+      "phrase. 偶遇；撞上"
+    ]
+  },
+  {
+    "name": "run away",
+    "trans": [
+      "phrase. 逃跑"
+    ]
+  },
+  {
+    "name": "run over",
+    "trans": [
+      "phrase. 辗过；复习"
+    ]
+  },
+  {
+    "name": "make up",
+    "trans": [
+      "phrase. 编造；化妆；组成"
+    ]
+  },
+  {
+    "name": "make up of",
+    "trans": [
+      "phrase. 由...组成"
+    ]
+  },
+  {
+    "name": "make up for",
+    "trans": [
+      "phrase. 弥补"
+    ]
+  },
+  {
+    "name": "make sure",
+    "trans": [
+      "phrase. 确保"
+    ]
+  },
+  {
+    "name": "make sense",
+    "trans": [
+      "phrase. 有道理"
+    ]
+  },
+  {
+    "name": "make use of",
+    "trans": [
+      "phrase. 利用"
+    ]
+  },
+  {
+    "name": "make fun of",
+    "trans": [
+      "phrase. 取笑"
+    ]
+  },
+  {
+    "name": "make friends with",
+    "trans": [
+      "phrase. 与...交朋友"
+    ]
+  },
+  {
+    "name": "make room for",
+    "trans": [
+      "phrase. 为...腾地方"
+    ]
+  },
+  {
+    "name": "make way for",
+    "trans": [
+      "phrase. 为...让路"
+    ]
+  },
+  {
+    "name": "make a living",
+    "trans": [
+      "phrase. 谋生"
+    ]
+  },
+  {
+    "name": "make a difference",
+    "trans": [
+      "phrase. 产生影响"
+    ]
+  },
+  {
+    "name": "make a mistake",
+    "trans": [
+      "phrase. 犯错"
+    ]
+  },
+  {
+    "name": "make a decision",
+    "trans": [
+      "phrase. 做决定"
+    ]
+  },
+  {
+    "name": "make a face",
+    "trans": [
+      "phrase. 做鬼脸"
+    ]
+  },
+  {
+    "name": "make an effort",
+    "trans": [
+      "phrase. 努力"
+    ]
+  },
+  {
+    "name": "make progress",
+    "trans": [
+      "phrase. 取得进步"
+    ]
+  },
+  {
+    "name": "make peace",
+    "trans": [
+      "phrase. 和解"
+    ]
+  },
+  {
+    "name": "make money",
+    "trans": [
+      "phrase. 赚钱"
+    ]
+  },
+  {
+    "name": "have a look",
+    "trans": [
+      "phrase. 看一看"
+    ]
+  },
+  {
+    "name": "have a try",
+    "trans": [
+      "phrase. 试一试"
+    ]
+  },
+  {
+    "name": "have a rest",
+    "trans": [
+      "phrase. 休息一下"
+    ]
+  },
+  {
+    "name": "have a meeting",
+    "trans": [
+      "phrase. 开会"
+    ]
+  },
+  {
+    "name": "have a good time",
+    "trans": [
+      "phrase. 玩得开心"
+    ]
+  },
+  {
+    "name": "have breakfast",
+    "trans": [
+      "phrase. 吃早饭"
+    ]
+  },
+  {
+    "name": "have lunch",
+    "trans": [
+      "phrase. 吃午饭"
+    ]
+  },
+  {
+    "name": "have dinner",
+    "trans": [
+      "phrase. 吃晚饭"
+    ]
+  },
+  {
+    "name": "have a cold",
+    "trans": [
+      "phrase. 感冒"
+    ]
+  },
+  {
+    "name": "have a fever",
+    "trans": [
+      "phrase. 发烧"
+    ]
+  },
+  {
+    "name": "have a headache",
+    "trans": [
+      "phrase. 头痛"
+    ]
+  },
+  {
+    "name": "have to do with",
+    "trans": [
+      "phrase. 与...有关"
+    ]
+  },
+  {
+    "name": "had better",
+    "trans": [
+      "phrase. 最好"
+    ]
+  },
+  {
+    "name": "be good at",
+    "trans": [
+      "phrase. 擅长"
+    ]
+  },
+  {
+    "name": "be good for",
+    "trans": [
+      "phrase. 对...有益"
+    ]
+  },
+  {
+    "name": "be good to",
+    "trans": [
+      "phrase. 对...好"
+    ]
+  },
+  {
+    "name": "be bad for",
+    "trans": [
+      "phrase. 对...有害"
+    ]
+  },
+  {
+    "name": "be afraid of",
+    "trans": [
+      "phrase. 害怕"
+    ]
+  },
+  {
+    "name": "be proud of",
+    "trans": [
+      "phrase. 为...骄傲"
+    ]
+  },
+  {
+    "name": "be tired of",
+    "trans": [
+      "phrase. 厌倦"
+    ]
+  },
+  {
+    "name": "be fond of",
+    "trans": [
+      "phrase. 喜爱"
+    ]
+  },
+  {
+    "name": "be full of",
+    "trans": [
+      "phrase. 充满"
+    ]
+  },
+  {
+    "name": "be short of",
+    "trans": [
+      "phrase. 缺少"
+    ]
+  },
+  {
+    "name": "be sure of",
+    "trans": [
+      "phrase. 确信"
+    ]
+  },
+  {
+    "name": "be interested in",
+    "trans": [
+      "phrase. 对...感兴趣"
+    ]
+  },
+  {
+    "name": "be strict with",
+    "trans": [
+      "phrase. 对...严格"
+    ]
+  },
+  {
+    "name": "be strict in",
+    "trans": [
+      "phrase. 在...方面严格"
+    ]
+  },
+  {
+    "name": "be angry with",
+    "trans": [
+      "phrase. 生...的气"
+    ]
+  },
+  {
+    "name": "be busy with",
+    "trans": [
+      "phrase. 忙于"
+    ]
+  },
+  {
+    "name": "be familiar with",
+    "trans": [
+      "phrase. 熟悉"
+    ]
+  },
+  {
+    "name": "be famous for",
+    "trans": [
+      "phrase. 因...出名"
+    ]
+  },
+  {
+    "name": "be ready for",
+    "trans": [
+      "phrase. 准备好"
+    ]
+  },
+  {
+    "name": "be sorry for",
+    "trans": [
+      "phrase. 为...抱歉"
+    ]
+  },
+  {
+    "name": "be thankful to",
+    "trans": [
+      "phrase. 感谢"
+    ]
+  },
+  {
+    "name": "be different from",
+    "trans": [
+      "phrase. 与...不同"
+    ]
+  },
+  {
+    "name": "be same as",
+    "trans": [
+      "phrase. 与...相同"
+    ]
+  },
+  {
+    "name": "be similar to",
+    "trans": [
+      "phrase. 与...相似"
+    ]
+  },
+  {
+    "name": "be popular with",
+    "trans": [
+      "phrase. 受...欢迎"
+    ]
+  },
+  {
+    "name": "be pleased with",
+    "trans": [
+      "phrase. 对...满意"
+    ]
+  },
+  {
+    "name": "be satisfied with",
+    "trans": [
+      "phrase. 对...满意"
+    ]
+  },
+  {
+    "name": "be covered with",
+    "trans": [
+      "phrase. 被...覆盖"
+    ]
+  },
+  {
+    "name": "be filled with",
+    "trans": [
+      "phrase. 装满"
+    ]
+  },
+  {
+    "name": "be made of",
+    "trans": [
+      "phrase. 由...制成（看得出材料）"
+    ]
+  },
+  {
+    "name": "be made from",
+    "trans": [
+      "phrase. 由...制成（看不出材料）"
+    ]
+  },
+  {
+    "name": "be made in",
+    "trans": [
+      "phrase. 在...制造"
+    ]
+  },
+  {
+    "name": "be used for",
+    "trans": [
+      "phrase. 被用来做"
+    ]
+  },
+  {
+    "name": "be used to",
+    "trans": [
+      "phrase. 习惯于"
+    ]
+  },
+  {
+    "name": "be used to doing",
+    "trans": [
+      "phrase. 习惯于做"
+    ]
+  },
+  {
+    "name": "used to do",
+    "trans": [
+      "phrase. 过去常常做"
+    ]
+  },
+  {
+    "name": "be supposed to",
+    "trans": [
+      "phrase. 应该"
+    ]
+  },
+  {
+    "name": "be about to",
+    "trans": [
+      "phrase. 即将"
+    ]
+  },
+  {
+    "name": "be willing to",
+    "trans": [
+      "phrase. 愿意"
+    ]
+  },
+  {
+    "name": "be able to",
+    "trans": [
+      "phrase. 能够"
+    ]
+  },
+  {
+    "name": "be going to",
+    "trans": [
+      "phrase. 打算；将要"
+    ]
+  },
+  {
+    "name": "be born in",
+    "trans": [
+      "phrase. 出生于"
+    ]
+  },
+  {
+    "name": "be named after",
+    "trans": [
+      "phrase. 以...命名"
+    ]
+  },
+  {
+    "name": "be based on",
+    "trans": [
+      "phrase. 基于"
+    ]
+  },
+  {
+    "name": "be suitable for",
+    "trans": [
+      "phrase. 适合"
+    ]
+  },
+  {
+    "name": "be harmful to",
+    "trans": [
+      "phrase. 对...有害"
+    ]
+  },
+  {
+    "name": "be helpful to",
+    "trans": [
+      "phrase. 对...有帮助"
+    ]
+  },
+  {
+    "name": "be kind to",
+    "trans": [
+      "phrase. 对...友善"
+    ]
+  },
+  {
+    "name": "be cruel to",
+    "trans": [
+      "phrase. 对...残忍"
+    ]
+  },
+  {
+    "name": "be polite to",
+    "trans": [
+      "phrase. 对...有礼貌"
+    ]
+  },
+  {
+    "name": "be rude to",
+    "trans": [
+      "phrase. 对...粗鲁"
+    ]
+  },
+  {
+    "name": "be close to",
+    "trans": [
+      "phrase. 接近"
+    ]
+  },
+  {
+    "name": "be far from",
+    "trans": [
+      "phrase. 远离"
+    ]
+  },
+  {
+    "name": "be next to",
+    "trans": [
+      "phrase. 在...旁边"
+    ]
+  },
+  {
+    "name": "be opposite to",
+    "trans": [
+      "phrase. 在...对面"
+    ]
+  },
+  {
+    "name": "be worth doing",
+    "trans": [
+      "phrase. 值得做"
+    ]
+  },
+  {
+    "name": "be busy doing",
+    "trans": [
+      "phrase. 忙于做"
+    ]
+  },
+  {
+    "name": "be worth the money",
+    "trans": [
+      "phrase. 物有所值"
+    ]
+  }
+]

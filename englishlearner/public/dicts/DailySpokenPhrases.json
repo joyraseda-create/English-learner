@@ -1,0 +1,1982 @@
+[
+  {
+    "name": "hang out",
+    "trans": [
+      "phrase. 闲逛；与朋友出去玩"
+    ]
+  },
+  {
+    "name": "catch up",
+    "trans": [
+      "phrase. 赶上；叙旧"
+    ]
+  },
+  {
+    "name": "figure out",
+    "trans": [
+      "phrase. 弄明白；想出"
+    ]
+  },
+  {
+    "name": "chill out",
+    "trans": [
+      "phrase. 放松；冷静一下"
+    ]
+  },
+  {
+    "name": "grab a bite",
+    "trans": [
+      "phrase. 随便吃点"
+    ]
+  },
+  {
+    "name": "rip off",
+    "trans": [
+      "phrase. 敲竹杠；宰客"
+    ]
+  },
+  {
+    "name": "screw up",
+    "trans": [
+      "phrase. 搞砸；弄糟"
+    ]
+  },
+  {
+    "name": "freak out",
+    "trans": [
+      "phrase. 崩溃；吓坏了"
+    ]
+  },
+  {
+    "name": "check out",
+    "trans": [
+      "phrase. 看看；结账离开"
+    ]
+  },
+  {
+    "name": "work out",
+    "trans": [
+      "phrase. 锻炼；解决；结果"
+    ]
+  },
+  {
+    "name": "show up",
+    "trans": [
+      "phrase. 出现；露面"
+    ]
+  },
+  {
+    "name": "grow up",
+    "trans": [
+      "phrase. 长大；成熟"
+    ]
+  },
+  {
+    "name": "shut up",
+    "trans": [
+      "phrase. 闭嘴"
+    ]
+  },
+  {
+    "name": "cheer up",
+    "trans": [
+      "phrase. 高兴起来；振作"
+    ]
+  },
+  {
+    "name": "give up",
+    "trans": [
+      "phrase. 放弃"
+    ]
+  },
+  {
+    "name": "take off",
+    "trans": [
+      "phrase. 起飞；脱下；突然离开"
+    ]
+  },
+  {
+    "name": "look forward to",
+    "trans": [
+      "phrase. 期待；盼望"
+    ]
+  },
+  {
+    "name": "hold on",
+    "trans": [
+      "phrase. 等一下；坚持"
+    ]
+  },
+  {
+    "name": "hang on",
+    "trans": [
+      "phrase. 稍等；坚持下去"
+    ]
+  },
+  {
+    "name": "calm down",
+    "trans": [
+      "phrase. 冷静下来"
+    ]
+  },
+  {
+    "name": "pass away",
+    "trans": [
+      "phrase. 去世"
+    ]
+  },
+  {
+    "name": "drop by",
+    "trans": [
+      "phrase. 顺便拜访"
+    ]
+  },
+  {
+    "name": "drop out",
+    "trans": [
+      "phrase. 退出；辍学"
+    ]
+  },
+  {
+    "name": "lay off",
+    "trans": [
+      "phrase. 解雇；停止"
+    ]
+  },
+  {
+    "name": "let down",
+    "trans": [
+      "phrase. 让人失望"
+    ]
+  },
+  {
+    "name": "cut it out",
+    "trans": [
+      "phrase. 别闹了；停止"
+    ]
+  },
+  {
+    "name": "go ahead",
+    "trans": [
+      "phrase. 去吧；继续"
+    ]
+  },
+  {
+    "name": "back off",
+    "trans": [
+      "phrase. 退后；别管"
+    ]
+  },
+  {
+    "name": "tag along",
+    "trans": [
+      "phrase. 跟着去；尾随"
+    ]
+  },
+  {
+    "name": "butt in",
+    "trans": [
+      "phrase. 插嘴；插手"
+    ]
+  },
+  {
+    "name": "chip in",
+    "trans": [
+      "phrase. 凑钱；帮忙"
+    ]
+  },
+  {
+    "name": "snack on",
+    "trans": [
+      "phrase. 吃零食"
+    ]
+  },
+  {
+    "name": "pig out",
+    "trans": [
+      "phrase. 狼吞虎咽；大吃特吃"
+    ]
+  },
+  {
+    "name": "wolf down",
+    "trans": [
+      "phrase. 狼吞虎咽"
+    ]
+  },
+  {
+    "name": "gobble up",
+    "trans": [
+      "phrase. 狼吞虎咽；吞并"
+    ]
+  },
+  {
+    "name": "choke back",
+    "trans": [
+      "phrase. 强忍住"
+    ]
+  },
+  {
+    "name": "dine out",
+    "trans": [
+      "phrase. 外出就餐"
+    ]
+  },
+  {
+    "name": "eat out",
+    "trans": [
+      "phrase. 在外面吃饭"
+    ]
+  },
+  {
+    "name": "order in",
+    "trans": [
+      "phrase. 叫外卖"
+    ]
+  },
+  {
+    "name": "dig in",
+    "trans": [
+      "phrase. 开始吃吧"
+    ]
+  },
+  {
+    "name": "knock back",
+    "trans": [
+      "phrase. 大口喝下"
+    ]
+  },
+  {
+    "name": "whip up",
+    "trans": [
+      "phrase. 快速做（饭菜）"
+    ]
+  },
+  {
+    "name": "heat up",
+    "trans": [
+      "phrase. 加热"
+    ]
+  },
+  {
+    "name": "plate up",
+    "trans": [
+      "phrase. 装盘"
+    ]
+  },
+  {
+    "name": "clean up",
+    "trans": [
+      "phrase. 打扫；清理"
+    ]
+  },
+  {
+    "name": "tidy up",
+    "trans": [
+      "phrase. 整理；收拾"
+    ]
+  },
+  {
+    "name": "clear out",
+    "trans": [
+      "phrase. 清空；搬走"
+    ]
+  },
+  {
+    "name": "throw away",
+    "trans": [
+      "phrase. 扔掉"
+    ]
+  },
+  {
+    "name": "toss out",
+    "trans": [
+      "phrase. 扔掉；丢弃"
+    ]
+  },
+  {
+    "name": "sort out",
+    "trans": [
+      "phrase. 整理；解决"
+    ]
+  },
+  {
+    "name": "put away",
+    "trans": [
+      "phrase. 收好；放回原处"
+    ]
+  },
+  {
+    "name": "give away",
+    "trans": [
+      "phrase. 赠送；泄露"
+    ]
+  },
+  {
+    "name": "hand out",
+    "trans": [
+      "phrase. 分发"
+    ]
+  },
+  {
+    "name": "pass out",
+    "trans": [
+      "phrase. 昏倒"
+    ]
+  },
+  {
+    "name": "black out",
+    "trans": [
+      "phrase. 晕厥；失去意识"
+    ]
+  },
+  {
+    "name": "zonk out",
+    "trans": [
+      "phrase. 累瘫；睡着"
+    ]
+  },
+  {
+    "name": "conk out",
+    "trans": [
+      "phrase. 坏掉；睡着"
+    ]
+  },
+  {
+    "name": "nod off",
+    "trans": [
+      "phrase. 打瞌睡"
+    ]
+  },
+  {
+    "name": "doze off",
+    "trans": [
+      "phrase. 打盹"
+    ]
+  },
+  {
+    "name": "sleep in",
+    "trans": [
+      "phrase. 睡懒觉"
+    ]
+  },
+  {
+    "name": "stay up",
+    "trans": [
+      "phrase. 熬夜"
+    ]
+  },
+  {
+    "name": "wake up",
+    "trans": [
+      "phrase. 醒来"
+    ]
+  },
+  {
+    "name": "get up",
+    "trans": [
+      "phrase. 起床"
+    ]
+  },
+  {
+    "name": "turn in",
+    "trans": [
+      "phrase. 上床睡觉"
+    ]
+  },
+  {
+    "name": "hit the sack",
+    "trans": [
+      "phrase. 上床睡觉"
+    ]
+  },
+  {
+    "name": "hit the hay",
+    "trans": [
+      "phrase. 上床睡觉"
+    ]
+  },
+  {
+    "name": "call it a day",
+    "trans": [
+      "phrase. 今天到此为止"
+    ]
+  },
+  {
+    "name": "call it a night",
+    "trans": [
+      "phrase. 今晚就到这"
+    ]
+  },
+  {
+    "name": "wrap up",
+    "trans": [
+      "phrase. 收尾；结束"
+    ]
+  },
+  {
+    "name": "wind down",
+    "trans": [
+      "phrase. 放松；渐渐结束"
+    ]
+  },
+  {
+    "name": "knock off",
+    "trans": [
+      "phrase. 下班；停止"
+    ]
+  },
+  {
+    "name": "clock out",
+    "trans": [
+      "phrase. 下班打卡"
+    ]
+  },
+  {
+    "name": "punch out",
+    "trans": [
+      "phrase. 下班打卡"
+    ]
+  },
+  {
+    "name": "slack off",
+    "trans": [
+      "phrase. 偷懒；懈怠"
+    ]
+  },
+  {
+    "name": "goof off",
+    "trans": [
+      "phrase. 游手好闲；偷懒"
+    ]
+  },
+  {
+    "name": "mess around",
+    "trans": [
+      "phrase. 胡闹；闲混"
+    ]
+  },
+  {
+    "name": "fool around",
+    "trans": [
+      "phrase. 鬼混；闲荡"
+    ]
+  },
+  {
+    "name": "play around",
+    "trans": [
+      "phrase. 玩耍；摆弄"
+    ]
+  },
+  {
+    "name": "horse around",
+    "trans": [
+      "phrase. 胡闹；打闹"
+    ]
+  },
+  {
+    "name": "clown around",
+    "trans": [
+      "phrase. 装疯卖傻"
+    ]
+  },
+  {
+    "name": "act up",
+    "trans": [
+      "phrase. 捣乱；出毛病"
+    ]
+  },
+  {
+    "name": "act out",
+    "trans": [
+      "phrase. 表演出来；行为失控"
+    ]
+  },
+  {
+    "name": "live it up",
+    "trans": [
+      "phrase. 尽情享受；狂欢"
+    ]
+  },
+  {
+    "name": "live up to",
+    "trans": [
+      "phrase. 达到；不辜负"
+    ]
+  },
+  {
+    "name": "stick around",
+    "trans": [
+      "phrase. 留下；待着不走"
+    ]
+  },
+  {
+    "name": "stick with",
+    "trans": [
+      "phrase. 坚持；紧随"
+    ]
+  },
+  {
+    "name": "stick up for",
+    "trans": [
+      "phrase. 维护；为...辩护"
+    ]
+  },
+  {
+    "name": "cover for",
+    "trans": [
+      "phrase. 替班；掩护"
+    ]
+  },
+  {
+    "name": "fill in for",
+    "trans": [
+      "phrase. 代替；顶替"
+    ]
+  },
+  {
+    "name": "step in",
+    "trans": [
+      "phrase. 介入；插手帮忙"
+    ]
+  },
+  {
+    "name": "step up",
+    "trans": [
+      "phrase. 站出来；加把劲"
+    ]
+  },
+  {
+    "name": "step aside",
+    "trans": [
+      "phrase. 让位；退到一边"
+    ]
+  },
+  {
+    "name": "back up",
+    "trans": [
+      "phrase. 支持；后退；备份"
+    ]
+  },
+  {
+    "name": "back down",
+    "trans": [
+      "phrase. 退让；认输"
+    ]
+  },
+  {
+    "name": "give in",
+    "trans": [
+      "phrase. 屈服；让步"
+    ]
+  },
+  {
+    "name": "cave in",
+    "trans": [
+      "phrase. 塌陷；屈服"
+    ]
+  },
+  {
+    "name": "crack under pressure",
+    "trans": [
+      "phrase. 在压力下崩溃"
+    ]
+  },
+  {
+    "name": "freak out over",
+    "trans": [
+      "phrase. 对...大惊小怪"
+    ]
+  },
+  {
+    "name": "stress out",
+    "trans": [
+      "phrase. 压力大到崩溃"
+    ]
+  },
+  {
+    "name": "burn out",
+    "trans": [
+      "phrase. 精疲力竭；职业倦怠"
+    ]
+  },
+  {
+    "name": "wear out",
+    "trans": [
+      "phrase. 磨损；使疲惫"
+    ]
+  },
+  {
+    "name": "tire out",
+    "trans": [
+      "phrase. 使精疲力竭"
+    ]
+  },
+  {
+    "name": "wear down",
+    "trans": [
+      "phrase. 磨损；使削弱"
+    ]
+  },
+  {
+    "name": "run down",
+    "trans": [
+      "phrase. 疲惫；撞倒；贬低"
+    ]
+  },
+  {
+    "name": "zonk out from",
+    "trans": [
+      "phrase. 因...累瘫"
+    ]
+  },
+  {
+    "name": "bogged down",
+    "trans": [
+      "phrase. 陷入困境；停滞不前"
+    ]
+  },
+  {
+    "name": "tied up",
+    "trans": [
+      "phrase. 忙得不可开交；被占用"
+    ]
+  },
+  {
+    "name": "booked up",
+    "trans": [
+      "phrase. 日程排满；预订一空"
+    ]
+  },
+  {
+    "name": "caught up in",
+    "trans": [
+      "phrase. 沉浸于；卷入"
+    ]
+  },
+  {
+    "name": "swept up in",
+    "trans": [
+      "phrase. 被卷入；被吸引"
+    ]
+  },
+  {
+    "name": "wrapped up in",
+    "trans": [
+      "phrase. 专注于；沉浸于"
+    ]
+  },
+  {
+    "name": "suck up to",
+    "trans": [
+      "phrase. 巴结；拍马屁"
+    ]
+  },
+  {
+    "name": "butter up",
+    "trans": [
+      "phrase. 巴结；讨好"
+    ]
+  },
+  {
+    "name": "sweet-talk",
+    "trans": [
+      "phrase. 甜言蜜语地哄"
+    ]
+  },
+  {
+    "name": "smooth-talk",
+    "trans": [
+      "phrase. 花言巧语"
+    ]
+  },
+  {
+    "name": "sweeten up",
+    "trans": [
+      "phrase. 讨好"
+    ]
+  },
+  {
+    "name": "play up to",
+    "trans": [
+      "phrase. 巴结；迎合"
+    ]
+  },
+  {
+    "name": "hit on",
+    "trans": [
+      "phrase. 搭讪；调情"
+    ]
+  },
+  {
+    "name": "hit it off",
+    "trans": [
+      "phrase. 一见如故；投缘"
+    ]
+  },
+  {
+    "name": "ask out",
+    "trans": [
+      "phrase. 约出去（约会）"
+    ]
+  },
+  {
+    "name": "ask around",
+    "trans": [
+      "phrase. 四处打听"
+    ]
+  },
+  {
+    "name": "call back",
+    "trans": [
+      "phrase. 回电话"
+    ]
+  },
+  {
+    "name": "call up",
+    "trans": [
+      "phrase. 打电话"
+    ]
+  },
+  {
+    "name": "hang up",
+    "trans": [
+      "phrase. 挂电话"
+    ]
+  },
+  {
+    "name": "pick up",
+    "trans": [
+      "phrase. 接电话；捡起；接人"
+    ]
+  },
+  {
+    "name": "get through",
+    "trans": [
+      "phrase. 接通电话；度过"
+    ]
+  },
+  {
+    "name": "put through",
+    "trans": [
+      "phrase. 接通电话"
+    ]
+  },
+  {
+    "name": "cut off",
+    "trans": [
+      "phrase. 打断；切断"
+    ]
+  },
+  {
+    "name": "hold up",
+    "trans": [
+      "phrase. 耽搁；举起来；抢劫"
+    ]
+  },
+  {
+    "name": "put off",
+    "trans": [
+      "phrase. 推迟"
+    ]
+  },
+  {
+    "name": "put down",
+    "trans": [
+      "phrase. 放下；写下；贬低"
+    ]
+  },
+  {
+    "name": "put up with",
+    "trans": [
+      "phrase. 忍受"
+    ]
+  },
+  {
+    "name": "come up with",
+    "trans": [
+      "phrase. 想出；提出"
+    ]
+  },
+  {
+    "name": "end up with",
+    "trans": [
+      "phrase. 最终得到；以...告终"
+    ]
+  },
+  {
+    "name": "wind up with",
+    "trans": [
+      "phrase. 最终得到"
+    ]
+  },
+  {
+    "name": "do without",
+    "trans": [
+      "phrase. 不用也行；将就"
+    ]
+  },
+  {
+    "name": "go without",
+    "trans": [
+      "phrase. 没有...也行"
+    ]
+  },
+  {
+    "name": "make do with",
+    "trans": [
+      "phrase. 凑合用"
+    ]
+  },
+  {
+    "name": "get by",
+    "trans": [
+      "phrase. 勉强过活；凑合"
+    ]
+  },
+  {
+    "name": "scrape by",
+    "trans": [
+      "phrase. 勉强度日"
+    ]
+  },
+  {
+    "name": "get along",
+    "trans": [
+      "phrase. 相处；过活"
+    ]
+  },
+  {
+    "name": "get away with",
+    "trans": [
+      "phrase. 逃脱惩罚"
+    ]
+  },
+  {
+    "name": "get back at",
+    "trans": [
+      "phrase. 报复"
+    ]
+  },
+  {
+    "name": "get over",
+    "trans": [
+      "phrase. 克服；从...恢复"
+    ]
+  },
+  {
+    "name": "get around",
+    "trans": [
+      "phrase. 到处走动；规避"
+    ]
+  },
+  {
+    "name": "get away",
+    "trans": [
+      "phrase. 离开；逃脱"
+    ]
+  },
+  {
+    "name": "get in",
+    "trans": [
+      "phrase. 进入；到达"
+    ]
+  },
+  {
+    "name": "get out",
+    "trans": [
+      "phrase. 出去；泄露"
+    ]
+  },
+  {
+    "name": "get off",
+    "trans": [
+      "phrase. 下车；逃脱惩罚"
+    ]
+  },
+  {
+    "name": "get on",
+    "trans": [
+      "phrase. 上车；相处；进展"
+    ]
+  },
+  {
+    "name": "get rid of",
+    "trans": [
+      "phrase. 摆脱；去除"
+    ]
+  },
+  {
+    "name": "get even",
+    "trans": [
+      "phrase. 报复；扯平"
+    ]
+  },
+  {
+    "name": "get to",
+    "trans": [
+      "phrase. 到达；开始做"
+    ]
+  },
+  {
+    "name": "get into",
+    "trans": [
+      "phrase. 进入；对...产生兴趣"
+    ]
+  },
+  {
+    "name": "get down to",
+    "trans": [
+      "phrase. 开始认真做"
+    ]
+  },
+  {
+    "name": "boil down to",
+    "trans": [
+      "phrase. 归结为"
+    ]
+  },
+  {
+    "name": "pan out",
+    "trans": [
+      "phrase. 结果如何"
+    ]
+  },
+  {
+    "name": "turn out",
+    "trans": [
+      "phrase. 结果是；证明为"
+    ]
+  },
+  {
+    "name": "turn up",
+    "trans": [
+      "phrase. 出现；到来"
+    ]
+  },
+  {
+    "name": "turn down",
+    "trans": [
+      "phrase. 拒绝；调低"
+    ]
+  },
+  {
+    "name": "turn on",
+    "trans": [
+      "phrase. 打开；使兴奋"
+    ]
+  },
+  {
+    "name": "turn off",
+    "trans": [
+      "phrase. 关掉；使厌恶"
+    ]
+  },
+  {
+    "name": "tune in",
+    "trans": [
+      "phrase. 收看；关注"
+    ]
+  },
+  {
+    "name": "tune out",
+    "trans": [
+      "phrase. 不理会；走神"
+    ]
+  },
+  {
+    "name": "zone out",
+    "trans": [
+      "phrase. 走神；发呆"
+    ]
+  },
+  {
+    "name": "space out",
+    "trans": [
+      "phrase. 走神；发呆"
+    ]
+  },
+  {
+    "name": "drift off",
+    "trans": [
+      "phrase. 走神；渐渐入睡"
+    ]
+  },
+  {
+    "name": "trail off",
+    "trans": [
+      "phrase. 声音渐弱；说不出话"
+    ]
+  },
+  {
+    "name": "taper off",
+    "trans": [
+      "phrase. 逐渐减少"
+    ]
+  },
+  {
+    "name": "peter out",
+    "trans": [
+      "phrase. 逐渐消失；耗尽"
+    ]
+  },
+  {
+    "name": "fizzle out",
+    "trans": [
+      "phrase. 无果而终；虎头蛇尾"
+    ]
+  },
+  {
+    "name": "die down",
+    "trans": [
+      "phrase. 平息；减弱"
+    ]
+  },
+  {
+    "name": "die out",
+    "trans": [
+      "phrase. 灭绝；消失"
+    ]
+  },
+  {
+    "name": "die off",
+    "trans": [
+      "phrase. 相继死去"
+    ]
+  },
+  {
+    "name": "fade away",
+    "trans": [
+      "phrase. 逐渐消失"
+    ]
+  },
+  {
+    "name": "wear off",
+    "trans": [
+      "phrase. 逐渐消退"
+    ]
+  },
+  {
+    "name": "rub off",
+    "trans": [
+      "phrase. 沾染；感染"
+    ]
+  },
+  {
+    "name": "brush off",
+    "trans": [
+      "phrase. 不理会；打发"
+    ]
+  },
+  {
+    "name": "laugh off",
+    "trans": [
+      "phrase. 一笑置之"
+    ]
+  },
+  {
+    "name": "shrug off",
+    "trans": [
+      "phrase. 不当回事；耸肩表示不屑"
+    ]
+  },
+  {
+    "name": "wave off",
+    "trans": [
+      "phrase. 挥手告别；不予理会"
+    ]
+  },
+  {
+    "name": "fend off",
+    "trans": [
+      "phrase. 挡开；避开"
+    ]
+  },
+  {
+    "name": "ward off",
+    "trans": [
+      "phrase. 防止；避开"
+    ]
+  },
+  {
+    "name": "hold off",
+    "trans": [
+      "phrase. 推迟；抵挡"
+    ]
+  },
+  {
+    "name": "stave off",
+    "trans": [
+      "phrase. 暂时避开；延缓"
+    ]
+  },
+  {
+    "name": "beat back",
+    "trans": [
+      "phrase. 击退"
+    ]
+  },
+  {
+    "name": "drive back",
+    "trans": [
+      "phrase. 击退；赶回"
+    ]
+  },
+  {
+    "name": "push back",
+    "trans": [
+      "phrase. 推迟；反击"
+    ]
+  },
+  {
+    "name": "fight back",
+    "trans": [
+      "phrase. 反击；忍住"
+    ]
+  },
+  {
+    "name": "bounce back",
+    "trans": [
+      "phrase. 恢复；东山再起"
+    ]
+  },
+  {
+    "name": "snap back",
+    "trans": [
+      "phrase. 迅速恢复"
+    ]
+  },
+  {
+    "name": "reel from",
+    "trans": [
+      "phrase. 因...而震惊"
+    ]
+  },
+  {
+    "name": "reel in",
+    "trans": [
+      "phrase. 收线；吸引"
+    ]
+  },
+  {
+    "name": "reel off",
+    "trans": [
+      "phrase. 一口气说出"
+    ]
+  },
+  {
+    "name": "rattle off",
+    "trans": [
+      "phrase. 飞快地说出"
+    ]
+  },
+  {
+    "name": "spit out",
+    "trans": [
+      "phrase. 吐出；快说"
+    ]
+  },
+  {
+    "name": "blurt out",
+    "trans": [
+      "phrase. 脱口而出"
+    ]
+  },
+  {
+    "name": "spill out",
+    "trans": [
+      "phrase. 涌出；说出"
+    ]
+  },
+  {
+    "name": "pour out",
+    "trans": [
+      "phrase. 倾诉；涌出"
+    ]
+  },
+  {
+    "name": "open up",
+    "trans": [
+      "phrase. 敞开心扉；打开"
+    ]
+  },
+  {
+    "name": "speak up",
+    "trans": [
+      "phrase. 大声说；直言"
+    ]
+  },
+  {
+    "name": "speak out",
+    "trans": [
+      "phrase. 公开表态"
+    ]
+  },
+  {
+    "name": "read up on",
+    "trans": [
+      "phrase. 研读；查阅"
+    ]
+  },
+  {
+    "name": "brush up on",
+    "trans": [
+      "phrase. 温习；复习"
+    ]
+  },
+  {
+    "name": "bone up on",
+    "trans": [
+      "phrase. 临时抱佛脚；突击"
+    ]
+  },
+  {
+    "name": "cram for",
+    "trans": [
+      "phrase. 临时抱佛脚"
+    ]
+  },
+  {
+    "name": "cram in",
+    "trans": [
+      "phrase. 塞入；挤时间做"
+    ]
+  },
+  {
+    "name": "pack in",
+    "trans": [
+      "phrase. 塞满；放弃"
+    ]
+  },
+  {
+    "name": "squeeze in",
+    "trans": [
+      "phrase. 挤时间做"
+    ]
+  },
+  {
+    "name": "fit in",
+    "trans": [
+      "phrase. 安排进去；融入"
+    ]
+  },
+  {
+    "name": "cram into",
+    "trans": [
+      "phrase. 塞进"
+    ]
+  },
+  {
+    "name": "pack into",
+    "trans": [
+      "phrase. 塞进；涌入"
+    ]
+  },
+  {
+    "name": "cram together",
+    "trans": [
+      "phrase. 挤在一起"
+    ]
+  },
+  {
+    "name": "huddle together",
+    "trans": [
+      "phrase. 挤成一团"
+    ]
+  },
+  {
+    "name": "cluster around",
+    "trans": [
+      "phrase. 聚拢在周围"
+    ]
+  },
+  {
+    "name": "gather around",
+    "trans": [
+      "phrase. 聚拢"
+    ]
+  },
+  {
+    "name": "crowd around",
+    "trans": [
+      "phrase. 围拢"
+    ]
+  },
+  {
+    "name": "flock to",
+    "trans": [
+      "phrase. 蜂拥而至"
+    ]
+  },
+  {
+    "name": "swarm with",
+    "trans": [
+      "phrase. 充满；到处都是"
+    ]
+  },
+  {
+    "name": "teem with",
+    "trans": [
+      "phrase. 充满"
+    ]
+  },
+  {
+    "name": "abound in",
+    "trans": [
+      "phrase. 盛产；充满"
+    ]
+  },
+  {
+    "name": "brim with",
+    "trans": [
+      "phrase. 充满"
+    ]
+  },
+  {
+    "name": "burst with",
+    "trans": [
+      "phrase. 充满"
+    ]
+  },
+  {
+    "name": "overflow with",
+    "trans": [
+      "phrase. 溢满"
+    ]
+  },
+  {
+    "name": "tear into",
+    "trans": [
+      "phrase. 猛烈攻击；抨击"
+    ]
+  },
+  {
+    "name": "lay into",
+    "trans": [
+      "phrase. 痛打；抨击"
+    ]
+  },
+  {
+    "name": "rip into",
+    "trans": [
+      "phrase. 猛烈抨击"
+    ]
+  },
+  {
+    "name": "dig at",
+    "trans": [
+      "phrase. 挖苦；嘲讽"
+    ]
+  },
+  {
+    "name": "snipe at",
+    "trans": [
+      "phrase. 抨击；冷枪"
+    ]
+  },
+  {
+    "name": "jab at",
+    "trans": [
+      "phrase. 戳；捅"
+    ]
+  },
+  {
+    "name": "poke at",
+    "trans": [
+      "phrase. 戳；拨弄"
+    ]
+  },
+  {
+    "name": "pick on",
+    "trans": [
+      "phrase. 找茬；欺负"
+    ]
+  },
+  {
+    "name": "zero in on",
+    "trans": [
+      "phrase. 锁定；集中注意"
+    ]
+  },
+  {
+    "name": "home in on",
+    "trans": [
+      "phrase. 锁定；追踪"
+    ]
+  },
+  {
+    "name": "close in on",
+    "trans": [
+      "phrase. 逼近；包围"
+    ]
+  },
+  {
+    "name": "move in on",
+    "trans": [
+      "phrase. 向...逼近；控制"
+    ]
+  },
+  {
+    "name": "sneak up on",
+    "trans": [
+      "phrase. 悄悄靠近"
+    ]
+  },
+  {
+    "name": "creep up on",
+    "trans": [
+      "phrase. 不知不觉到来"
+    ]
+  },
+  {
+    "name": "spring on",
+    "trans": [
+      "phrase. 突然告知"
+    ]
+  },
+  {
+    "name": "pull on",
+    "trans": [
+      "phrase. 穿上；拉"
+    ]
+  },
+  {
+    "name": "slip on",
+    "trans": [
+      "phrase. 匆忙穿上"
+    ]
+  },
+  {
+    "name": "throw on",
+    "trans": [
+      "phrase. 匆忙穿上"
+    ]
+  },
+  {
+    "name": "bundle up",
+    "trans": [
+      "phrase. 穿暖和"
+    ]
+  },
+  {
+    "name": "layer up",
+    "trans": [
+      "phrase. 多穿几层"
+    ]
+  },
+  {
+    "name": "strip off",
+    "trans": [
+      "phrase. 脱掉"
+    ]
+  },
+  {
+    "name": "peel off",
+    "trans": [
+      "phrase. 脱掉；剥落"
+    ]
+  },
+  {
+    "name": "shuck off",
+    "trans": [
+      "phrase. 脱掉；摆脱"
+    ]
+  },
+  {
+    "name": "kick off",
+    "trans": [
+      "phrase. 踢掉；开始"
+    ]
+  },
+  {
+    "name": "shake off",
+    "trans": [
+      "phrase. 抖掉；摆脱"
+    ]
+  },
+  {
+    "name": "dust off",
+    "trans": [
+      "phrase. 掸掉灰尘；重新使用"
+    ]
+  },
+  {
+    "name": "wipe off",
+    "trans": [
+      "phrase. 擦掉"
+    ]
+  },
+  {
+    "name": "wash off",
+    "trans": [
+      "phrase. 洗掉"
+    ]
+  },
+  {
+    "name": "clean off",
+    "trans": [
+      "phrase. 擦干净"
+    ]
+  },
+  {
+    "name": "rinse off",
+    "trans": [
+      "phrase. 冲洗掉"
+    ]
+  },
+  {
+    "name": "scrub down",
+    "trans": [
+      "phrase. 彻底擦洗"
+    ]
+  },
+  {
+    "name": "wipe down",
+    "trans": [
+      "phrase. 擦拭干净"
+    ]
+  },
+  {
+    "name": "tow off",
+    "trans": [
+      "phrase. 拖走"
+    ]
+  },
+  {
+    "name": "haul away",
+    "trans": [
+      "phrase. 拉走；拖走"
+    ]
+  },
+  {
+    "name": "cart off",
+    "trans": [
+      "phrase. 运走"
+    ]
+  },
+  {
+    "name": "lug around",
+    "trans": [
+      "phrase. 吃力地搬来搬去"
+    ]
+  },
+  {
+    "name": "schlep",
+    "trans": [
+      "phrase. 吃力地搬；长途跋涉"
+    ]
+  },
+  {
+    "name": "traipse around",
+    "trans": [
+      "phrase. 闲逛；到处走"
+    ]
+  },
+  {
+    "name": "ramble on",
+    "trans": [
+      "phrase. 漫无边际地说"
+    ]
+  },
+  {
+    "name": "wander off",
+    "trans": [
+      "phrase. 走失；离题"
+    ]
+  },
+  {
+    "name": "stray from",
+    "trans": [
+      "phrase. 偏离；偏离主题"
+    ]
+  },
+  {
+    "name": "deviate from",
+    "trans": [
+      "phrase. 偏离"
+    ]
+  },
+  {
+    "name": "digress from",
+    "trans": [
+      "phrase. 离题"
+    ]
+  },
+  {
+    "name": "get back to",
+    "trans": [
+      "phrase. 回到（话题）；再联系"
+    ]
+  },
+  {
+    "name": "come back to",
+    "trans": [
+      "phrase. 回到（话题）"
+    ]
+  },
+  {
+    "name": "return to",
+    "trans": [
+      "phrase. 回到"
+    ]
+  },
+  {
+    "name": "arrive at",
+    "trans": [
+      "phrase. 到达；得出"
+    ]
+  },
+  {
+    "name": "end up at",
+    "trans": [
+      "phrase. 最终到达"
+    ]
+  },
+  {
+    "name": "wind up at",
+    "trans": [
+      "phrase. 最终到达"
+    ]
+  },
+  {
+    "name": "touch down",
+    "trans": [
+      "phrase. 降落"
+    ]
+  },
+  {
+    "name": "pull in",
+    "trans": [
+      "phrase. 进站；到达"
+    ]
+  },
+  {
+    "name": "pull over",
+    "trans": [
+      "phrase. 靠边停车"
+    ]
+  },
+  {
+    "name": "pull out",
+    "trans": [
+      "phrase. 驶出；退出"
+    ]
+  },
+  {
+    "name": "pull up",
+    "trans": [
+      "phrase. 停车"
+    ]
+  },
+  {
+    "name": "roll up",
+    "trans": [
+      "phrase. 到达；卷起"
+    ]
+  },
+  {
+    "name": "roll in",
+    "trans": [
+      "phrase. 涌入；姗姗来迟地到"
+    ]
+  },
+  {
+    "name": "roll out",
+    "trans": [
+      "phrase. 推出；展开"
+    ]
+  },
+  {
+    "name": "roll on",
+    "trans": [
+      "phrase. 继续滚动；流逝"
+    ]
+  },
+  {
+    "name": "tick away",
+    "trans": [
+      "phrase. 滴答流逝"
+    ]
+  },
+  {
+    "name": "tick by",
+    "trans": [
+      "phrase. 时间流逝"
+    ]
+  },
+  {
+    "name": "fly by",
+    "trans": [
+      "phrase. 飞逝"
+    ]
+  },
+  {
+    "name": "whiz by",
+    "trans": [
+      "phrase. 飞驰而过"
+    ]
+  },
+  {
+    "name": "zoom past",
+    "trans": [
+      "phrase. 飞驰而过"
+    ]
+  },
+  {
+    "name": "zip by",
+    "trans": [
+      "phrase. 嗖地飞过"
+    ]
+  },
+  {
+    "name": "zip through",
+    "trans": [
+      "phrase. 快速做完"
+    ]
+  },
+  {
+    "name": "zip up",
+    "trans": [
+      "phrase. 拉上拉链"
+    ]
+  },
+  {
+    "name": "buckle up",
+    "trans": [
+      "phrase. 系好安全带"
+    ]
+  },
+  {
+    "name": "strap in",
+    "trans": [
+      "phrase. 系好安全带"
+    ]
+  },
+  {
+    "name": "belt out",
+    "trans": [
+      "phrase. 大声唱出"
+    ]
+  },
+  {
+    "name": "belt out a tune",
+    "trans": [
+      "phrase. 高歌一曲"
+    ]
+  },
+  {
+    "name": "jam out",
+    "trans": [
+      "phrase. 尽情演奏；嗨听音乐"
+    ]
+  },
+  {
+    "name": "rock out",
+    "trans": [
+      "phrase. 尽情摇滚"
+    ]
+  },
+  {
+    "name": "jazz up",
+    "trans": [
+      "phrase. 使有活力；装饰"
+    ]
+  },
+  {
+    "name": " jazz up",
+    "trans": [
+      "phrase. 使更有趣"
+    ]
+  },
+  {
+    "name": "perk up",
+    "trans": [
+      "phrase. 振作起来；活跃起来"
+    ]
+  },
+  {
+    "name": "pep up",
+    "trans": [
+      "phrase. 使振奋；增加活力"
+    ]
+  },
+  {
+    "name": "ginger up",
+    "trans": [
+      "phrase. 使更有活力"
+    ]
+  },
+  {
+    "name": "shake up",
+    "trans": [
+      "phrase. 震动；改组"
+    ]
+  },
+  {
+    "name": "stir up",
+    "trans": [
+      "phrase. 激起；煽动"
+    ]
+  },
+  {
+    "name": "drum up",
+    "trans": [
+      "phrase. 招揽；争取"
+    ]
+  },
+  {
+    "name": "round up",
+    "trans": [
+      "phrase. 赶拢；收集"
+    ]
+  },
+  {
+    "name": "scrape together",
+    "trans": [
+      "phrase. 凑集；勉强凑齐"
+    ]
+  },
+  {
+    "name": "scrounge up",
+    "trans": [
+      "phrase. 搜寻凑齐"
+    ]
+  },
+  {
+    "name": "fork out",
+    "trans": [
+      "phrase. 掏钱；支付"
+    ]
+  },
+  {
+    "name": "shell out",
+    "trans": [
+      "phrase. 付款"
+    ]
+  },
+  {
+    "name": "cough up",
+    "trans": [
+      "phrase. 勉强掏出"
+    ]
+  },
+  {
+    "name": "ante up",
+    "trans": [
+      "phrase. 付钱；下赌注"
+    ]
+  },
+  {
+    "name": "pony up",
+    "trans": [
+      "phrase. 付钱"
+    ]
+  },
+  {
+    "name": "chip in for",
+    "trans": [
+      "phrase. 凑钱买"
+    ]
+  },
+  {
+    "name": "go in on",
+    "trans": [
+      "phrase. 凑钱参与"
+    ]
+  },
+  {
+    "name": "spring for",
+    "trans": [
+      "phrase. 请客；买单"
+    ]
+  },
+  {
+    "name": "pick up the tab",
+    "trans": [
+      "phrase. 买单"
+    ]
+  },
+  {
+    "name": "foot the bill",
+    "trans": [
+      "phrase. 买单"
+    ]
+  },
+  {
+    "name": "settle up",
+    "trans": [
+      "phrase. 结账"
+    ]
+  },
+  {
+    "name": "square up",
+    "trans": [
+      "phrase. 结清；摆平"
+    ]
+  },
+  {
+    "name": "square away",
+    "trans": [
+      "phrase. 安排好；搞定"
+    ]
+  },
+  {
+    "name": "tie up loose ends",
+    "trans": [
+      "phrase. 处理收尾事宜"
+    ]
+  },
+  {
+    "name": "iron out",
+    "trans": [
+      "phrase. 解决；消除分歧"
+    ]
+  },
+  {
+    "name": "smooth over",
+    "trans": [
+      "phrase. 平息；粉饰"
+    ]
+  },
+  {
+    "name": "paper over",
+    "trans": [
+      "phrase. 掩盖；粉饰"
+    ]
+  },
+  {
+    "name": "gloss over",
+    "trans": [
+      "phrase. 掩饰；略过"
+    ]
+  },
+  {
+    "name": "sweep under the rug",
+    "trans": [
+      "phrase. 掩盖；隐瞒"
+    ]
+  },
+  {
+    "name": "push aside",
+    "trans": [
+      "phrase. 推到一边；忽视"
+    ]
+  },
+  {
+    "name": "shove aside",
+    "trans": [
+      "phrase. 推开；忽视"
+    ]
+  },
+  {
+    "name": "blow over",
+    "trans": [
+      "phrase. 平息；过去"
+    ]
+  },
+  {
+    "name": "pass over",
+    "trans": [
+      "phrase. 忽略；跳过"
+    ]
+  }
+]
