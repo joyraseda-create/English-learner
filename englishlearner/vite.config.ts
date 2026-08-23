@@ -9,6 +9,28 @@ import Icons from 'unplugin-icons/vite'
 import { defineConfig } from 'vite'
 import type { PluginOption } from 'vite'
 
+function spaFallbackPlugin() {
+  return {
+    name: 'spa-fallback',
+    configureServer(server: any) {
+      server.middlewares.use((req: any, res: any, next: any) => {
+        const url = req.url || ''
+        if (
+          req.method === 'GET' &&
+          !url.startsWith('/src/') &&
+          !url.startsWith('/@') &&
+          !url.startsWith('/node_modules/') &&
+          !url.match(/\.\w+($|\?)/) &&
+          !url.startsWith('/pdfs/')
+        ) {
+          req.url = '/index.html'
+        }
+        next()
+      })
+    },
+  }
+}
+
 // https://vitejs.dev/config/
 export default defineConfig(async ({ mode }) => {
   const latestCommitHash = await new Promise<string>((resolve) => {
@@ -28,7 +50,9 @@ export default defineConfig(async ({ mode }) => {
     }
   })
   return {
+    appType: 'spa',
     plugins: [
+      spaFallbackPlugin(),
       react({ babel: { plugins: [jotaiDebugLabel, jotaiReactRefresh] } }),
       visualizer() as PluginOption,
       Icons({
@@ -41,6 +65,11 @@ export default defineConfig(async ({ mode }) => {
         },
       }),
     ],
+    server: {
+      port: 5175,
+      strictPort: true,
+      host: true,
+    },
     build: {
       minify: true,
       outDir: 'build',
