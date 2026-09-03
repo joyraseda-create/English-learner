@@ -3,7 +3,7 @@ import { currentChapterAtom, currentDictInfoAtom, reviewModeInfoAtom } from '@/s
 import type { Word, WordWithIndex } from '@/typings/index'
 import { wordListFetcher } from '@/utils/wordListFetcher'
 import { useAtom, useAtomValue } from 'jotai'
-import { useMemo } from 'react'
+import { useEffect, useMemo } from 'react'
 import useSWR from 'swr'
 
 export type UseWordListResult = {
@@ -20,10 +20,12 @@ export function useWordList(): UseWordListResult {
   const [currentChapter, setCurrentChapter] = useAtom(currentChapterAtom)
   const { isReviewMode, reviewRecord } = useAtomValue(reviewModeInfoAtom)
 
-  // Reset current chapter to 0, when currentChapter is greater than chapterCount.
-  if (currentChapter >= currentDictInfo.chapterCount) {
-    setCurrentChapter(0)
-  }
+  // 当章节超出最大范围时，在 effect 中重置（避免渲染期间执行副作用）
+  useEffect(() => {
+    if (currentChapter >= currentDictInfo.chapterCount) {
+      setCurrentChapter(0)
+    }
+  }, [currentChapter, currentDictInfo.chapterCount, setCurrentChapter])
 
   const isFirstChapter = !isReviewMode && currentDictInfo.id === 'cet4' && currentChapter === 0
   const { data: wordList, error, isLoading } = useSWR(currentDictInfo.url, wordListFetcher)

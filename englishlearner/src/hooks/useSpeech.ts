@@ -14,6 +14,10 @@ export type UseSpeechResult = {
    * Whether currently speaking
    */
   speaking: boolean
+  /**
+   * Whether the browser supports the SpeechSynthesis API
+   */
+  supported: boolean
 }
 
 /**
@@ -28,12 +32,15 @@ export default function useSpeech(text: string, option?: Partial<SpeechSynthesis
   const [speaking, setSpeaking] = useState(false)
   const [utterance, setUtterance] = useState<SpeechSynthesisUtterance | null>(null)
 
+  // 在 SSR 环境下 window 不存在；客户端环境下检查 SpeechSynthesis 是否可用
+  const supported =
+    typeof window !== 'undefined' &&
+    typeof window.speechSynthesis !== 'undefined' &&
+    typeof SpeechSynthesisUtterance !== 'undefined'
+
   useEffect(() => {
+    if (!supported) return
     const synth = window.speechSynthesis
-    if (!synth || typeof SpeechSynthesisUtterance === 'undefined') {
-      console.error('SpeechSynthesis API is not supported in this browser')
-      return
-    }
 
     const newUtterance = new SpeechSynthesisUtterance(text)
     Object.assign(newUtterance, option)
@@ -43,7 +50,7 @@ export default function useSpeech(text: string, option?: Partial<SpeechSynthesis
       synth.cancel()
       setSpeaking(false)
     }
-  }, [option, text])
+  }, [option, text, supported])
 
   useEffect(() => {
     if (utterance) {
@@ -59,28 +66,29 @@ export default function useSpeech(text: string, option?: Partial<SpeechSynthesis
 
   const speak = useCallback(
     (abort = false) => {
-      if (utterance) {
-        const synth = window.speechSynthesis
-        if (abort && synth.speaking) {
-          synth.cancel()
-        }
-        setSpeaking(true)
-        synth.speak(utterance)
+      if (!supported || !utterance) return
+      const synth = window.speechSynthesis
+      if (abort && synth.speaking) {
+        synth.cancel()
       }
+      setSpeaking(true)
+      synth.speak(utterance)
     },
-    [utterance],
+    [utterance, supported],
   )
 
   const cancel = useCallback(() => {
+    if (!supported) return
     const synth = window.speechSynthesis
     if (speaking) {
       synth.cancel()
     }
-  }, [speaking])
+  }, [speaking, supported])
 
   return {
     speak,
     cancel,
     speaking,
+    supported,
   }
 }

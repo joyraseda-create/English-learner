@@ -14,7 +14,13 @@ export default function Progress({ className }: { className?: string }) {
   }
 
   useEffect(() => {
-    const newProgress = Math.floor((state.chapterData.index / state.chapterData.words.length) * 100)
+    const total = state.chapterData.words.length
+    if (total === 0) {
+      setProgress(0)
+      setPhase(0)
+      return
+    }
+    const newProgress = Math.floor((state.chapterData.index / total) * 100)
     setProgress(newProgress)
     const colorPhase = Math.floor(newProgress / 33.4)
     setPhase(colorPhase)

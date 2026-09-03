@@ -50,17 +50,25 @@ export function ReviewDetail({ errorData, dict }: { errorData: TErrorWordData[];
           <>
             <div className=" ml-10 flex w-full items-center py-0">
               <Progress.Root
-                value={latestReviewRecord.index + 1}
-                max={latestReviewRecord.words.length}
+                value={latestReviewRecord.words.length > 0 ? latestReviewRecord.index + 1 : 0}
+                max={latestReviewRecord.words.length || 1}
                 className="mr-4 h-2 w-full rounded-full border  border-indigo-400 bg-white"
               >
                 <Progress.Indicator
                   className="h-full rounded-full bg-indigo-400 pl-0"
-                  style={{ width: `calc(${((latestReviewRecord.index + 1) / latestReviewRecord.words.length) * 100}% )` }}
+                  style={{
+                    width: `calc(${
+                      latestReviewRecord.words.length > 0
+                        ? ((latestReviewRecord.index + 1) / latestReviewRecord.words.length) * 100
+                        : 0
+                    }% )`,
+                  }}
                 />
               </Progress.Root>
               <span className="p-0 text-xs">
-                {latestReviewRecord.index + 1}/{latestReviewRecord.words.length}
+                {latestReviewRecord.words.length > 0
+                  ? `${latestReviewRecord.index + 1}/${latestReviewRecord.words.length}`
+                  : '暂无复习单词'}
               </span>
             </div>
             <div className="mt-1 text-sm font-normal text-gray-500">{`( 创建于 ${timeStamp2String(latestReviewRecord.createTime)} )`}</div>

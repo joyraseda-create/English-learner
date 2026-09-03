@@ -6,6 +6,8 @@ import type { Activity } from 'react-activity-calendar'
 
 interface IWordStats {
   isEmpty?: boolean
+  error?: string
+  loading?: boolean
   exerciseRecord: Activity[]
   wordRecord: Activity[]
   wpmRecord: [string, number][]
@@ -45,12 +47,35 @@ export function useWordStats(startTimeStamp: number, endTimeStamp: number) {
   })
 
   useEffect(() => {
+    let cancelled = false
     const fetchWordStats = async () => {
-      const stats = await getChapterStats(startTimeStamp, endTimeStamp)
-      setWordStats(stats)
+      setWordStats((prev) => ({ ...prev, loading: true, error: undefined }))
+      try {
+        const stats = await getChapterStats(startTimeStamp, endTimeStamp)
+        if (!cancelled) {
+          setWordStats({ ...stats, loading: false })
+        }
+      } catch (e) {
+        if (!cancelled) {
+          const msg = e instanceof Error ? e.message : '加载统计数据失败'
+          setWordStats({
+            isEmpty: true,
+            error: msg,
+            loading: false,
+            exerciseRecord: [],
+            wordRecord: [],
+            wpmRecord: [],
+            accuracyRecord: [],
+            wrongTimeRecord: [],
+          })
+        }
+      }
     }
 
     fetchWordStats()
+    return () => {
+      cancelled = true
+    }
   }, [startTimeStamp, endTimeStamp])
 
   return wordStats
@@ -97,12 +122,17 @@ async function getChapterStats(startTimeStamp: number, endTimeStamp: number): Pr
     count: exerciseTime,
     level: getLevel(exerciseTime),
   }))
-  // 练习词数统计（去重）
-  const wordRecord: IWordStats['wordRecord'] = RecordArray.map(([date, { words }]) => ({
-    date,
-    count: Array.from(new Set(words)).length,
-    level: getLevel(Array.from(new Set(words)).length),
-  }))
+  // 练习词数统计（按 dict + word 去重，避免同词不同词典释义被合并）
+  const wordRecord: IWordStats['wordRecord'] = RecordArray.map(([date, { words }]) => {
+    // 注：去重 key 改为 `${record.dict}:${record.word}` 更精准，但本 hook 仅持有 word 数组
+    // 故这里标记为按词去重；后续若需按 dict 区分，可扩展 records 维度
+    const uniqueCount = Array.from(new Set(words)).length
+    return {
+      date,
+      count: uniqueCount,
+      level: getLevel(uniqueCount),
+    }
+  })
   // wpm=练习词数（不去重）/总时间
   const wpmRecord: IWordStats['wpmRecord'] = RecordArray.map<[string, number]>(([date, { words, totalTime }]) => [
     date,

@@ -35,12 +35,12 @@ function loadProgress(): Progress {
     if (raw) {
       const parsed = JSON.parse(raw)
       return {
-        completedPatterns: parsed.completedPatterns || [],
-        completedErrors: parsed.completedErrors || [],
-        testScores: parsed.testScores || [],
-        wrongTransforms: parsed.wrongTransforms || [],
-        wrongErrors: parsed.wrongErrors || [],
-        wrongTests: parsed.wrongTests || [],
+        completedPatterns: Array.isArray(parsed.completedPatterns) ? parsed.completedPatterns : [],
+        completedErrors: Array.isArray(parsed.completedErrors) ? parsed.completedErrors : [],
+        testScores: Array.isArray(parsed.testScores) ? parsed.testScores : [],
+        wrongTransforms: Array.isArray(parsed.wrongTransforms) ? parsed.wrongTransforms : [],
+        wrongErrors: Array.isArray(parsed.wrongErrors) ? parsed.wrongErrors : [],
+        wrongTests: Array.isArray(parsed.wrongTests) ? parsed.wrongTests : [],
       }
     }
   } catch {
@@ -66,9 +66,9 @@ const SentencePatternsPage: React.FC = () => {
   const [activeGrammarPoint, setActiveGrammarPoint] = useState<string>(allPatterns[0].grammarPoint)
   const [progress, setProgress] = useState<Progress>(loadProgress)
 
-  const currentGroup = levelGroups.find((g) => g.level === activeLevel)!
-  const currentPattern = currentGroup.patterns[activePatternIdx]
-  const isPatternCompleted = progress.completedPatterns.includes(currentPattern.id)
+  const currentGroup = levelGroups.find((g) => g.level === activeLevel) ?? levelGroups[0]
+  const currentPattern = currentGroup.patterns[activePatternIdx] ?? currentGroup.patterns[0]
+  const isPatternCompleted = !!currentPattern && progress.completedPatterns.includes(currentPattern.id)
 
   const handlePatternComplete = useCallback((patternId: string) => {
     setProgress((prev) => {
@@ -93,6 +93,11 @@ const SentencePatternsPage: React.FC = () => {
       setActivePatternIdx(activePatternIdx + 1)
     }
   }, [activePatternIdx, currentGroup.patterns.length])
+
+  const handleLevelChange = useCallback((lv: 1 | 2 | 3) => {
+    setActiveLevel(lv)
+    setActivePatternIdx(0)
+  }, [])
 
   const handleTestComplete = useCallback((result: TestScore) => {
     setProgress((prev) => {
@@ -224,10 +229,7 @@ const SentencePatternsPage: React.FC = () => {
           {tab === 'patterns' ? (
             <PatternTab
               activeLevel={activeLevel}
-              setActiveLevel={(lv) => {
-                setActiveLevel(lv)
-                setActivePatternIdx(0)
-              }}
+              setActiveLevel={handleLevelChange}
               activePatternIdx={activePatternIdx}
               setActivePatternIdx={setActivePatternIdx}
               currentGroup={currentGroup}
@@ -972,11 +974,12 @@ function TestTab({ progress, onTestComplete, onTestWrongUpdate }: TestTabProps) 
   }
 
   const handleSubmit = () => {
+    if (selectedLevel == null) return
     setSubmitted(true)
     const score = answers.reduce<number>((acc, ans, i) => (ans === questions[i].correctIndex ? acc + 1 : acc), 0)
     const total = questions.length
     const passed = score >= Math.ceil(total * 0.7)
-    onTestComplete({ level: selectedLevel!, score, total, passed })
+    onTestComplete({ level: selectedLevel, score, total, passed })
     // Update wrong test questions: keep wrong ones from other levels + new wrong ones from this level
     const thisLevelWrongIds = questions.filter((q, i) => answers[i] !== q.correctIndex).map((q) => q.id)
     const otherLevelWrongIds = progress.wrongTests.filter((id) => !questions.some((q) => q.id === id))
@@ -1223,9 +1226,18 @@ type WrongBookTabProps = {
 }
 
 function WrongBookTab({ progress, onJumpToPatterns, onJumpToErrors, onJumpToTests, onClearTransform, onClearError, onClearTest }: WrongBookTabProps) {
-  const wrongPatterns = allPatterns.filter((p) => progress.wrongTransforms.includes(p.id))
-  const wrongErrs = errorCorrections.filter((e) => progress.wrongErrors.includes(e.id))
-  const wrongTestQs = stageTests.filter((q) => progress.wrongTests.includes(q.id))
+  const wrongPatterns = useMemo(
+    () => allPatterns.filter((p) => progress.wrongTransforms.includes(p.id)),
+    [progress.wrongTransforms],
+  )
+  const wrongErrs = useMemo(
+    () => errorCorrections.filter((e) => progress.wrongErrors.includes(e.id)),
+    [progress.wrongErrors],
+  )
+  const wrongTestQs = useMemo(
+    () => stageTests.filter((q) => progress.wrongTests.includes(q.id)),
+    [progress.wrongTests],
+  )
   const totalWrong = wrongPatterns.length + wrongErrs.length + wrongTestQs.length
 
   if (totalWrong === 0) {

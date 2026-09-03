@@ -24,6 +24,9 @@ export function ErrorBook() {
   const { deleteWordRecord } = useDeleteWordRecord()
   const [reload, setReload] = useState(false)
   const [paraphrases, setParaphrases] = useState<any[]>([])
+  const [isLoading, setIsLoading] = useState(true)
+  const [loadError, setLoadError] = useState<string | null>(null)
+  const [deletingKeys, setDeletingKeys] = useState<Set<string>>(new Set())
 
   const onBack = useCallback(() => {
     navigate('/')
@@ -63,11 +66,15 @@ export function ErrorBook() {
   }, [currentPage, sortedRecords])
 
   useEffect(() => {
+    let cancelled = false
+    setIsLoading(true)
+    setLoadError(null)
     db.wordRecords
       .where('wrongCount')
       .above(0)
       .toArray()
       .then((records) => {
+        if (cancelled) return
         const groups: groupedWordRecords[] = []
 
         records.forEach((record) => {
@@ -87,12 +94,46 @@ export function ErrorBook() {
         })
 
         setGroupedRecords(groups)
+        setIsLoading(false)
       })
+      .catch((e) => {
+        if (cancelled) return
+        const msg = e instanceof Error ? e.message : '加载错题数据失败'
+        setLoadError(msg)
+        setIsLoading(false)
+      })
+    return () => {
+      cancelled = true
+    }
   }, [reload])
 
   const handleDelete = async (word: string, dict: string) => {
-    await deleteWordRecord(word, dict)
-    setReload((prev) => !prev)
+    const key = `${dict}-${word}`
+    if (deletingKeys.has(key)) return
+    // 二次确认避免误删
+    const confirmed = window.confirm(`确认从错题本中删除 "${word}"？`)
+    if (!confirmed) return
+
+    setDeletingKeys((prev) => {
+      const next = new Set(prev)
+      next.add(key)
+      return next
+    })
+    try {
+      await deleteWordRecord(word, dict)
+      // 局部更新内存列表，避免全量重查
+      setGroupedRecords((prev) => prev.filter((g) => !(g.word === word && g.dict === dict)))
+      setReload((prev) => !prev)
+    } catch (e) {
+      const msg = e instanceof Error ? e.message : '删除失败，请重试'
+      window.alert(msg)
+    } finally {
+      setDeletingKeys((prev) => {
+        const next = new Set(prev)
+        next.delete(key)
+        return next
+      })
+    }
   }
 
   const handleWordUpdate = (paraphrases: object) => {
@@ -119,10 +160,22 @@ export function ErrorBook() {
             <ScrollArea.Root className="flex-1 overflow-y-auto pt-5">
               <ScrollArea.Viewport className="h-full  ">
                 <div className="flex flex-col gap-3">
-                  {renderRecords.map((record) => (
+                  {loadError && (
+                    <div className="rounded-lg bg-rose-50 px-4 py-3 text-sm text-rose-600 dark:bg-rose-900/20 dark:text-rose-400">
+                      加载失败：{loadError}
+                    </div>
+                  )}
+                  {!loadError && isLoading && (
+                    <div className="py-12 text-center text-sm text-gray-400">加载中...</div>
+                  )}
+                  {!loadError && !isLoading && renderRecords.length === 0 && (
+                    <div className="py-12 text-center text-sm text-gray-400">暂无错题数据</div>
+                  )}
+                  {!loadError && !isLoading && renderRecords.map((record) => (
                     <ErrorRow
                       key={`${record.dict}-${record.word}`}
                       record={record}
+                      deleting={deletingKeys.has(`${record.dict}-${record.word}`)}
                       onDelete={() => handleDelete(record.word, record.dict)}
                       onWordUpdate={handleWordUpdate}
                     />

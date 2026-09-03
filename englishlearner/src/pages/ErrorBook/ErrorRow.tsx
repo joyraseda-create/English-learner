@@ -7,21 +7,21 @@ import { idDictionaryMap } from '@/resources/dictionary'
 import { recordErrorBookAction } from '@/utils'
 import { useSetAtom } from 'jotai'
 import type { FC } from 'react'
-import { useCallback, useEffect, useMemo, useRef } from 'react'
+import { useCallback, useEffect, useRef } from 'react'
 import DeleteIcon from '~icons/weui/delete-filled'
 
 type IErrorRowProps = {
   record: groupedWordRecords
+  deleting?: boolean
   onDelete: () => void
   onWordUpdate: (word: any) => void
 }
 
-const ErrorRow: FC<IErrorRowProps> = ({ record, onDelete, onWordUpdate }) => {
+const ErrorRow: FC<IErrorRowProps> = ({ record, deleting = false, onDelete, onWordUpdate }) => {
   const setCurrentRowDetail = useSetAtom(currentRowDetailAtom)
   const dictInfo = idDictionaryMap[record.dict]
   const { word, isLoading, hasError } = useGetWord(record.word, dictInfo)
-  const prevWordRef = useRef<any>()
-  const stableWord = useMemo(() => word, [word])
+  const prevWordRef = useRef<unknown>(undefined)
 
   const onClick = useCallback(() => {
     setCurrentRowDetail(record)
@@ -29,20 +29,24 @@ const ErrorRow: FC<IErrorRowProps> = ({ record, onDelete, onWordUpdate }) => {
   }, [record, setCurrentRowDetail])
 
   useEffect(() => {
-    if (stableWord && stableWord !== prevWordRef.current) {
-      onWordUpdate(stableWord)
-      prevWordRef.current = stableWord
+    if (word && word !== prevWordRef.current) {
+      onWordUpdate(word)
+      prevWordRef.current = word
     }
-  }, [stableWord, onWordUpdate])
+  }, [word, onWordUpdate])
 
   return (
     <li
       className="opacity-85 flex w-full cursor-pointer items-center justify-between rounded-lg bg-white px-6 py-3 text-black shadow-md dark:bg-gray-800 dark:text-white"
-      onClick={onClick}
+      onClick={deleting ? undefined : onClick}
     >
       <span className="basis-2/12 break-normal">{record.word}</span>
       <span className="basis-6/12 break-normal">
-        {word ? word.trans.join('；') : <LoadingWordUI isLoading={isLoading} hasError={hasError} />}
+        {word
+          ? word.trans.join('；')
+          : hasError
+            ? <span className="text-xs text-gray-400">释义加载失败</span>
+            : <LoadingWordUI isLoading={isLoading} hasError={hasError} />}
       </span>
       <span className="basis-1/12 break-normal pl-8">{record.wrongCount}</span>
       <span className="basis-1/12 break-normal">{dictInfo?.name}</span>
@@ -50,16 +54,24 @@ const ErrorRow: FC<IErrorRowProps> = ({ record, onDelete, onWordUpdate }) => {
         className="basis-1/12 break-normal"
         onClick={(e) => {
           e.stopPropagation()
+          if (deleting) return
           onDelete()
         }}
       >
         <TooltipProvider>
           <Tooltip>
             <TooltipTrigger asChild>
-              <DeleteIcon />
+              <button
+                type="button"
+                disabled={deleting}
+                className={deleting ? 'cursor-not-allowed opacity-50' : 'cursor-pointer'}
+                aria-label="删除错题记录"
+              >
+                <DeleteIcon />
+              </button>
             </TooltipTrigger>
             <TooltipContent>
-              <p>Delete Records</p>
+              <p>{deleting ? '删除中...' : 'Delete Records'}</p>
             </TooltipContent>
           </Tooltip>
         </TooltipProvider>

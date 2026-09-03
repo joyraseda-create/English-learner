@@ -13,8 +13,12 @@ const options: LanguageTabOption[] = [
 ]
 
 export function LanguageTabSwitcher() {
-  // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-  const { state, setState } = useContext(GalleryContext)!
+  const ctx = useContext(GalleryContext)
+  // 若组件被错误地渲染在 GalleryContext.Provider 之外，安全降级
+  if (!ctx) {
+    return null
+  }
+  const { state, setState } = ctx
 
   const onChangeTab = useCallback(
     (tab: string) => {

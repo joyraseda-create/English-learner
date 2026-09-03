@@ -9,15 +9,32 @@ type SpeakerButtonProps = {
 
 export default function SpeakerButton({ text, className = '' }: SpeakerButtonProps) {
   const option = useMemo(() => ({ lang: 'en-US', rate: 0.9 }), [])
-  const { speak, cancel, speaking } = useSpeech(text, option)
+  const { speak, cancel, speaking, supported } = useSpeech(text, option)
 
   const handleClick = useCallback(() => {
+    if (!supported) {
+      // 浏览器不支持 Web Speech API 时给出明确反馈
+      window.alert('当前浏览器不支持语音合成功能')
+      return
+    }
     if (speaking) {
       cancel()
     } else {
       speak(true)
     }
-  }, [speaking, speak, cancel])
+  }, [supported, speaking, speak, cancel])
+
+  if (!supported) {
+    return (
+      <button
+        disabled
+        className={`flex cursor-not-allowed items-center justify-center rounded p-1 text-gray-300 opacity-50 ${className}`}
+        title="当前浏览器不支持语音合成"
+      >
+        <IconVolume className="text-sm" />
+      </button>
+    )
+  }
 
   return (
     <button

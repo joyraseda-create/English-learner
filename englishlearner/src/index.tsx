@@ -2,6 +2,7 @@ import Loading from './components/Loading'
 import Onboarding from './components/Onboarding'
 import ThemeToggle from './components/ThemeToggle'
 import { ErrorBoundary } from './components/ErrorBoundary'
+import { cleanupLegacyStorage } from './utils/cleanupLegacyStorage'
 import './index.css'
 import { ErrorBook } from './pages/ErrorBook'
 import { FriendLinks } from './pages/FriendLinks'
@@ -78,3 +79,6 @@ function Root() {
 
 const container = document.getElementById('root')
 container && createRoot(container).render(<Root />)
+
+// 启动时清理已删除功能残留的 localStorage 键
+cleanupLegacyStorage()

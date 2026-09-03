@@ -141,7 +141,7 @@ export const typingReducer = (state: TypingState, action: TypingStateAction) => 
     }
     case TypingStateActionType.LOOP_CURRENT_WORD:
       state.isShowSkip = false
-      state.chapterData.wordCount += 1
+      // 不增加 wordCount：循环单词不计入完成字数，避免 WPM 统计虚高
       break
     case TypingStateActionType.FINISH_CHAPTER:
       state.chapterData.wordCount += 1

@@ -11,14 +11,13 @@ const DictionaryCard: React.FC<DictionaryCardProps> = ({ dictionary }) => {
   const setCurrentChapter = useSetAtom(currentChapterAtom)
 
   useEffect(() => {
-    if (currentDictId === dictionary.id && buttonRef.current !== null) {
-      const button = buttonRef.current
-      const container = button.parentElement?.parentElement?.parentElement
-      const halfHeight = button.getBoundingClientRect().height / 2
-      container?.scrollTo({ top: Math.max(button.offsetTop - container.offsetTop - halfHeight, 0), behavior: 'smooth' })
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
+    if (currentDictId !== dictionary.id || buttonRef.current === null) return
+    const button = buttonRef.current
+    const container = button.parentElement?.parentElement?.parentElement
+    if (!container) return
+    const halfHeight = button.getBoundingClientRect().height / 2
+    container.scrollTo({ top: Math.max(button.offsetTop - container.offsetTop - halfHeight, 0), behavior: 'smooth' })
+  }, [currentDictId, dictionary.id])
   return (
     <button
       ref={buttonRef}

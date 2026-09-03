@@ -52,6 +52,13 @@ function safeSetItem(key: string, value: string) {
   }
 }
 
+// 串行写入锁：把所有 localStorage 写入排队执行，避免同 tick 内并发读写导致数据丢失
+let writeQueue: Promise<void> = Promise.resolve()
+function enqueueWrite(key: string, value: string): Promise<void> {
+  writeQueue = writeQueue.then(() => Promise.resolve(safeSetItem(key, value)))
+  return writeQueue
+}
+
 function todayStr(): string {
   const d = new Date()
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
@@ -73,6 +80,7 @@ export function saveAnswer(
   correct: boolean,
   scenarioId: string,
 ) {
+  // 每次写入前都重新读取最新值，避免并发覆盖
   const all = getAllAnswers()
   all[exerciseId] = { answer, correct, timestamp: Date.now() }
   safeSetItem(answersKey, JSON.stringify(all))
@@ -113,6 +121,7 @@ export function getWrongCount(): number {
 }
 
 function addWrongQuestion(exerciseId: string, scenarioId: string, userAnswer: string) {
+  // 每次写入前都重新读取最新值，避免并发覆盖
   const all = getWrongQuestions()
   if (all[exerciseId]) {
     all[exerciseId].wrongCount += 1

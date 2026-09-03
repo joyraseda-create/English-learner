@@ -40,6 +40,12 @@ function isCorrect(ex: GrammarExercise, userAnswer: string): boolean {
   return acceptable.includes(normalized)
 }
 
+function isAcceptableAnswer(ex: GrammarExercise, opt: string): boolean {
+  const normalized = normalize(opt)
+  if (!normalized) return false
+  return ex.answer.split('/').map(normalize).includes(normalized)
+}
+
 function shuffleArray<T>(arr: T[]): T[] {
   const result = [...arr]
   for (let i = result.length - 1; i > 0; i--) {
@@ -65,7 +71,6 @@ export default function GrammarExercises() {
   })
   const [wrongCount, setWrongCount] = useState(0)
   const [shuffleTick, setShuffleTick] = useState(0)
-  const [wrongTick, setWrongTick] = useState(0)
   const [wrongQuestionMap, setWrongQuestionMap] = useState<Map<string, WrongQuestion>>(new Map())
 
   const wrongKeysRef = useRef<Set<string>>(new Set())
@@ -112,7 +117,6 @@ export default function GrammarExercises() {
     })
     wrongKeysRef.current = keySet
     setWrongQuestionMap(qMap)
-    setWrongTick((t) => t + 1)
   }, [submitted])
 
   // --- Filtered lessons ---
@@ -145,8 +149,9 @@ export default function GrammarExercises() {
     }
 
     return list
+    // random 模式仅由 shuffleTick 触发；wrong 模式通过 ref 读取最新值，不需要 wrongTick
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [baseExercises, exerciseMode, shuffleTick, wrongTick, getExerciseKey])
+  }, [baseExercises, exerciseMode, shuffleTick, getExerciseKey])
 
   // --- Current wrong count within filtered exercises ---
   const currentWrongCount = useMemo(() => {
@@ -512,8 +517,8 @@ export default function GrammarExercises() {
                     <div className="space-y-1.5">
                       {ex.options.map((opt, optIdx) => {
                         const selected = userAnswer === opt
-                        const showCorrect = isSubmitted && opt === ex.answer
-                        const showWrong = isSubmitted && selected && opt !== ex.answer
+                        const showCorrect = isSubmitted && isAcceptableAnswer(ex, opt)
+                        const showWrong = isSubmitted && selected && !isAcceptableAnswer(ex, opt)
                         return (
                           <button
                             key={opt}

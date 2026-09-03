@@ -33,7 +33,7 @@ export const DonatingCard = ({ className, onAmountChange }: { className?: string
           </div>
         )}
       </div>
-      {amount && (amount >= 50 || amount === -1) && (
+      {amount && (amount >= 59.9 || amount === -1) && (
         <span>
           <a
             className="text-sm font-bold text-gray-500 underline-offset-4 hover:underline dark:text-gray-400"

@@ -290,24 +290,3 @@ function updateStats(correct: boolean) {
 
   safeSetItem(statsKey, JSON.stringify(stats))
 }
-
-// --- PDF Reading Progress ---
-
-export function getPdfProgress(name: string): { page: number; updatedAt: number } | null {
-  try {
-    const all = JSON.parse(localStorage.getItem(pdfKey) || '{}')
-    return all[name] || null
-  } catch {
-    return null
-  }
-}
-
-export function savePdfProgress(name: string, page: number) {
-  try {
-    const all = JSON.parse(localStorage.getItem(pdfKey) || '{}')
-    all[name] = { page, updatedAt: Date.now() }
-    safeSetItem(pdfKey, JSON.stringify(all))
-  } catch {
-    // ignore
-  }
-}

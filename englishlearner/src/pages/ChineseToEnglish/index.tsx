@@ -28,7 +28,10 @@ function loadProgress(): Progress {
     const raw = localStorage.getItem(PROGRESS_KEY)
     if (raw) {
       const parsed = JSON.parse(raw)
-      return { completed: parsed.completed || [], wrong: parsed.wrong || [] }
+      return {
+        completed: Array.isArray(parsed.completed) ? parsed.completed : [],
+        wrong: Array.isArray(parsed.wrong) ? parsed.wrong : [],
+      }
     }
   } catch {
     // ignore
@@ -45,27 +48,37 @@ function saveProgress(p: Progress) {
 }
 
 function speak(text: string) {
+  // 播放前先取消已有音频，避免快速切换时新旧音频重叠
+  try {
+    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+      window.speechSynthesis.cancel()
+    }
+  } catch {
+    // ignore
+  }
   try {
     const url = `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(text)}&type=2`
     const audio = new Audio(url)
     audio.play().catch(() => {
       try {
+        if (typeof window === 'undefined' || !('speechSynthesis' in window)) return
         const utterance = new SpeechSynthesisUtterance(text)
         utterance.lang = 'en-US'
         utterance.rate = 0.9
-        speechSynthesis.cancel()
-        speechSynthesis.speak(utterance)
+        window.speechSynthesis.cancel()
+        window.speechSynthesis.speak(utterance)
       } catch {
         // ignore
       }
     })
   } catch {
     try {
+      if (typeof window === 'undefined' || !('speechSynthesis' in window)) return
       const utterance = new SpeechSynthesisUtterance(text)
       utterance.lang = 'en-US'
       utterance.rate = 0.9
-      speechSynthesis.cancel()
-      speechSynthesis.speak(utterance)
+      window.speechSynthesis.cancel()
+      window.speechSynthesis.speak(utterance)
     } catch {
       // ignore
     }
@@ -85,9 +98,10 @@ const ChineseToEnglish: React.FC = () => {
     [activeLevel]
   )
 
-  const currentItem: TranslationItem = levelItems[currentIdx] || levelItems[0]
-  const isCorrect = input.trim().toLowerCase() === currentItem.english.toLowerCase()
-  const isCompleted = progress.completed.includes(currentItem.id)
+  const currentItem: TranslationItem | undefined = levelItems[currentIdx] || levelItems[0]
+  const isCorrect =
+    !!currentItem && input.trim().toLowerCase() === currentItem.english.toLowerCase()
+  const isCompleted = !!currentItem && progress.completed.includes(currentItem.id)
 
   const handleLevelChange = (level: 1 | 2 | 3) => {
     setActiveLevel(level)
@@ -97,16 +111,28 @@ const ChineseToEnglish: React.FC = () => {
   }
 
   const handlePlayAudio = useCallback(() => {
+    if (!currentItem) return
     speak(currentItem.english)
   }, [currentItem])
 
   useEffect(() => {
-    if (autoPlay) {
+    if (autoPlay && currentItem) {
       speak(currentItem.english)
+    }
+    // 组件卸载时取消音频，避免组件卸载后音频仍在播放
+    return () => {
+      try {
+        if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+          window.speechSynthesis.cancel()
+        }
+      } catch {
+        // ignore
+      }
     }
   }, [currentItem, autoPlay])
 
   const handleSubmit = () => {
+    if (!currentItem) return
     setSubmitted(true)
     setProgress((prev) => {
       const next = { ...prev }
@@ -240,6 +266,12 @@ const ChineseToEnglish: React.FC = () => {
 
           {/* Main content */}
           <div className="rounded-xl border border-gray-200 bg-white p-5 dark:border-gray-700 dark:bg-gray-900/50">
+            {!currentItem ? (
+              <p className="py-8 text-center text-sm text-gray-500 dark:text-gray-400">
+                该难度暂无题目
+              </p>
+            ) : (
+              <>
             {/* Grammar point badge */}
             <div className="mb-3 flex items-center gap-2">
               <span className="rounded-md bg-indigo-100 px-2 py-0.5 text-xs font-medium text-indigo-600 dark:bg-indigo-900/30 dark:text-indigo-400">
@@ -367,6 +399,8 @@ const ChineseToEnglish: React.FC = () => {
                 </button>
               )}
             </div>
+              </>
+            )}
           </div>
         </div>
       </ErrorBoundary>

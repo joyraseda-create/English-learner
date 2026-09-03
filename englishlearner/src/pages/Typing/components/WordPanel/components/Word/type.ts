@@ -14,7 +14,6 @@ export type WordState = {
   wrongCount: number
   startTime: string
   endTime: string
-  inputCount: number
   correctCount: number
   letterTimeArray: number[]
   letterMistake: LetterMistakes
@@ -32,7 +31,6 @@ export const initialWordState: WordState = {
   wrongCount: 0,
   startTime: '',
   endTime: '',
-  inputCount: 0,
   correctCount: 0,
   letterTimeArray: [],
   letterMistake: {},

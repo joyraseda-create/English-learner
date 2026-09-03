@@ -1,6 +1,5 @@
 import type { AmountType } from '../DonatingCard'
 import { DonatingCard } from '../DonatingCard'
-import { StickerButton } from '../DonatingCard/components/StickerButton'
 import { useChapterNumber, useDayFromFirstWordRecord, useSumWrongCount, useWordNumber } from './hooks/useWordStats'
 import { DONATE_DATE } from '@/constants'
 import { reportDonateCard } from '@/utils'
@@ -74,7 +73,7 @@ export const DonateCard = () => {
         const date = dayjs(storedDate)
         const now = dayjs()
         const diff = now.diff(date, 'day')
-        if (!storedDate || diff > 60) {
+        if (!storedDate || diff > 7) {
           setShow(true)
         }
       } catch {
@@ -120,28 +119,26 @@ export const DonateCard = () => {
                   <h1 className="gradient-text w-full pt-3 text-center text-[2.4rem] font-bold">{`${chapterNumber} Chapters Achievement !`}</h1>
                   <div className="flex w-full flex-col gap-4 px-4">
                     <p className="mx-auto px-4 indent-4">
-                      您刚刚完成了<HighlightedText> {chapterNumber} </HighlightedText>章节的练习，English Learner 已经陪你走过
-                      <HighlightedText> {dayFromFirstWord} </HighlightedText> 天，一起完成了
-                      <HighlightedText> {wordNumber} </HighlightedText>
-                      词的练习，帮助您纠正了 <HighlightedText> {sumWrongCount} </HighlightedText>次错误输入，让我们一起为您的进步欢呼
+                      嗨！恭喜你跑完了 <HighlightedText>{chapterNumber}</HighlightedText> 章节的打字练习 🎉
+                      和 English Learner 一起走过了 <HighlightedText>{dayFromFirstWord}</HighlightedText> 天，
+                      练了 <HighlightedText>{wordNumber}</HighlightedText> 个词，纠正了 <HighlightedText>{sumWrongCount}</HighlightedText> 次小手误——
+                      这个进步真的看得见！
                       <IconParty className="ml-2 inline-block" fontSize={16} />
                       <IconParty className="inline-block" fontSize={16} />
                       <IconParty className="inline-block" fontSize={16} />
                       <br />
                     </p>
                     <p className="mx-auto px-4 indent-4">
-                      English Learner 已经坚持 <span className="font-medium ">开放源码、无广告、无商业化</span> 运营
-                      <HighlightedText className="text-indigo-500"> {dayFromStart} </HighlightedText> 天，
-                      我们的目标是为所有学习者提供一个高效、便捷、无干扰的学习环境。我们诚挚地邀请您考虑进行捐赠，捐赠将直接用于维持
-                      的日常运营以及未来发展，让 English Learner 与您一起成长。
+                      English Learner 一直是个慢悠悠的小项目，由几个喜欢分享的朋友一点点打磨出来。
+                      我们想守住这份纯粹的初心 —— 不塞广告、不卖信息、不搞烦人的弹窗，
+                      让你打开就能直接开练。
                     </p>
-                    <p className="mx-auto px-4 indent-4 ">
-                      为了感谢您的慷慨，单次 50 rmb 及以上的捐赠， 我们将回赠定制贴纸 5 枚
-                      <span className="text-xs">（仅限大陆地区）</span>，希望您可以跟朋友分享您的快乐
+                    <p className="mx-auto px-4 indent-4">
+                      但「干干净净」其实并不便宜：服务器、域名、CDN、维护时间，
+                      每年都得花掉我们小金库的几千块。所以偶尔会轻轻打个招呼——
+                      如果你也想为这份「不被广告打扰的学习体验」出份力，
+                      可以扫一扫下面任选金额支持一下 ☕️
                     </p>
-                    <div className="flex items-center justify-center">
-                      <StickerButton />
-                    </div>
                   </div>
 
                   <DonatingCard className="mt-2" onAmountChange={onAmountChange} />

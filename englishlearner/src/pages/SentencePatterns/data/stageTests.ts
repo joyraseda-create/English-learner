@@ -25,7 +25,7 @@ export const stageTests: TestQuestion[] = [
       'She is read a book now.',
       'She is reading a book now.',
       'She reads a book now.',
-      'She is reading a book now.',
+      'She read a book now.',
     ],
     correctIndex: 1,
     explanation: '现在进行时结构为 be + 动词-ing，read 的现在分词是 reading。',

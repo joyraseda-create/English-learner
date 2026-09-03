@@ -162,12 +162,19 @@ const KeyboardWithBarCharts: FC<KeyboardWithBarChartsProps> = ({ data, title, su
     }
 
     chart.setOption(mapOption)
+
+    // 组件卸载时 dispose，避免 ECharts 实例内存泄漏
+    return () => {
+      chart?.dispose()
+    }
   }, [data, title, suffix, name, isOpenDarkMode])
 
   useEffect(() => {
     if (!chartRef.current) return
     const chart = echarts.getInstanceByDom(chartRef.current)
-    chart?.resize()
+    // resize 之前先确认实例存在，否则 resize 无效
+    if (!chart) return
+    chart.resize()
   }, [width, height, chartRef])
 
   return (

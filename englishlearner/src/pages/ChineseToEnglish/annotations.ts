@@ -3,6 +3,38 @@ export type WordAnnotation = {
   role: string
 }
 
+// 用 satisfies 推断字面量键约束，确保新增注释角色时遗漏配色
+export const roleColors = {
+  '主语': 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20',
+  '谓语': 'text-rose-600 dark:text-rose-400 bg-rose-50 dark:bg-rose-900/20',
+  '宾语': 'text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/20',
+  '表语': 'text-purple-600 dark:text-purple-400 bg-purple-50 dark:bg-purple-900/20',
+  '定语': 'text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-900/20',
+  '状语': 'text-teal-600 dark:text-teal-400 bg-teal-50 dark:bg-teal-900/20',
+  '补语': 'text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-900/20',
+  '宾语补语': 'text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-900/20',
+  '冠词': 'text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800/50',
+  '介词': 'text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800/50',
+  '连词': 'text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800/50',
+  '助动词': 'text-rose-600 dark:text-rose-400 bg-rose-50 dark:bg-rose-900/20',
+  '情态动词': 'text-rose-600 dark:text-rose-400 bg-rose-50 dark:bg-rose-900/20',
+  '否定词': 'text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800/50',
+  '疑问词': 'text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-900/20',
+  '感叹词': 'text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-900/20',
+  '引导词': 'text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800/50',
+  '关系代词': 'text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-900/20',
+  '关系副词': 'text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-900/20',
+  '形式主语': 'text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800/50',
+  '强调部分': 'text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-900/20',
+  '不定式符号': 'text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800/50',
+  '逻辑主语': 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20',
+  '独立主格': 'text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-900/20',
+  '比较对象': 'text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800/50',
+  '标点': 'text-gray-400 dark:text-gray-500',
+} as const satisfies Record<string, string>
+
+export type AnnotationRole = keyof typeof roleColors
+
 export const annotationsMap: Record<string, WordAnnotation[]> = {
   'cte-lv1-01': [
     { text: 'She', role: '主语' },
@@ -611,31 +643,4 @@ export const annotationsMap: Record<string, WordAnnotation[]> = {
   ],
 }
 
-export const roleColors: Record<string, string> = {
-  '主语': 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20',
-  '谓语': 'text-rose-600 dark:text-rose-400 bg-rose-50 dark:bg-rose-900/20',
-  '宾语': 'text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/20',
-  '表语': 'text-purple-600 dark:text-purple-400 bg-purple-50 dark:bg-purple-900/20',
-  '定语': 'text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-900/20',
-  '状语': 'text-teal-600 dark:text-teal-400 bg-teal-50 dark:bg-teal-900/20',
-  '补语': 'text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-900/20',
-  '宾语补语': 'text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-900/20',
-  '冠词': 'text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800/50',
-  '介词': 'text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800/50',
-  '连词': 'text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800/50',
-  '助动词': 'text-rose-600 dark:text-rose-400 bg-rose-50 dark:bg-rose-900/20',
-  '情态动词': 'text-rose-600 dark:text-rose-400 bg-rose-50 dark:bg-rose-900/20',
-  '否定词': 'text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800/50',
-  '疑问词': 'text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-900/20',
-  '感叹词': 'text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-900/20',
-  '引导词': 'text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800/50',
-  '关系代词': 'text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-900/20',
-  '关系副词': 'text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-900/20',
-  '形式主语': 'text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800/50',
-  '强调部分': 'text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-900/20',
-  '不定式符号': 'text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800/50',
-  '逻辑主语': 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20',
-  '独立主格': 'text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-900/20',
-  '比较对象': 'text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800/50',
-  '标点': 'text-gray-400 dark:text-gray-500',
-}
+// 注意：roleColors 已使用 satisfies 在文件顶部声明（带字面量类型约束）

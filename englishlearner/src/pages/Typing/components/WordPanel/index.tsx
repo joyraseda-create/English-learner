@@ -92,6 +92,7 @@ export default function WordPanel() {
 
   const onSkipWord = useCallback(
     (type: 'prev' | 'next') => {
+      setCurrentWordExerciseCount(0) // 切换单词时重置循环计数
       if (type === 'prev') {
         dispatch({ type: TypingStateActionType.SKIP_2_WORD_INDEX, newIndex: prevIndex })
       }

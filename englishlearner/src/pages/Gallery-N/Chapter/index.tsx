@@ -21,14 +21,14 @@ export default function Chapter({
   const chapterStatus = useChapterStats(index, dictID, isVisible)
 
   useEffect(() => {
-    if (checked && ref.current !== null) {
-      const button = ref.current
-      const container = button.parentElement?.parentElement?.parentElement
-      container?.scroll({
-        top: button.offsetTop - container.offsetTop - 300,
-        behavior: 'smooth',
-      })
-    }
+    if (!checked || ref.current === null) return
+    const button = ref.current
+    const container = button.parentElement?.parentElement?.parentElement
+    if (!container) return
+    container.scroll({
+      top: button.offsetTop - container.offsetTop - 300,
+      behavior: 'smooth',
+    })
   }, [checked])
 
   return (

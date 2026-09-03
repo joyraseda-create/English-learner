@@ -31,7 +31,11 @@ function useIntersectionObserver(
 
     observer.observe(node)
 
-    return () => observer.disconnect()
+    // cleanup 时先 unobserve 当前节点，避免引用不一致导致的监听泄漏
+    return () => {
+      observer.unobserve(node)
+      observer.disconnect()
+    }
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [elementRef?.current, JSON.stringify(threshold), root, rootMargin, frozen])
