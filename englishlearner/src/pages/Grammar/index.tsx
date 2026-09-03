@@ -7,7 +7,6 @@ import IconBulb from '~icons/tabler/bulb'
 import IconAlert from '~icons/tabler/alert-triangle'
 import IconList from '~icons/tabler/list'
 import IconArrowLeft from '~icons/tabler/arrow-left'
-import IconBooks from '~icons/tabler/books'
 import IconPencil from '~icons/tabler/pencil'
 import IconCheck from '~icons/tabler/check'
 import IconClock from '~icons/tabler/clock'
@@ -15,7 +14,6 @@ import IconPlay from '~icons/tabler/player-play'
 import { type GrammarLesson, bookLevels, grammarCategories, grammarLessons, levelColors } from './grammarData'
 import { type LessonProgress, getAllLessonProgress, markLessonViewed } from './grammarProgress'
 import { grammarExercises } from './exerciseData'
-import ReferenceBooks from './ReferenceBooks'
 import GrammarExercises from './GrammarExercises'
 
 const difficultyColors: Record<string, string> = {
@@ -24,7 +22,7 @@ const difficultyColors: Record<string, string> = {
   高级: 'bg-rose-100 text-rose-700 dark:bg-rose-900/50 dark:text-rose-300',
 }
 
-type Tab = 'lessons' | 'exercises' | 'books'
+type Tab = 'lessons' | 'exercises'
 
 function GrammarContent({ lesson, onStartExercise, progress }: { lesson: GrammarLesson; onStartExercise: () => void; progress?: LessonProgress }) {
   const totalEx = progress?.exerciseCount || 0
@@ -202,8 +200,11 @@ export default function GrammarPage() {
   const handleLevelChange = (level: string) => {
     setSelectedLevel(level)
     setSelectedCategory(null)
-    const first = level === '全部' ? grammarLessons[0] : grammarLessons.find((l) => l.bookLevel === level)
-    if (first) setSelectedLessonId(first.id)
+    const inLevel = level === '全部'
+      ? grammarLessons
+      : grammarLessons.filter((l) => l.bookLevel === level)
+    // 若当前级别没有任何课程，回退到第一门课；否则选该级别第一门
+    setSelectedLessonId((inLevel[0] ?? grammarLessons[0]).id)
   }
 
   const handleSelectLesson = useCallback((id: string) => {
@@ -250,17 +251,6 @@ export default function GrammarPage() {
             <IconPencil className="text-base" />
             语法练习
           </button>
-          <button
-            className={`flex items-center gap-1.5 rounded-lg px-4 py-2 text-sm font-medium transition-all ${
-              tab === 'books'
-                ? 'bg-gradient-to-r from-indigo-500 to-purple-500 text-white shadow-md'
-                : 'text-gray-600 hover:text-indigo-500 dark:text-gray-300'
-            }`}
-            onClick={() => setTab('books')}
-          >
-            <IconBooks className="text-base" />
-            参考书籍
-          </button>
         </div>
       </div>
 
@@ -269,8 +259,8 @@ export default function GrammarPage() {
           {/* Book Level Filter */}
           <aside className="flex w-48 flex-shrink-0 flex-col gap-1">
             <div className="mb-2 flex items-center gap-2 px-2">
-              <IconBooks className="text-lg text-indigo-500" />
-              <span className="text-sm font-semibold text-gray-700 dark:text-gray-200">书籍级别</span>
+              <IconBook className="text-lg text-indigo-500" />
+              <span className="text-sm font-semibold text-gray-700 dark:text-gray-200">难度等级</span>
             </div>
             {['全部', ...bookLevels].map((level) => (
               <button
@@ -416,11 +406,7 @@ export default function GrammarPage() {
         <div className="mx-auto flex w-full max-w-6xl flex-1 px-4">
           <GrammarExercises />
         </div>
-      ) : (
-        <div className="mx-auto flex w-full max-w-6xl flex-1 gap-5 px-4 pb-2">
-          <ReferenceBooks />
-        </div>
-      )}
+      ) : null}
     </Layout>
   )
 }
