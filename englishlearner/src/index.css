@@ -109,21 +109,6 @@ html.dark .my-card {
     @apply whitespace-nowrap rounded-lg bg-white px-2 py-1 text-xs text-gray-500 shadow-md dark:bg-gray-700 dark:text-gray-300;
   }
 
-  .switch-root {
-    @apply relative inline-flex h-6 w-12 shrink-0 cursor-pointer items-center rounded-full border-3 border-transparent transition-colors duration-200 ease-in-out focus:outline-none;
-    background-color: #d1d5db !important;
-  }
-  .switch-root[data-headlessui-state='checked'] {
-    background: linear-gradient(to right, #818cf8, #a855f7) !important;
-  }
-  .switch-thumb {
-    @apply pointer-events-none inline-block h-4 w-4 translate-x-0 transform rounded-full bg-white shadow-lg ring-0 transition duration-200 ease-in-out;
-  }
-  [data-headlessui-state='checked'] .switch-thumb {
-    @apply translate-x-[25px];
-    background-color: #6366f1 !important;
-  }
-
   .listbox-button {
     @apply relative w-40 cursor-pointer rounded-lg bg-white py-2 pl-3 pr-10 text-left shadow-md focus:outline-none dark:bg-gray-600;
   }
@@ -170,6 +155,18 @@ html.dark .my-card {
   .slider > span:nth-child(2) {
     @apply block h-4 w-4 cursor-pointer rounded-full border border-gray-200 bg-white drop-shadow-md;
   }
+}
+.a-minimal-theme .typing-top-bar .switch-root {
+  background-color: #d1d5db !important;
+}
+.a-minimal-theme .typing-top-bar .switch-root[data-headlessui-state='checked'] {
+  background: linear-gradient(to right, #818cf8, #a855f7) !important;
+}
+.a-minimal-theme .typing-top-bar .switch-thumb {
+  background-color: #fff !important;
+}
+.a-minimal-theme .typing-top-bar [data-headlessui-state='checked'] .switch-thumb {
+  background-color: #6366f1 !important;
 }
 .a-minimal-theme .typing-top-bar .loop-radio-circle {
   background-color: #e5e7eb !important;
