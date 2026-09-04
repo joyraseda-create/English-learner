@@ -28,7 +28,7 @@ export default function StartButton({ isLoading }: { isLoading: boolean }) {
           className={`rounded px-2.5 py-0.5 text-sm font-medium transition-colors duration-200 ${
             state.isTyping
               ? 'bg-gray-400 text-white hover:bg-gray-500'
-              : 'bg-gradient-to-r from-indigo-500 to-purple-500 text-white hover:from-indigo-600 hover:to-purple-600'
+              : 'text-indigo-500'
           }`}
           type="button"
           onClick={onToggleIsTyping}
