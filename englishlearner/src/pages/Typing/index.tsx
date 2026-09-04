@@ -24,6 +24,7 @@ import { useAtom, useAtomValue, useSetAtom } from 'jotai'
 import type React from 'react'
 import { useCallback, useEffect, useState } from 'react'
 import { useImmerReducer } from 'use-immer'
+import './minimal.css'
 
 const App: React.FC = () => {
   const [state, dispatch] = useImmerReducer(typingReducer, structuredClone(initialState))
@@ -130,6 +131,7 @@ const App: React.FC = () => {
 
   return (
     <TypingContext.Provider value={{ state: state, dispatch }}>
+      <div className="a-minimal-theme">
       <StarCard />
       {state.isFinished && <DonateCard />}
       {state.isFinished && (
@@ -173,6 +175,7 @@ const App: React.FC = () => {
         </div>
       </Layout>
       <WordList />
+      </div>
     </TypingContext.Provider>
   )
 }

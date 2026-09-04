@@ -1,0 +1,81 @@
+/* ============================================================
+ * 顶部水平导航（HorizontalNav）
+ * A · 极简留白风格
+ * 范围限定在 .horizontal-nav 容器内
+ * ============================================================ */
+
+.horizontal-nav {
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.horizontal-nav-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 80px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 52px;
+}
+
+/* 链接基础样式 */
+.horizontal-nav-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #6b6b6b;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 8px 16px;
+  border-radius: 8px;
+  letter-spacing: 0.02em;
+  transition: color 0.15s ease, background-color 0.15s ease;
+  position: relative;
+}
+
+.horizontal-nav-link:hover {
+  color: #111;
+  background: #f5f5f5;
+}
+
+/* 激活状态：黑色 + 底部细线 */
+.horizontal-nav-link.is-active {
+  color: #111;
+  font-weight: 600;
+}
+
+.horizontal-nav-link.is-active::after {
+  content: '';
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  bottom: -1px;
+  height: 2px;
+  background: #111;
+  border-radius: 2px;
+}
+
+/* 暗色模式兼容 */
+:global(.dark) .horizontal-nav {
+  background: #1a1a1a;
+  border-bottom-color: #2a2a2a;
+}
+
+:global(.dark) .horizontal-nav-link {
+  color: #999;
+}
+
+:global(.dark) .horizontal-nav-link:hover {
+  color: #fff;
+  background: #2a2a2a;
+}
+
+:global(.dark) .horizontal-nav-link.is-active {
+  color: #fff;
+}
+
+:global(.dark) .horizontal-nav-link.is-active::after {
+  background: #fff;
+}

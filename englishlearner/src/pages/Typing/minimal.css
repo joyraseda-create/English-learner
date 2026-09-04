@@ -1,0 +1,95 @@
+/* ============================================================
+ * A · 极简留白主题（仅作用于 Typing 首页）
+ * 范围限定在 .a-minimal-theme 容器内，不污染其他模块
+ * 引入方式: pages/Typing/index.tsx
+ * ============================================================ */
+
+.a-minimal-theme {
+  background: #ffffff !important;
+  color: #111 !important;
+}
+
+/* 顶部 Header 区域：浅灰分隔、大留白 */
+.a-minimal-theme > main > header,
+.a-minimal-theme header {
+  padding-bottom: 28px !important;
+  border-bottom: 1px solid #eaeaea !important;
+  margin-bottom: 56px !important;
+}
+
+/* 主体容器：加大左右 padding */
+.a-minimal-theme > main > div,
+.a-minimal-theme .container {
+  padding-left: 80px !important;
+  padding-right: 80px !important;
+}
+
+/* 单词字母：放大、细体、宽字距 */
+.a-minimal-theme .font-mono {
+  font-weight: 300 !important;
+  letter-spacing: 0.06em !important;
+}
+
+/* 字母颜色（normal / correct / wrong） */
+.a-minimal-theme .text-gray-400 {
+  color: #d4d4d4 !important;
+}
+.a-minimal-theme .text-gray-600 {
+  color: #1f1f1f !important;
+}
+.a-minimal-theme .text-green-400,
+.a-minimal-theme .text-green-600 {
+  color: #16a34a !important;
+}
+.a-minimal-theme .text-red-400,
+.a-minimal-theme .text-red-600 {
+  color: #dc2626 !important;
+}
+
+/* Header 内按钮：去阴影、浅边框、8px 圆角 */
+.a-minimal-theme .my-btn-primary {
+  border-radius: 8px !important;
+  box-shadow: none !important;
+}
+
+/* Header 整体留白微调 */
+.a-minimal-theme > main {
+  padding-top: 32px !important;
+}
+
+/* Footer 隐藏（A 风格追求极简） */
+.a-minimal-theme footer {
+  display: none !important;
+}
+
+/* Loading 旋转图标颜色 */
+.a-minimal-theme .border-indigo-500 {
+  border-color: #d4d4d4 !important;
+  border-top-color: #111 !important;
+}
+.a-minimal-theme .border-purple-500 {
+  border-color: transparent !important;
+}
+
+/* 移除输入区多余阴影 */
+.a-minimal-theme .shadow-none {
+  box-shadow: none !important;
+}
+
+/* 进度条（Speed 组件）样式精修 */
+.a-minimal-theme .text-sm,
+.a-minimal-theme .text-base {
+  font-weight: 400 !important;
+}
+
+/* 拼音 / 释义 / 备注 - 浅色层级 */
+.a-minimal-theme .text-gray-500,
+.a-minimal-theme .text-gray-700 {
+  color: #6b6b6b !important;
+}
+
+/* 字符间隔微调 */
+.a-minimal-theme .tracking-wider,
+.a-minimal-theme .tracking-widest {
+  letter-spacing: 0.04em !important;
+}
