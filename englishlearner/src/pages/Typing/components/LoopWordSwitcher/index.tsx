@@ -72,6 +72,7 @@ export default function LoopWordSwitcher() {
                         </RadioGroup.Item>
                         <label
                           className="flex-1 cursor-pointer pl-[15px] text-[15px] leading-none dark:text-white dark:text-opacity-60"
+                          style={{ color: loopTimes === value ? '#6366f1' : undefined }}
                           htmlFor={`r${index}`}
                           onClick={() => onChangeLoopTimes(value)}
                         >
