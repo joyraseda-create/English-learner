@@ -156,18 +156,6 @@ html.dark .my-card {
     @apply block h-4 w-4 cursor-pointer rounded-full border border-gray-200 bg-white drop-shadow-md;
   }
 }
-.a-minimal-theme .typing-top-bar .switch-root {
-  background-color: #d1d5db !important;
-}
-.a-minimal-theme .typing-top-bar .switch-root[data-headlessui-state='checked'] {
-  background: linear-gradient(to right, #818cf8, #a855f7) !important;
-}
-.a-minimal-theme .typing-top-bar .switch-thumb {
-  background-color: #fff !important;
-}
-.a-minimal-theme .typing-top-bar [data-headlessui-state='checked'] .switch-thumb {
-  background-color: #6366f1 !important;
-}
 .a-minimal-theme .typing-top-bar .loop-radio-circle {
   background-color: #e5e7eb !important;
   border-color: #e5e7eb !important;
