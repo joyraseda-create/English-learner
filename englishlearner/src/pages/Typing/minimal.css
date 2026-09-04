@@ -187,13 +187,13 @@
 
 /* Switch 开关：覆盖上方 button 的 background: transparent
    必须放在 minimal.css 末尾，确保覆盖顺序靠后 */
-.a-minimal-theme .typing-top-bar .switch-root {
-  background-color: #d1d5db !important;
+html .a-minimal-theme .typing-top-bar .switch-root {
+  background: #d1d5db !important;
 }
-.a-minimal-theme .typing-top-bar .switch-root[data-headlessui-state='checked'] {
+html .a-minimal-theme .typing-top-bar .switch-root[data-headlessui-state='checked'] {
   background: linear-gradient(to right, #818cf8, #a855f7) !important;
 }
-.a-minimal-theme .typing-top-bar .switch-thumb {
+html .a-minimal-theme .typing-top-bar .switch-thumb {
   background-color: #fff !important;
 }
 .a-minimal-theme .typing-top-bar [data-headlessui-state='checked'] .switch-thumb {
