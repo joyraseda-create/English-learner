@@ -122,8 +122,6 @@ html.dark .my-card {
     @apply translate-x-[25px];
   }
 
-  
-
   .listbox-button {
     @apply relative w-40 cursor-pointer rounded-lg bg-white py-2 pl-3 pr-10 text-left shadow-md focus:outline-none dark:bg-gray-600;
   }
@@ -161,6 +159,16 @@ html.dark .my-card {
   .slider > span:nth-child(2) {
     @apply block h-4 w-4 cursor-pointer rounded-full border border-gray-200 bg-white drop-shadow-md;
   }
+}
+.a-minimal-theme .typing-top-bar .loop-radio-circle {
+  background-color: #e5e7eb !important;
+  border-color: #e5e7eb !important;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+}
+.a-minimal-theme .typing-top-bar .loop-radio-circle[data-state='checked'] {
+  background-color: #6366f1 !important;
+  border-color: #6366f1 !important;
 }
 
 .gradient-text {
