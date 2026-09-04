@@ -1,15 +1,14 @@
 import Layout from '@/components/Layout'
-import Header from '@/components/Header'
 import ConversationExercises from './ConversationExercises'
 import { allScenarioExercises, scenarioGroups } from './data'
 import { getStats, getWrongCount } from './conversationProgress'
 import { NavLink } from 'react-router-dom'
 import { useEffect, useState } from 'react'
-import IconArrowLeft from '~icons/tabler/arrow-left'
 import IconMessage from '~icons/tabler/message-2'
 import IconChart from '~icons/tabler/chart-bar'
 import IconCheck from '~icons/tabler/check'
 import IconAlertCircle from '~icons/tabler/alert-circle'
+import '../a-minimal-global.css'
 
 export default function ConversationPage() {
   const [stats, setStats] = useState(() => getStats())
@@ -28,16 +27,13 @@ export default function ConversationPage() {
   const accuracy = stats.totalDone > 0 ? Math.round((stats.totalCorrect / stats.totalDone) * 100) : 0
 
   return (
+    <div className="a-minimal-page">
     <Layout>
-      <Header>
-        <NavLink
-          to="/"
-          className="flex items-center gap-1 rounded-lg px-3 py-1 text-sm text-indigo-500 transition-colors hover:bg-indigo-400 hover:text-white"
-        >
-          <IconArrowLeft className="text-base" />
-          返回首页
-        </NavLink>
-      </Header>
+      <div className="page-top-nav">
+        <NavLink to="/">首页</NavLink>
+        <span className="nav-sep">›</span>
+        <span className="nav-current">对话</span>
+      </div>
 
       {/* Title & Stats */}
       <div className="w-full max-w-5xl px-4">
@@ -76,5 +72,6 @@ export default function ConversationPage() {
         <ConversationExercises />
       </div>
     </Layout>
+    </div>
   )
 }

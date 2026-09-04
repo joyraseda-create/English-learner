@@ -1,20 +1,16 @@
 import Layout from '../../components/Layout'
 import { ErrorBoundary } from '@/components/ErrorBoundary'
-import Header from '@/components/Header'
 import IconVolume from '~icons/tabler/volume'
 import IconCheck from '~icons/tabler/check'
 import IconX from '~icons/tabler/x'
 import IconArrowRight from '~icons/tabler/arrow-right'
 import IconArrowLeft from '~icons/tabler/arrow-left'
-import IconBug from '~icons/tabler/bug'
-import IconList from '~icons/tabler/list'
-import IconClipboardCheck from '~icons/tabler/clipboard-check'
-import IconNotebook from '~icons/tabler/notebook'
 import { NavLink } from 'react-router-dom'
 import { useCallback, useMemo, useState } from 'react'
 import useSpeech from '@/hooks/useSpeech'
 import { levelGroups, allPatterns, errorCorrections, levelTests, stageTests } from './data'
 import type { SentencePattern, TestQuestion } from './patternData'
+import '../a-minimal-global.css'
 
 const PROGRESS_KEY = 'el-sentence-pattern-progress'
 
@@ -153,16 +149,13 @@ const SentencePatternsPage: React.FC = () => {
   }, [])
 
   return (
+    <div className="a-minimal-page">
     <Layout>
-      <Header>
-        <NavLink
-          to="/"
-          className="flex items-center gap-1 rounded-lg px-3 py-1 text-sm text-indigo-500 transition-colors hover:bg-indigo-400 hover:text-white"
-        >
-          <IconArrowLeft className="text-base" />
-          返回首页
-        </NavLink>
-      </Header>
+      <div className="page-top-nav">
+        <NavLink to="/">首页</NavLink>
+        <span className="nav-sep">›</span>
+        <span className="nav-current">句型</span>
+      </div>
       <ErrorBoundary>
         <div className="mx-auto max-w-4xl px-4 py-6">
           <h1 className="mb-1 text-2xl font-bold text-gray-800 dark:text-gray-100">句型学习</h1>
@@ -170,55 +163,35 @@ const SentencePatternsPage: React.FC = () => {
             通过句型变换和错句纠错，系统掌握英语核心语法
           </p>
 
-          <div className="mb-4 flex gap-2">
+          <div className="page-tabs">
             <button
-              className={`flex items-center gap-1 rounded-lg px-4 py-2 text-sm font-medium transition-colors ${
-                tab === 'patterns'
-                  ? 'bg-indigo-500 text-white'
-                  : 'bg-gray-100 text-gray-600 dark:bg-gray-800 dark:text-gray-300'
-              }`}
+              className={`tab-pill${tab === 'patterns' ? ' active' : ''}`}
               onClick={() => setTab('patterns')}
             >
-              <IconList className="text-base" />
               句型变换
             </button>
             <button
-              className={`flex items-center gap-1 rounded-lg px-4 py-2 text-sm font-medium transition-colors ${
-                tab === 'errors'
-                  ? 'bg-indigo-500 text-white'
-                  : 'bg-gray-100 text-gray-600 dark:bg-gray-800 dark:text-gray-300'
-              }`}
+              className={`tab-pill${tab === 'errors' ? ' active' : ''}`}
               onClick={() => setTab('errors')}
             >
-              <IconBug className="text-base" />
               错句纠错
               <span className="ml-1 rounded-full bg-indigo-100 px-1.5 text-xs text-indigo-600 dark:bg-indigo-900/30">
                 {progress.completedErrors.length}/{errorCorrections.length}
               </span>
             </button>
             <button
-              className={`flex items-center gap-1 rounded-lg px-4 py-2 text-sm font-medium transition-colors ${
-                tab === 'tests'
-                  ? 'bg-indigo-500 text-white'
-                  : 'bg-gray-100 text-gray-600 dark:bg-gray-800 dark:text-gray-300'
-              }`}
+              className={`tab-pill${tab === 'tests' ? ' active' : ''}`}
               onClick={() => setTab('tests')}
             >
-              <IconClipboardCheck className="text-base" />
               阶段测试
               <span className="ml-1 rounded-full bg-indigo-100 px-1.5 text-xs text-indigo-600 dark:bg-indigo-900/30">
                 {progress.testScores.filter((t) => t.passed).length}/{levelTests.length}
               </span>
             </button>
             <button
-              className={`flex items-center gap-1 rounded-lg px-4 py-2 text-sm font-medium transition-colors ${
-                tab === 'wrongbook'
-                  ? 'bg-rose-500 text-white'
-                  : 'bg-gray-100 text-gray-600 dark:bg-gray-800 dark:text-gray-300'
-              }`}
+              className={`tab-pill${tab === 'wrongbook' ? ' active' : ''}`}
               onClick={() => setTab('wrongbook')}
             >
-              <IconNotebook className="text-base" />
               错题本
               <span className="ml-1 rounded-full bg-rose-100 px-1.5 text-xs text-rose-600 dark:bg-rose-900/30">
                 {progress.wrongTransforms.length + progress.wrongErrors.length + progress.wrongTests.length}
@@ -276,6 +249,7 @@ const SentencePatternsPage: React.FC = () => {
         </div>
       </ErrorBoundary>
     </Layout>
+    </div>
   )
 }
 

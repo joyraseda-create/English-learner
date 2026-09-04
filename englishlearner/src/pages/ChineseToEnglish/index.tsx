@@ -1,6 +1,5 @@
 import Layout from '../../components/Layout'
 import { ErrorBoundary } from '@/components/ErrorBoundary'
-import Header from '@/components/Header'
 import IconCheck from '~icons/tabler/check'
 import IconX from '~icons/tabler/x'
 import IconArrowRight from '~icons/tabler/arrow-right'
@@ -13,6 +12,7 @@ import type { TranslationItem } from './translationData'
 import { annotationsMap, roleColors } from './annotations'
 import type { WordAnnotation } from './annotations'
 import { extraAnnotations } from './data/extraAnnotations'
+import '../a-minimal-global.css'
 
 const allAnnotations: Record<string, WordAnnotation[]> = { ...annotationsMap, ...extraAnnotations }
 
@@ -185,16 +185,13 @@ const ChineseToEnglish: React.FC = () => {
   const wrongCount = levelItems.filter((item) => progress.wrong.includes(item.id)).length
 
   return (
+    <div className="a-minimal-page">
     <Layout>
-      <Header>
-        <NavLink
-          to="/"
-          className="flex items-center gap-1 rounded-lg px-3 py-1 text-sm text-indigo-500 transition-colors hover:bg-indigo-400 hover:text-white"
-        >
-          <IconArrowLeft className="text-base" />
-          返回首页
-        </NavLink>
-      </Header>
+      <div className="page-top-nav">
+        <NavLink to="/">首页</NavLink>
+        <span className="nav-sep">›</span>
+        <span className="nav-current">句子练习</span>
+      </div>
       <ErrorBoundary>
         <div className="mx-auto max-w-3xl px-4 py-6">
           <h1 className="mb-1 text-2xl font-bold text-gray-800 dark:text-gray-100">句子练习</h1>
@@ -405,6 +402,7 @@ const ChineseToEnglish: React.FC = () => {
         </div>
       </ErrorBoundary>
     </Layout>
+    </div>
   )
 }
 

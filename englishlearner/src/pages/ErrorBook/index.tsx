@@ -12,7 +12,7 @@ import * as ScrollArea from '@radix-ui/react-scroll-area'
 import { useAtomValue } from 'jotai'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import IconX from '~icons/tabler/x'
+import '../a-minimal-global.css'
 
 export function ErrorBook() {
   const [groupedRecords, setGroupedRecords] = useState<groupedWordRecords[]>([])
@@ -141,11 +141,16 @@ export function ErrorBook() {
   }
 
   return (
-    <>
+    <div className="a-minimal-page">
+      <div className="page-top-nav mb-6">
+        <NavLink to="/">首页</NavLink>
+        <span className="nav-sep">›</span>
+        <span className="nav-current">错题本</span>
+      </div>
       <div className={`relative flex h-screen w-full flex-col items-center pb-4 ease-in ${currentRowDetail && 'blur-sm'}`}>
         <div className="mr-8 mt-4 flex w-auto items-center justify-center self-end">
-          <h1 className="font-lighter mr-4 w-auto self-end text-gray-500 opacity-70">Tip: 点击错误单词查看详细信息 </h1>
-          <IconX className="h-7 w-7 cursor-pointer text-gray-400" onClick={onBack} />
+          <h1 className="font-lighter mr-4 w-auto self-end text-gray-500 opacity-70">Tip: 点击错误单词查看详细信息</h1>
+          <button className="back-text" onClick={onBack}>返回</button>
         </div>
 
         <div className="flex w-full flex-1 select-text items-start justify-center overflow-hidden">
@@ -189,6 +194,6 @@ export function ErrorBook() {
         <Pagination className="pt-3" page={currentPage} setPage={setPage} totalPages={totalPages} />
       </div>
       {currentRowDetail && <RowDetail currentRowDetail={currentRowDetail} allRecords={sortedRecords} />}
-    </>
+    </div>
   )
 }

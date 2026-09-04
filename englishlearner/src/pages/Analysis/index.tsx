@@ -10,7 +10,7 @@ import { useAtom } from 'jotai'
 import { useCallback } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
 import { useNavigate } from 'react-router-dom'
-import IconX from '~icons/tabler/x'
+import '../a-minimal-global.css'
 
 const Analysis = () => {
   const navigate = useNavigate()
@@ -39,9 +39,15 @@ const Analysis = () => {
     useWordStats(dayjs().subtract(1, 'year').unix(), dayjs().unix())
 
   return (
+    <div className="a-minimal-page">
     <Layout>
+      <div className="page-top-nav">
+        <NavLink to="/">首页</NavLink>
+        <span className="nav-sep">›</span>
+        <span className="nav-current">统计</span>
+      </div>
       <div className="flex w-full flex-1 flex-col overflow-y-auto pl-20 pr-20 pt-20">
-        <IconX className="absolute right-20 top-10 mr-2 h-7 w-7 cursor-pointer text-gray-400" onClick={onBack} />
+        <button className="back-text absolute right-20 top-10" onClick={onBack}>返回</button>
         <ScrollArea.Root className="flex-1 overflow-y-auto">
           <ScrollArea.Viewport className="h-full w-auto pb-[20rem] [&>div]:!block">
             {error ? (
@@ -81,6 +87,7 @@ const Analysis = () => {
         <div className="overflow-y-auto"></div>
       </div>
     </Layout>
+    </div>
   )
 }
 

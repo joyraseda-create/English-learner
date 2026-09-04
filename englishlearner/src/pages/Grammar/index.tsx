@@ -1,16 +1,13 @@
 import Layout from '@/components/Layout'
-import Header from '@/components/Header'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { NavLink } from 'react-router-dom'
-import IconBook from '~icons/tabler/book'
 import IconBulb from '~icons/tabler/bulb'
 import IconAlert from '~icons/tabler/alert-triangle'
 import IconList from '~icons/tabler/list'
-import IconArrowLeft from '~icons/tabler/arrow-left'
-import IconPencil from '~icons/tabler/pencil'
 import IconCheck from '~icons/tabler/check'
 import IconClock from '~icons/tabler/clock'
 import IconPlay from '~icons/tabler/player-play'
+import '../a-minimal-global.css'
 import { type GrammarLesson, bookLevels, grammarCategories, grammarLessons, levelColors } from './grammarData'
 import { type LessonProgress, getAllLessonProgress, markLessonViewed } from './grammarProgress'
 import { grammarExercises } from './exerciseData'
@@ -215,43 +212,28 @@ export default function GrammarPage() {
   }, [exerciseCountMap])
 
   return (
+    <div className="a-minimal-page">
     <Layout>
-      <Header>
-        <NavLink
-          to="/"
-          className="flex items-center gap-1 rounded-lg px-3 py-1 text-sm text-indigo-500 transition-colors hover:bg-indigo-400 hover:text-white"
-        >
-          <IconArrowLeft className="text-base" />
-          返回首页
-        </NavLink>
-      </Header>
+      <div className="page-top-nav">
+        <NavLink to="/">首页</NavLink>
+        <span className="nav-sep">›</span>
+        <span className="nav-current">语法</span>
+      </div>
 
       {/* Tab Switcher */}
-      <div className="w-full max-w-5xl px-4">
-        <div className="my-card inline-flex gap-1 rounded-xl p-1">
-          <button
-            className={`flex items-center gap-1.5 rounded-lg px-4 py-2 text-sm font-medium transition-all ${
-              tab === 'lessons'
-                ? 'bg-gradient-to-r from-indigo-500 to-purple-500 text-white shadow-md'
-                : 'text-gray-600 hover:text-indigo-500 dark:text-gray-300'
-            }`}
-            onClick={() => setTab('lessons')}
-          >
-            <IconBook className="text-base" />
-            语法课程
-          </button>
-          <button
-            className={`flex items-center gap-1.5 rounded-lg px-4 py-2 text-sm font-medium transition-all ${
-              tab === 'exercises'
-                ? 'bg-gradient-to-r from-indigo-500 to-purple-500 text-white shadow-md'
-                : 'text-gray-600 hover:text-indigo-500 dark:text-gray-300'
-            }`}
-            onClick={() => setTab('exercises')}
-          >
-            <IconPencil className="text-base" />
-            语法练习
-          </button>
-        </div>
+      <div className="page-tabs">
+        <button
+          className={`tab-pill${tab === 'lessons' ? ' active' : ''}`}
+          onClick={() => setTab('lessons')}
+        >
+          语法课程
+        </button>
+        <button
+          className={`tab-pill${tab === 'exercises' ? ' active' : ''}`}
+          onClick={() => setTab('exercises')}
+        >
+          语法练习
+        </button>
       </div>
 
       {tab === 'lessons' ? (
@@ -408,5 +390,6 @@ export default function GrammarPage() {
         </div>
       ) : null}
     </Layout>
+    </div>
   )
 }
