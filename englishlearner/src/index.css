@@ -120,6 +120,7 @@ html.dark .my-card {
   }
   [data-headlessui-state='checked'] .switch-thumb {
     @apply translate-x-[25px];
+    background-color: #6366f1 !important;
   }
 
   .listbox-button {
