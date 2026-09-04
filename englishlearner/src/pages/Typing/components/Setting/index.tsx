@@ -91,7 +91,7 @@ export default function Setting() {
                           className={({ selected }) =>
                             classNames(
                               'flex h-14 w-full cursor-pointer items-center gap-2 rounded-lg px-4 py-2 ring-0 focus:outline-none',
-                              selected && 'bg-gray-200 bg-opacity-50 dark:bg-gray-800',
+                              selected ? 'bg-gradient-to-r from-indigo-100 to-purple-100 text-indigo-600 dark:from-indigo-500/30 dark:to-purple-500/30 dark:text-indigo-300' : 'text-gray-500 hover:bg-indigo-50 dark:text-gray-400 dark:hover:bg-gray-700',
                             )
                           }
                         >
@@ -102,7 +102,7 @@ export default function Setting() {
                           className={({ selected }) =>
                             classNames(
                               'flex h-14 w-full cursor-pointer items-center gap-2 rounded-lg px-4 py-2 ring-0 focus:outline-none',
-                              selected && 'bg-gray-200 bg-opacity-50 dark:bg-gray-800',
+                              selected ? 'bg-gradient-to-r from-indigo-100 to-purple-100 text-indigo-600 dark:from-indigo-500/30 dark:to-purple-500/30 dark:text-indigo-300' : 'text-gray-500 hover:bg-indigo-50 dark:text-gray-400 dark:hover:bg-gray-700',
                             )
                           }
                         >
@@ -113,7 +113,7 @@ export default function Setting() {
                           className={({ selected }) =>
                             classNames(
                               'flex h-14 w-full cursor-pointer items-center gap-2 rounded-lg px-4 py-2 ring-0 focus:outline-none',
-                              selected && 'bg-gray-200 bg-opacity-50 dark:bg-gray-800',
+                              selected ? 'bg-gradient-to-r from-indigo-100 to-purple-100 text-indigo-600 dark:from-indigo-500/30 dark:to-purple-500/30 dark:text-indigo-300' : 'text-gray-500 hover:bg-indigo-50 dark:text-gray-400 dark:hover:bg-gray-700',
                             )
                           }
                         >
