@@ -52,13 +52,18 @@ export default function LoopWordSwitcher() {
                 <div className="flex w-full flex-row items-center justify-between">
                   <RadioGroup.Root
                     className="flex w-full flex-col gap-2.5"
-                    defaultValue={loopTimes.toString()}
+                    value={loopTimes.toString()}
+                    onValueChange={(val) => onChangeLoopTimes(Number(val))}
                     aria-label="选择单词的循环次数"
                   >
                     {loopOptions.map((value, index) => (
                       <div className="flex w-full items-center" key={value}>
                         <RadioGroup.Item
-                          className="radio-indigo h-[25px] w-[25px] cursor-pointer rounded-full outline-none"
+                          className="h-[25px] w-[25px] cursor-pointer rounded-full outline-none"
+                          style={{
+                            backgroundColor: loopTimes === value ? '#6366f1' : '#e5e7eb',
+                            borderColor: loopTimes === value ? '#6366f1' : undefined,
+                          }}
                           value={value.toString()}
                           onClick={() => onChangeLoopTimes(value)}
                           id={`r${index}`}
