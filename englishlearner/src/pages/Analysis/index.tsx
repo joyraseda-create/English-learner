@@ -9,7 +9,7 @@ import dayjs from 'dayjs'
 import { useAtom } from 'jotai'
 import { useCallback } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, NavLink } from 'react-router-dom'
 import '../a-minimal-global.css'
 
 const Analysis = () => {
