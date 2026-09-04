@@ -1,4 +1,3 @@
-import logo from '@/assets/logo.svg'
 import type { PropsWithChildren } from 'react'
 import type React from 'react'
 import { NavLink } from 'react-router-dom'
@@ -11,7 +10,6 @@ const Header: React.FC<PropsWithChildren> = ({ children }) => {
           className="flex items-center text-2xl font-bold no-underline hover:no-underline lg:text-4xl"
           to="/"
         >
-          <img src={logo} className="mr-3 h-16 w-16 drop-shadow-lg" alt="English Learner Logo" />
           <h1 className="gradient-text">English Learner</h1>
         </NavLink>
         <nav className="my-card flex w-auto content-center items-center justify-end space-x-3 rounded-2xl p-4 transition-all duration-300">

@@ -59,11 +59,7 @@ export default function LoopWordSwitcher() {
                     {loopOptions.map((value, index) => (
                       <div className="flex w-full items-center" key={value}>
                         <RadioGroup.Item
-                          className="h-[25px] w-[25px] cursor-pointer rounded-full outline-none"
-                          style={{
-                            backgroundColor: loopTimes === value ? '#6366f1' : '#e5e7eb',
-                            borderColor: loopTimes === value ? '#6366f1' : undefined,
-                          }}
+                          className="loop-radio-circle h-[25px] w-[25px] cursor-pointer rounded-full outline-none"
                           value={value.toString()}
                           onClick={() => onChangeLoopTimes(value)}
                           id={`r${index}`}
@@ -72,7 +68,6 @@ export default function LoopWordSwitcher() {
                         </RadioGroup.Item>
                         <label
                           className="flex-1 cursor-pointer pl-[15px] text-[15px] leading-none dark:text-white dark:text-opacity-60"
-                          style={{ color: loopTimes === value ? '#6366f1' : undefined }}
                           htmlFor={`r${index}`}
                           onClick={() => onChangeLoopTimes(value)}
                         >

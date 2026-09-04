@@ -2,8 +2,8 @@ import { AmountImageMap } from './AmountQrMap'
 import { Amount } from './components/Amount'
 import { useEffect, useState } from 'react'
 
-export type AmountType = -1 | 6 | 12 | 36 | 50 | 66
-const displayAmount: AmountType[] = [6, 12, 36, 50, 66, -1]
+export type AmountType = -1 | 9.9 | 19.9 | 39.9 | 59.9 | 99.9
+const displayAmount: AmountType[] = [9.9, 19.9, 39.9, 59.9, 99.9, -1]
 
 export const DonatingCard = ({ className, onAmountChange }: { className?: string; onAmountChange?: (amount: AmountType) => void }) => {
   const [amount, setAmount] = useState<AmountType | undefined>(undefined)

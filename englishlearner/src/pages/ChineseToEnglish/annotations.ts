@@ -1,16 +1,28 @@
-export type WordAnnotation = {
-  text: string
-  role: string
-}
-
 // 用 satisfies 推断字面量键约束，确保新增注释角色时遗漏配色
 export const roleColors = {
   '主语': 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20',
   '谓语': 'text-rose-600 dark:text-rose-400 bg-rose-50 dark:bg-rose-900/20',
   '宾语': 'text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/20',
+  '直接宾语': 'text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/20',
+  '间接宾语': 'text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/20',
   '表语': 'text-purple-600 dark:text-purple-400 bg-purple-50 dark:bg-purple-900/20',
   '定语': 'text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-900/20',
   '状语': 'text-teal-600 dark:text-teal-400 bg-teal-50 dark:bg-teal-900/20',
+  '状语(时间)': 'text-teal-600 dark:text-teal-400 bg-teal-50 dark:bg-teal-900/20',
+  '状语(地点)': 'text-teal-600 dark:text-teal-400 bg-teal-50 dark:bg-teal-900/20',
+  '状语(目的)': 'text-teal-600 dark:text-teal-400 bg-teal-50 dark:bg-teal-900/20',
+  '状语(方式)': 'text-teal-600 dark:text-teal-400 bg-teal-50 dark:bg-teal-900/20',
+  '状语(频率)': 'text-teal-600 dark:text-teal-400 bg-teal-50 dark:bg-teal-900/20',
+  '状语(程度)': 'text-teal-600 dark:text-teal-400 bg-teal-50 dark:bg-teal-900/20',
+  '状语(次数)': 'text-teal-600 dark:text-teal-400 bg-teal-50 dark:bg-teal-900/20',
+  '状语(时长)': 'text-teal-600 dark:text-teal-400 bg-teal-50 dark:bg-teal-900/20',
+  '状语(方向)': 'text-teal-600 dark:text-teal-400 bg-teal-50 dark:bg-teal-900/20',
+  '状语(范围)': 'text-teal-600 dark:text-teal-400 bg-teal-50 dark:bg-teal-900/20',
+  '状语(结果)': 'text-teal-600 dark:text-teal-400 bg-teal-50 dark:bg-teal-900/20',
+  '状语(非谓语)': 'text-teal-600 dark:text-teal-400 bg-teal-50 dark:bg-teal-900/20',
+  '状语(伴随)': 'text-teal-600 dark:text-teal-400 bg-teal-50 dark:bg-teal-900/20',
+  '状语(执行者)': 'text-teal-600 dark:text-teal-400 bg-teal-50 dark:bg-teal-900/20',
+  '状语(顺序)': 'text-teal-600 dark:text-teal-400 bg-teal-50 dark:bg-teal-900/20',
   '补语': 'text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-900/20',
   '宾语补语': 'text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-900/20',
   '冠词': 'text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800/50',
@@ -25,15 +37,22 @@ export const roleColors = {
   '关系代词': 'text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-900/20',
   '关系副词': 'text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-900/20',
   '形式主语': 'text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800/50',
+  '真正主语': 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20',
   '强调部分': 'text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-900/20',
   '不定式符号': 'text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800/50',
   '逻辑主语': 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20',
   '独立主格': 'text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-900/20',
   '比较对象': 'text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800/50',
+  '同位语': 'text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-900/20',
   '标点': 'text-gray-400 dark:text-gray-500',
 } as const satisfies Record<string, string>
 
 export type AnnotationRole = keyof typeof roleColors
+
+export type WordAnnotation = {
+  text: string
+  role: AnnotationRole
+}
 
 export const annotationsMap: Record<string, WordAnnotation[]> = {
   'cte-lv1-01': [
