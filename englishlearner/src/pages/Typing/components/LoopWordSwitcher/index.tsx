@@ -4,8 +4,6 @@ import { Popover, Transition } from '@headlessui/react'
 import * as RadioGroup from '@radix-ui/react-radio-group'
 import { useAtom } from 'jotai'
 import { Fragment, useCallback, useState } from 'react'
-import IconRepeat from '~icons/tabler/repeat'
-import IconRepeatOff from '~icons/tabler/repeat-off'
 
 const loopOptions: LoopWordTimesOption[] = [1, 3, 5, 8, Number.MAX_SAFE_INTEGER]
 export default function LoopWordSwitcher() {
@@ -26,9 +24,9 @@ export default function LoopWordSwitcher() {
     <>
       <Popover className="relative">
         <Popover.Button
-          className={`p-[2px] ${
+          className={`rounded px-2 py-0.5 text-sm ${
             loopTimes === 1 ? 'text-gray-500' : 'text-indigo-500'
-          } rounded text-lg hover:bg-indigo-400 hover:text-white focus:outline-none `}
+          } hover:bg-indigo-400 hover:text-white focus:outline-none `}
           type="button"
           onClick={(e) => {
             setIsOpen(!isOpen)
@@ -36,18 +34,7 @@ export default function LoopWordSwitcher() {
           }}
           aria-label="选择单词的循环次数"
         >
-          <div className="relative">
-            {loopTimes === 1 ? (
-              <IconRepeatOff />
-            ) : (
-              <>
-                <IconRepeat />
-                <span className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 scale-[0.7] transform font-mono text-xs font-bold">
-                  {loopTimes === Number.MAX_SAFE_INTEGER ? '' : loopTimes}
-                </span>
-              </>
-            )}
-          </div>
+          <span>{loopTimes === 1 ? '循环' : `循环(${loopTimes === Number.MAX_SAFE_INTEGER ? '∞' : loopTimes})`}</span>
         </Popover.Button>
         <Transition
           as={Fragment}

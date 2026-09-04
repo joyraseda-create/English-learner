@@ -12,7 +12,6 @@ import { useWordList } from './hooks/useWordList'
 import { TypingContext, TypingStateActionType, initialState, typingReducer } from './store'
 import { DonateCard } from '@/components/DonateCard'
 import { ErrorBoundary } from '@/components/ErrorBoundary'
-import Header from '@/components/Header'
 import StarCard from '@/components/StarCard'
 import Tooltip from '@/components/Tooltip'
 import { idDictionaryMap } from '@/resources/dictionary'
@@ -140,7 +139,7 @@ const App: React.FC = () => {
         </ErrorBoundary>
       )}
       <Layout>
-        <Header>
+        <div className="typing-top-bar w-full">
           <DictChapterButton />
           <PronunciationSwitcher />
           <Switcher />
@@ -155,7 +154,7 @@ const App: React.FC = () => {
               Skip
             </button>
           </Tooltip>
-        </Header>
+        </div>
         <div className="container mx-auto flex h-full flex-1 flex-col items-center justify-center pb-5">
           <div className="container relative mx-auto flex h-full flex-col items-center">
             <div className="container flex flex-grow items-center justify-center">

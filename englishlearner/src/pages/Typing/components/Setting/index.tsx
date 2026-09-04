@@ -6,12 +6,11 @@ import ViewSetting from '@/pages/Typing/components/Setting/ViewSetting'
 import { Dialog, Tab, Transition } from '@headlessui/react'
 import classNames from 'classnames'
 import { Fragment, useContext, useState } from 'react'
-import IconCog6Tooth from '~icons/heroicons/cog-6-tooth-solid'
-import IconEye from '~icons/heroicons/eye-solid'
-import IconAdjustmentsHorizontal from '~icons/tabler/adjustments-horizontal'
-import IconDatabaseCog from '~icons/tabler/database-cog'
-import IconEar from '~icons/tabler/ear'
 import IconX from '~icons/tabler/x'
+import IconEar from '~icons/tabler/ear'
+import IconAdjustmentsHorizontal from '~icons/tabler/adjustments-horizontal'
+import IconEye from '~icons/heroicons/eye-solid'
+import IconDatabaseCog from '~icons/tabler/database-cog'
 
 export default function Setting() {
   const [isOpen, setIsOpen] = useState(false)
@@ -33,12 +32,12 @@ export default function Setting() {
       <button
         type="button"
         onClick={openModal}
-        className={`flex items-center justify-center rounded-lg p-[2px] text-lg text-indigo-500 outline-none transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-indigo-500 hover:to-purple-500 hover:text-white  ${
+        className={`flex items-center justify-center rounded-lg px-2 py-0.5 text-sm text-indigo-500 outline-none transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-indigo-500 hover:to-purple-500 hover:text-white  ${
           isOpen && 'bg-gradient-to-r from-indigo-500 to-purple-500 text-white'
         }`}
         title="打开设置对话框"
       >
-        <IconCog6Tooth className="icon" />
+        <span>设置</span>
       </button>
 
       <Transition appear show={isOpen} as={Fragment}>

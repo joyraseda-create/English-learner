@@ -1,7 +1,6 @@
 import { recordErrorBookAction } from '@/utils'
 import { useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
-import IconBook from '~icons/bxs/book'
 
 const ErrorBookButton = () => {
   const navigate = useNavigate()
@@ -15,10 +14,10 @@ const ErrorBookButton = () => {
     <button
       type="button"
       onClick={toErrorBook}
-      className={`flex items-center justify-center rounded p-[2px] text-lg text-indigo-500 outline-none transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white`}
+      className={`flex items-center justify-center rounded px-2 py-0.5 text-sm text-indigo-500 outline-none transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white`}
       title="查看错题本"
     >
-      <IconBook className="icon" />
+      <span>错题本</span>
     </button>
   )
 }

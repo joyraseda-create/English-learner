@@ -1,7 +1,6 @@
 import { TypingContext, TypingStateActionType } from '../../store'
 import Tooltip from '@/components/Tooltip'
 import { randomConfigAtom } from '@/store'
-import { autoUpdate, offset, useFloating, useHover, useInteractions } from '@floating-ui/react'
 import { useAtomValue } from 'jotai'
 import { useCallback, useContext, useState } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
@@ -10,6 +9,7 @@ export default function StartButton({ isLoading }: { isLoading: boolean }) {
   // eslint-disable-next-line  @typescript-eslint/no-non-null-assertion
   const { state, dispatch } = useContext(TypingContext)!
   const randomConfig = useAtomValue(randomConfigAtom)
+  const [showRestart, setShowRestart] = useState(false)
 
   const onToggleIsTyping = useCallback(() => {
     !isLoading && dispatch({ type: TypingStateActionType.TOGGLE_IS_TYPING })
@@ -21,54 +21,34 @@ export default function StartButton({ isLoading }: { isLoading: boolean }) {
 
   useHotkeys('enter', onToggleIsTyping, { enableOnFormTags: true, preventDefault: true }, [onToggleIsTyping])
 
-  const [isShowReStartButton, setIsShowReStartButton] = useState(false)
-  const { refs, context } = useFloating({
-    open: isShowReStartButton,
-    onOpenChange: setIsShowReStartButton,
-    whileElementsMounted: autoUpdate,
-    middleware: [offset(5)],
-  })
-  const hoverButton = useHover(context)
-  const { getReferenceProps, getFloatingProps } = useInteractions([hoverButton])
-
   return (
-    <Tooltip content={`${state.isTyping ? '暂停' : '开始'} （Enter）`} className="box-content h-7 w-8 px-6 py-1">
-      <div
-        ref={refs.setReference}
-        {...getReferenceProps()}
-        className={`${
-          state.isTyping
-            ? 'bg-gray-400 shadow-gray-200 dark:bg-gray-600  dark:shadow-none'
-            : 'bg-gradient-to-r from-indigo-500 to-purple-500 shadow-indigo-300 dark:shadow-indigo-500/60'
-        } ${
-          isShowReStartButton ? 'h-20' : 'h-auto'
-        } flex-column absolute left-0 top-0 w-20 rounded-xl shadow-lg transition-all duration-200`}
-      >
+    <div className="relative flex items-center gap-1">
+      <Tooltip content={`${state.isTyping ? '暂停' : '开始'} （Enter）`}>
         <button
-          className={`${
-            state.isTyping ? 'bg-gray-400  dark:bg-gray-700 dark:hover:bg-gray-500' : 'bg-indigo-500'
-          } my-btn-primary w-20 shadow`}
+          className={`rounded px-2.5 py-0.5 text-sm font-medium transition-colors duration-200 ${
+            state.isTyping
+              ? 'bg-gray-400 text-white hover:bg-gray-500'
+              : 'bg-gradient-to-r from-indigo-500 to-purple-500 text-white hover:from-indigo-600 hover:to-purple-600'
+          }`}
           type="button"
           onClick={onToggleIsTyping}
+          onMouseEnter={() => setShowRestart(true)}
+          onMouseLeave={() => setShowRestart(false)}
           aria-label={state.isTyping ? '暂停' : '开始'}
         >
-          <span className="font-medium">{state.isTyping ? 'Pause' : 'Start'}</span>
+          {state.isTyping ? 'Pause' : 'Start'}
         </button>
-        {isShowReStartButton && (
-          <div className="absolute bottom-0 flex w-20 justify-center" ref={refs.setFloating} {...getFloatingProps()}>
-            <button
-              className={`${
-                state.isTyping ? 'bg-gray-500 dark:bg-gray-700 dark:hover:bg-gray-500 ' : 'bg-indigo-400 '
-              } my-btn-primary mb-1 mt-1 w-18  transition-colors duration-200`}
-              type="button"
-              onClick={onClickRestart}
-              aria-label={'重新开始'}
-            >
-              Restart
-            </button>
-          </div>
-        )}
-      </div>
-    </Tooltip>
+      </Tooltip>
+      {showRestart && (
+        <button
+          className="rounded bg-gray-500 px-2 py-0.5 text-xs text-white hover:bg-gray-600"
+          type="button"
+          onClick={onClickRestart}
+          aria-label="重新开始"
+        >
+          Restart
+        </button>
+      )}
+    </div>
   )
 }

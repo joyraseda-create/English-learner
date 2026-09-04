@@ -9,12 +9,109 @@
   color: #111 !important;
 }
 
-/* 顶部 Header 区域：浅灰分隔、大留白 */
-.a-minimal-theme > main > header,
-.a-minimal-theme header {
-  padding-bottom: 28px !important;
-  border-bottom: 1px solid #eaeaea !important;
-  margin-bottom: 56px !important;
+/* 顶部文字工具栏：浅灰背景、卡片式分隔 */
+.a-minimal-theme .typing-top-bar {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  gap: 6px !important;
+  padding: 10px 80px !important;
+  background: #f7f7f9 !important;
+  border-bottom: 1px solid #e8e8ec !important;
+  margin-bottom: 28px !important;
+  font-size: 14px !important;
+  position: relative !important;
+}
+
+/* 所有按钮统一 pill 形状 */
+.a-minimal-theme .typing-top-bar button,
+.a-minimal-theme .typing-top-bar [role="button"],
+.a-minimal-theme .typing-top-bar button:not(.my-btn-primary) {
+  border-radius: 20px !important;
+  padding: 4px 14px !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  color: #555 !important;
+  transition: all 0.18s ease !important;
+  line-height: 1.5 !important;
+  white-space: nowrap !important;
+  border: 1px solid transparent !important;
+}
+
+.a-minimal-theme .typing-top-bar button:hover,
+.a-minimal-theme .typing-top-bar [role="button"]:hover {
+  background: #e8e8ee !important;
+  color: #222 !important;
+  border-color: #ddd !important;
+}
+
+/* 激活/开启状态的按钮 - 紫色填充 */
+.a-minimal-theme .typing-top-bar button.text-indigo-500,
+.a-minimal-theme .typing-top-bar [role="button"].text-indigo-500 {
+  background: #eef0ff !important;
+  color: #4f46e5 !important;
+  border-color: #d0d4f5 !important;
+}
+
+.a-minimal-theme .typing-top-bar button.text-indigo-500:hover,
+.a-minimal-theme .typing-top-bar [role="button"].text-indigo-500:hover {
+  background: #dde0ff !important;
+  color: #4338ca !important;
+  border-color: #b0b8f0 !important;
+}
+
+/* 下拉选择器（DictChapterButton、PronunciationSwitcher） */
+.a-minimal-theme .typing-top-bar .rounded-lg {
+  border-radius: 20px !important;
+  padding: 4px 14px !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  color: #555 !important;
+  background: transparent !important;
+  border: 1px solid transparent !important;
+  transition: all 0.18s ease !important;
+}
+
+.a-minimal-theme .typing-top-bar .rounded-lg:hover {
+  background: #e8e8ee !important;
+  color: #222 !important;
+  border-color: #ddd !important;
+}
+
+/* Start 按钮使用渐变突出 */
+.a-minimal-theme .typing-top-bar button.bg-gradient-to-r {
+  color: #fff !important;
+  padding: 4px 18px !important;
+  font-weight: 600 !important;
+  border-radius: 20px !important;
+  border: none !important;
+  box-shadow: 0 2px 8px rgba(79, 70, 229, 0.25) !important;
+}
+
+.a-minimal-theme .typing-top-bar button.bg-gradient-to-r:hover {
+  box-shadow: 0 4px 14px rgba(79, 70, 229, 0.35) !important;
+  transform: translateY(-1px) !important;
+}
+
+/* Start 暂停状态 */
+.a-minimal-theme .typing-top-bar button.bg-gray-400 {
+  background: #9ca3af !important;
+  color: #fff !important;
+  border: none !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Skip 按钮 */
+.a-minimal-theme .typing-top-bar button.bg-orange-400 {
+  background: #fb923c !important;
+  color: #fff !important;
+  border-radius: 20px !important;
+  padding: 4px 16px !important;
+  font-weight: 500 !important;
+  font-size: 13px !important;
+  border: none !important;
 }
 
 /* 主体容器：加大左右 padding */
@@ -46,15 +143,9 @@
   color: #dc2626 !important;
 }
 
-/* Header 内按钮：去阴影、浅边框、8px 圆角 */
-.a-minimal-theme .my-btn-primary {
-  border-radius: 8px !important;
-  box-shadow: none !important;
-}
-
 /* Header 整体留白微调 */
 .a-minimal-theme > main {
-  padding-top: 32px !important;
+  padding-top: 0 !important;
 }
 
 /* Footer 隐藏（A 风格追求极简） */

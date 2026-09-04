@@ -1,7 +1,6 @@
 import standTypingHandPosition from '@/assets/standard_typing_hand_position.png'
 import { Dialog, Transition } from '@headlessui/react'
 import { Fragment, useState } from 'react'
-import IconKeyboard from '~icons/ic/round-keyboard'
 import IconX from '~icons/tabler/x'
 
 export default function HandPositionIllustration() {
@@ -20,11 +19,11 @@ export default function HandPositionIllustration() {
       <button
         type="button"
         onClick={openModal}
-        className={`flex items-center justify-center rounded p-[2px] text-lg text-indigo-500 outline-none transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white  ${
+        className={`flex items-center justify-center rounded px-2 py-0.5 text-sm text-indigo-500 outline-none transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white  ${
           isOpen && 'bg-indigo-500 text-white'
         }`}
       >
-        <IconKeyboard className="icon"></IconKeyboard>
+        <span>指法</span>
       </button>
 
       <Transition appear show={isOpen} as={Fragment}>

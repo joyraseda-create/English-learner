@@ -4,8 +4,6 @@ import { Listbox, Popover, Switch, Transition } from '@headlessui/react'
 import { useAtom } from 'jotai'
 import { Fragment, useLayoutEffect, useState } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
-import IconEyeSlash from '~icons/heroicons/eye-slash-solid'
-import IconEye from '~icons/heroicons/eye-solid'
 import IconCheck from '~icons/tabler/check'
 import IconChevronDown from '~icons/tabler/chevron-down'
 
@@ -66,7 +64,7 @@ export default function WordDictationSwitcher() {
       {({ open }) => (
         <>
           <Popover.Button
-            className={`flex items-center justify-center rounded p-[2px] text-lg ${
+            className={`flex items-center justify-center rounded px-2 py-0.5 text-sm ${
               wordDictationConfig.isOpen ? 'text-indigo-500' : 'text-gray-500'
             } outline-none transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white  ${
               open ? 'bg-indigo-500 text-white' : ''
@@ -74,7 +72,7 @@ export default function WordDictationSwitcher() {
             type="button"
             aria-label="开关默写模式"
           >
-            {wordDictationConfig.isOpen ? <IconEye className="icon" /> : <IconEyeSlash className="icon" />}
+            <span>{wordDictationConfig.isOpen ? '默写(开)' : '默写(关)'}</span>
           </Popover.Button>
           <Transition
             as={Fragment}
