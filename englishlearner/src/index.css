@@ -137,6 +137,15 @@ html.dark .my-card {
   .listbox-options > li {
     @apply relative cursor-pointer select-none py-2 pl-10 pr-4 text-gray-900 ui-active:bg-indigo-100 ui-active:text-indigo-900 dark:text-white dark:text-opacity-60 dark:ui-active:bg-gray-500 dark:ui-active:text-indigo-300;
   }
+  .listbox-options > li[data-headlessui-state='active selected'],
+  .listbox-options > li[data-headlessui-state='selected'] {
+    background-color: #6366f1 !important;
+    color: #fff !important;
+  }
+  .listbox-options > li[data-headlessui-state='active selected'] .listbox-options-icon,
+  .listbox-options > li[data-headlessui-state='selected'] .listbox-options-icon {
+    color: #fff !important;
+  }
   .listbox-options > li > span:first-child {
     @apply block truncate font-normal  ui-selected:font-medium;
   }
