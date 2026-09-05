@@ -22,6 +22,7 @@ const GrammarPage = lazy(() => import('./pages/Grammar'))
 const ConversationPage = lazy(() => import('./pages/Conversation'))
 const SentencePatternsPage = lazy(() => import('./pages/SentencePatterns'))
 const ChineseToEnglishPage = lazy(() => import('./pages/ChineseToEnglish'))
+const ReadingPage = lazy(() => import('./pages/Reading'))
 
 function Root() {
   const darkMode = useAtomValue(isOpenDarkModeAtom)
@@ -64,6 +65,7 @@ function Root() {
                 <Route path="/chinese-to-english" element={<ChineseToEnglishPage />} />
                 <Route path="/analysis" element={<AnalysisPage />} />
                 <Route path="/error-book" element={<ErrorBook />} />
+                <Route path="/reading" element={<ReadingPage />} />
                 <Route path="/friend-links" element={<FriendLinks />} />
                 <Route path="/*" element={<Navigate to="/" />} />
               </>

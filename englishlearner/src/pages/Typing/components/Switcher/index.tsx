@@ -102,6 +102,16 @@ export default function Switcher() {
         </button>
       </Tooltip>
 
+      <Tooltip content="阅读理解">
+        <button
+          className="flex items-center justify-center rounded px-2 py-0.5 text-sm text-indigo-500 outline-none transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white"
+          type="button"
+          onClick={() => navigate('/reading')}
+        >
+          <span>阅读</span>
+        </button>
+      </Tooltip>
+
       <Tooltip content="查看数据统计">
         <AnalysisButton />
       </Tooltip>

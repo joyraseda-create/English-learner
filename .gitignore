@@ -1,0 +1,34 @@
+# Node
+node_modules/
+dist/
+.vite/
+*.log
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# 调试/临时脚本
+final-check.js
+test-*.js
+check-*.js
+check-*.py
+find-*.py
+find-*.js
+audit*.js
+audit*.json
+test-*.mjs
+test-*.log
+screenshot-*.png
+reading-*.png
+dropdown-*.png
+
+# OS temp
+tmp/
+*.tmp
