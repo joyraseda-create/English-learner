@@ -7,6 +7,18 @@
 .a-minimal-theme {
   background: #ffffff !important;
   color: #111 !important;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* 释义、错误单词、学习记录等区域允许选择 */
+.a-minimal-theme [data-allow-select='true'],
+.a-minimal-theme select,
+.a-minimal-theme input,
+.a-minimal-theme textarea,
+.a-minimal-theme .selectable {
+  user-select: text;
+  -webkit-user-select: text;
 }
 
 /* 顶部文字工具栏：浅灰背景、卡片式分隔 */

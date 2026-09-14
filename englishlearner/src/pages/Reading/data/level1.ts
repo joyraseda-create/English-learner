@@ -24,10 +24,10 @@ export const readingData: ReadingItem[] = [
       { text: 'eat dinner together every evening', meaning: '每天晚上一起吃晚餐' },
     ],
     questions: [
-      { id: 'q1-1', question: 'How many people are in the writer\'s family?', options: ['Four', 'Five', 'Six', 'Seven'], answer: 1, explanation: 'The passage clearly states "There are five people in my family."' },
-      { id: 'q1-2', question: 'What does the father look like?', options: ['Tall and strong', 'Kind and gentle', 'Funny and short', 'Old and weak'], answer: 0, explanation: 'The passage says "My father is tall and strong."' },
-      { id: 'q1-3', question: 'What does the little sister love to do?', options: ['Play football', 'Draw pictures', 'Cook dinner', 'Read books'], answer: 1, explanation: 'The passage mentions "My little sister loves to draw pictures."' },
-      { id: 'q1-4', question: 'When does the family eat dinner?', options: ['In the morning', 'At noon', 'Every evening', 'Only on weekends'], answer: 2, explanation: 'The passage states "We eat dinner together every evening."' },
+      { id: 'q1-1', question: 'How many people are in the writer\'s family?', options: ['Four', 'Five', 'Six', 'Seven'], answer: 1, explanation: 'The passage clearly states "There are five people in my family."', type: 'detail' },
+      { id: 'q1-2', question: 'What does the father look like?', options: ['Tall and strong', 'Kind and gentle', 'Funny and short', 'Old and weak'], answer: 0, explanation: 'The passage says "My father is tall and strong."', type: 'detail' },
+      { id: 'q1-3', question: 'What is the main activity the family does together?', options: ['Watch TV at home', 'Go to the park on weekends', 'Travel abroad every year', 'Play sports every morning'], answer: 1, explanation: 'The passage mentions "On weekends, we go to the park together" and "We eat dinner together every evening" — among the options, going to the park on weekends is the key shared activity.', type: 'main' },
+      { id: 'q1-4', question: 'What can we infer about the writer\'s feelings toward his family?', options: ['He feels lonely', 'He feels proud and loving', 'He feels bored with them', 'He feels angry at them'], answer: 1, explanation: 'The last sentence "I love my family very much" expresses the writer\'s affection. The overall tone is warm and positive, showing pride and love.', type: 'infer' },
     ],
   },
   {

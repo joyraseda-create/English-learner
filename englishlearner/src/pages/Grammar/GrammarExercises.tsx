@@ -141,7 +141,7 @@ export default function GrammarExercises() {
     let list = baseExercises
 
     if (exerciseMode === 'wrong') {
-      list = list.filter((ex) => wrongKeysRef.current.has(getExerciseKey(ex)))
+      list = list.filter((ex) => wrongQuestionMap.has(getExerciseKey(ex)))
     }
 
     if (exerciseMode === 'random' && list.length > 0) {
@@ -149,20 +149,19 @@ export default function GrammarExercises() {
     }
 
     return list
-    // random 模式仅由 shuffleTick 触发；wrong 模式通过 ref 读取最新值，不需要 wrongTick
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [baseExercises, exerciseMode, shuffleTick, getExerciseKey])
+    // wrong 模式依赖 wrongQuestionMap 触发刷新；random 由 shuffleTick 触发
+  }, [baseExercises, exerciseMode, shuffleTick, getExerciseKey, wrongQuestionMap])
 
   // --- Current wrong count within filtered exercises ---
   const currentWrongCount = useMemo(() => {
     let count = 0
     exercises.forEach((ex) => {
-      if (wrongKeysRef.current.has(getExerciseKey(ex))) {
+      if (wrongQuestionMap.has(getExerciseKey(ex))) {
         count++
       }
     })
     return count
-  }, [exercises, getExerciseKey])
+  }, [exercises, getExerciseKey, wrongQuestionMap])
 
   // --- Stats ---
   const stats = useMemo(() => {

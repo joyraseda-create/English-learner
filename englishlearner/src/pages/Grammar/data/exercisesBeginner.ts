@@ -227,6 +227,46 @@ export const beginnerExercises: GrammarExercise[] = [
   { lessonId: 'prepositions-time', type: 'correct', question: 'I was born on 2000.', answer: 'I was born in 2000.', explanation: '年份用 in。' },
   { lessonId: 'prepositions-time', type: 'choice', question: 'I get up ___ 6 o\'clock.', options: ['in', 'on', 'at', 'by'], answer: 'at', explanation: '具体时刻用 at。' },
   { lessonId: 'prepositions-time', type: 'fill', question: 'We will meet ___ Sunday.', answer: 'on', explanation: '具体某天用 on。' },
+
+  // --- there-be-sentence (8题) ---
+  { lessonId: 'there-be-sentence', type: 'choice', question: 'There ___ a book on the desk.', options: ['is', 'are', 'has', 'have'], answer: 'is', explanation: 'a book 是单数，用 there is。' },
+  { lessonId: 'there-be-sentence', type: 'choice', question: 'There ___ many students in the classroom.', options: ['is', 'are', 'was', 'has'], answer: 'are', explanation: 'many students 是复数，用 there are。' },
+  { lessonId: 'there-be-sentence', type: 'fill', question: 'There ___ (be) a pen and two books on the table.', answer: 'is', explanation: '就近原则：离 is 最近的是 a pen 单数。' },
+  { lessonId: 'there-be-sentence', type: 'correct', question: 'There have many people in the park.', answer: 'There are many people in the park.', explanation: 'there be 句型不能用 have。' },
+  { lessonId: 'there-be-sentence', type: 'choice', question: '___ there any milk in the fridge?', options: ['Is', 'Are', 'Has', 'Have'], answer: 'Is', explanation: 'milk 不可数，用 Is there。' },
+  { lessonId: 'there-be-sentence', type: 'choice', question: 'There aren\'t ___ books on the shelf.', options: ['some', 'any', 'a', 'much'], answer: 'any', explanation: '否定句中用 any，不用 some。' },
+  { lessonId: 'there-be-sentence', type: 'correct', question: 'There is many apples on the tree.', answer: 'There are many apples on the tree.', explanation: 'many apples 复数名词，be 动词用 are。' },
+  { lessonId: 'there-be-sentence', type: 'fill', question: 'There ___ (be) a cat and two dogs under the tree.', answer: 'is', explanation: '就近原则：a cat 是单数，所以用 is。' },
+
+  // --- questions-and-negatives (8题) ---
+  { lessonId: 'questions-and-negatives', type: 'choice', question: '___ you a teacher?', options: ['Am', 'Is', 'Are', 'Do'], answer: 'Are', explanation: '第二人称 you 一般疑问句用 Are 开头。' },
+  { lessonId: 'questions-and-negatives', type: 'choice', question: 'She ___ like coffee.', options: ['don\'t', 'doesn\'t', 'isn\'t', 'not'], answer: 'doesn\'t', explanation: '第三人称单数否定用 doesn\'t + 动词原形。' },
+  { lessonId: 'questions-and-negatives', type: 'fill', question: '___ (do) your brother play tennis?', answer: 'Does', explanation: 'your brother 是第三人称单数，特殊疑问句疑问词后用 Does。' },
+  { lessonId: 'questions-and-negatives', type: 'correct', question: 'She don\'t like apples.', answer: 'She doesn\'t like apples.', explanation: '第三人称单数否定用 doesn\'t，不用 don\'t。' },
+  { lessonId: 'questions-and-negatives', type: 'choice', question: 'Where ___ you go last weekend?', options: ['do', 'did', 'are', 'were'], answer: 'did', explanation: '过去时间 last weekend，特殊疑问句用 did + 主语 + 动词原形。' },
+  { lessonId: 'questions-and-negatives', type: 'fill', question: '___ they at home yesterday?', answer: 'Were', explanation: '过去时 + 复数主语 they，用 Were 提问。' },
+  { lessonId: 'questions-and-negatives', type: 'correct', question: 'You like apples?', answer: 'Do you like apples?', explanation: '实义动词构成的一般疑问句必须借助助动词 do/does/did。' },
+  { lessonId: 'questions-and-negatives', type: 'choice', question: 'I ___ know his name.', options: ['don\'t', 'doesn\'t', 'not', 'am not'], answer: 'don\'t', explanation: 'I 后接 don\'t 表否定。' },
+
+  // --- imperative-sentences (8题) ---
+  { lessonId: 'imperative-sentences', type: 'choice', question: '___ your books.', options: ['Open', 'Opens', 'Opening', 'To open'], answer: 'Open', explanation: '祈使句以动词原形开头。' },
+  { lessonId: 'imperative-sentences', type: 'choice', question: '___ talk in class.', options: ['Don\'t', 'Doesn\'t', 'Not', 'No'], answer: 'Don\'t', explanation: '祈使句否定用 Don\'t + 动词原形。' },
+  { lessonId: 'imperative-sentences', type: 'fill', question: 'Let\'s ___ (go) for a walk.', answer: 'go', explanation: 'Let\'s + 动词原形表建议。' },
+  { lessonId: 'imperative-sentences', type: 'correct', question: 'Don\'t to be late again.', answer: 'Don\'t be late again.', explanation: 'Don\'t 后接动词原形，不要 to。' },
+  { lessonId: 'imperative-sentences', type: 'choice', question: 'Please ___ down.', options: ['sit', 'sits', 'sitting', 'to sit'], answer: 'sit', explanation: '祈使句以动词原形开头，sit down 坐下。' },
+  { lessonId: 'imperative-sentences', type: 'fill', question: '___ us play together.', answer: 'Let', explanation: 'Let us + 动词原形，let 后不加 to。' },
+  { lessonId: 'imperative-sentences', type: 'correct', question: 'Let us to go to the park.', answer: 'Let us go to the park.', explanation: 'let 后接动词原形，不带 to。' },
+  { lessonId: 'imperative-sentences', type: 'choice', question: '___ careful, Tom.', options: ['Be', 'Is', 'Are', 'Being'], answer: 'Be', explanation: 'Be careful 是常见祈使句结构。' },
+
+  // --- cardinal-and-ordinal-numbers (8题) ---
+  { lessonId: 'cardinal-and-ordinal-numbers', type: 'choice', question: 'I have ___ books.', options: ['one', 'first', 'third', 'fifth'], answer: 'one', explanation: '基数词表数量。' },
+  { lessonId: 'cardinal-and-ordinal-numbers', type: 'fill', question: 'She is the ___ (two) child in her family.', answer: 'second', explanation: '第二个：second。' },
+  { lessonId: 'cardinal-and-ordinal-numbers', type: 'choice', question: 'My birthday is on June ___.', options: ['five', 'fiveth', 'fifth', 'the five'], answer: 'fifth', explanation: '5th = fifth，序数词缩写表示日期。' },
+  { lessonId: 'cardinal-and-ordinal-numbers', type: 'correct', question: 'He is the four child.', answer: 'He is the fourth child.', explanation: '第四个用序数词 fourth，前加 the。' },
+  { lessonId: 'cardinal-and-ordinal-numbers', type: 'fill', question: 'I live in the ___ (21) century.', answer: '21st', explanation: '21st century，第21个世纪用序数词。' },
+  { lessonId: 'cardinal-and-ordinal-numbers', type: 'choice', question: '___ apples do you want?', options: ['How many', 'How much', 'How long', 'How often'], answer: 'How many', explanation: 'apples 可数，用 How many 提问数量。' },
+  { lessonId: 'cardinal-and-ordinal-numbers', type: 'correct', question: 'I bought thirtien apples.', answer: 'I bought thirteen apples.', explanation: '13 拼写是 thirteen，不是 thirtien。' },
+  { lessonId: 'cardinal-and-ordinal-numbers', type: 'fill', question: 'There are ___ (40) students in our class.', answer: 'forty', explanation: '40 拼写是 forty，注意不是 fourty。' },
   { lessonId: 'prepositions-time', type: 'choice', question: 'She came here ___ last week.', options: ['in', 'on', 'at', '-'], answer: '-', explanation: 'last week/this week/next week 前不加介词。' },
   { lessonId: 'prepositions-time', type: 'fill', question: 'I will finish the work ___ two days.', answer: 'in', explanation: 'in + 时间段，表示"在...之后"（将来时）。' },
   { lessonId: 'prepositions-time', type: 'correct', question: 'I go to school in the morning.', answer: 'I go to school in the morning.', explanation: 'in the morning 是固定搭配。（此句正确，体会用法）' },
@@ -252,4 +292,28 @@ export const beginnerExercises: GrammarExercise[] = [
   { lessonId: 'relative-clauses-beginner', type: 'correct', question: 'I like the music who he plays.', answer: 'I like the music which/that he plays.', explanation: '修饰物（music）用 which 或 that，不用 who。' },
   { lessonId: 'relative-clauses-beginner', type: 'choice', question: 'Do you know the man ___ lives next door?', options: ['who', 'which', 'what', 'whom'], answer: 'who', explanation: '修饰人（man）用 who。' },
   { lessonId: 'relative-clauses-beginner', type: 'fill', question: 'This is the cat ___ I found yesterday.', answer: 'which/that', explanation: '修饰物（cat）用 which 或 that。' },
+
+  // --- prep-time (6题) ---
+  { lessonId: 'prep-time', type: 'choice', question: 'I was born ___ 2010.', options: ['in', 'on', 'at', 'by'], answer: 'in', explanation: '年份前用 in。' },
+  { lessonId: 'prep-time', type: 'fill', question: 'The meeting starts ___ 9 o\'clock.', answer: 'at', explanation: '具体时刻用 at。' },
+  { lessonId: 'prep-time', type: 'correct', question: 'I am free in Monday.', answer: 'I am free on Monday.', explanation: '星期几前用 on，不是 in。' },
+  { lessonId: 'prep-time', type: 'choice', question: 'We have lunch ___ noon every day.', options: ['in', 'on', 'at', 'by'], answer: 'at', explanation: 'at noon（中午）是固定搭配。' },
+  { lessonId: 'prep-time', type: 'fill', question: 'I always drink coffee ___ the morning.', answer: 'in', explanation: 'in the morning 是固定搭配。' },
+  { lessonId: 'prep-time', type: 'correct', question: 'I was born on 2005.', answer: 'I was born in 2005.', explanation: '年份前用 in，不是 on。' },
+
+  // --- prep-place (6题) ---
+  { lessonId: 'prep-place', type: 'choice', question: 'She is waiting ___ the bus stop.', options: ['in', 'on', 'at', 'to'], answer: 'at', explanation: '具体地点点用 at。' },
+  { lessonId: 'prep-place', type: 'fill', question: 'There is a cat ___ the box.', answer: 'in', explanation: '在内部空间用 in。' },
+  { lessonId: 'prep-place', type: 'correct', question: 'The book is in the table.', answer: 'The book is on the table.', explanation: '在桌面上用 on，不是 in。' },
+  { lessonId: 'prep-place', type: 'choice', question: 'My family lives ___ Shanghai.', options: ['in', 'on', 'at', 'to'], answer: 'in', explanation: '城市前用 in。' },
+  { lessonId: 'prep-place', type: 'fill', question: 'The picture is ___ the wall.', answer: 'on', explanation: '在墙的表面用 on。' },
+  { lessonId: 'prep-place', type: 'correct', question: 'He works on a hospital.', answer: 'He works at a hospital.', explanation: '在小地点（医院）前用 at，不是 on。' },
+
+  // --- prep-collocation (6题) ---
+  { lessonId: 'prep-collocation', type: 'choice', question: 'The price ___ the quality.', options: ['depends on', 'depends of', 'depends in', 'depends at'], answer: 'depends on', explanation: 'depend on（取决于）是固定搭配。' },
+  { lessonId: 'prep-collocation', type: 'fill', question: 'I look forward to ___ (hear) from you.', answer: 'hearing', explanation: 'look forward to + V-ing，to 是介词。' },
+  { lessonId: 'prep-collocation', type: 'correct', question: 'I am good at swim.', answer: 'I am good at swimming.', explanation: '介词 at 后接 V-ing，不用动词原形。' },
+  { lessonId: 'prep-collocation', type: 'choice', question: 'She is interested ___ Chinese history.', options: ['on', 'at', 'in', 'to'], answer: 'in', explanation: 'be interested in（对...感兴趣）是固定搭配。' },
+  { lessonId: 'prep-collocation', type: 'fill', question: 'Don\'t be afraid of ___ (ask) questions.', answer: 'asking', explanation: 'be afraid of + V-ing，介词 of 后接 V-ing。' },
+  { lessonId: 'prep-collocation', type: 'correct', question: 'I like listen music.', answer: 'I like listening to music.', explanation: 'listen to music 中 to 不能省略，且要接 V-ing。' },
 ]

@@ -18,6 +18,8 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { readingCategories, readingData, readingLevels } from './readingData'
 import type { ReadingItem } from './readingData'
 import SpeakerButton from './SpeakerButton'
+import StrategyHint from './components/StrategyHint'
+import { classifyQuestion, getColorClasses, strategyData } from './strategyData'
 import '../a-minimal-global.css'
 
 const PROGRESS_KEY = 'el-reading-progress'
@@ -116,6 +118,8 @@ const Reading: React.FC = () => {
   const [selectorOpen, setSelectorOpen] = useState(false)
   const [rate, setRate] = useState<number>(loadRate)
   const [isBritish, setIsBritish] = useState(false)
+  // 本篇文章内"已为哪些题自动展开过策略"（按 questionId 维度，避免同一题反复触发）
+  const [autoOpenedQuestionIds, setAutoOpenedQuestionIds] = useState<Set<string>>(new Set())
   const selectorRef = useRef<HTMLDivElement | null>(null)
 
   // 当前级别所有文章
@@ -235,7 +239,7 @@ const Reading: React.FC = () => {
   const [isReadingAll, setIsReadingAll] = useState(false)
   const stopReadingAllRef = useRef(false)
 
-  // 组件卸载 / 文章切换时强制停止朗读全文（修复内存泄漏）
+  // 组件卸载时强制停止朗读全文（修复内存泄漏）
   useEffect(() => {
     return () => {
       stopReadingAllRef.current = true
@@ -245,8 +249,30 @@ const Reading: React.FC = () => {
     }
   }, [])
 
+  // 答错时把对应 questionId 加入"已自动展开过"集合
   useEffect(() => {
-    // 当切换文章（currentItem 变化）时也要停止朗读，避免用旧闭包继续朗读
+    if (!currentItem) return
+    setAutoOpenedQuestionIds((prev) => {
+      let changed = false
+      const next = new Set(prev)
+      for (const q of currentItem.questions) {
+        const sel = answers[q.id]
+        if (sel !== undefined && sel !== q.answer && !next.has(q.id)) {
+          next.add(q.id)
+          changed = true
+        }
+      }
+      return changed ? next : prev
+    })
+  }, [answers, currentItem])
+
+  // 文章切换时清空"已自动展开过"集合
+  useEffect(() => {
+    setAutoOpenedQuestionIds(new Set())
+  }, [currentItem?.id])
+
+  // 文章切换时停止朗读全文（避免用旧闭包继续朗读）
+  useEffect(() => {
     stopReadingAllRef.current = true
     if ('speechSynthesis' in window) {
       window.speechSynthesis.cancel()
@@ -257,7 +283,7 @@ const Reading: React.FC = () => {
   const handleReadAll = useCallback(async () => {
     if (!currentItem) return
     if (!('speechSynthesis' in window)) {
-      window.alert('当前浏览器不支持语音合成功能')
+      ;(window as Window).alert('当前浏览器不支持语音合成功能')
       return
     }
     if (isReadingAll) {
@@ -616,6 +642,10 @@ const Reading: React.FC = () => {
                   const selected = answers[q.id]
                   const isAnswered = selected !== undefined
                   const isCorrect = isAnswered && selected === q.answer
+                  const qType = classifyQuestion(q)
+                  const badgeColors = getColorClasses(qType)
+                  const shouldAutoOpenStrategy =
+                    isAnswered && !isCorrect && !autoOpenedQuestionIds.has(q.id)
 
                   return (
                     <div
@@ -630,7 +660,16 @@ const Reading: React.FC = () => {
                           className="mt-0.5 shrink-0"
                         />
                         <p className="flex-1 font-medium text-gray-800 dark:text-gray-100">
-                          {qi + 1}. {q.question}
+                          <span className="mr-1.5 inline-block shrink-0 rounded px-1.5 py-0.5 align-middle text-[10px] font-medium">
+                            {qi + 1}.
+                          </span>
+                          <span
+                            className={`mr-1.5 inline-block shrink-0 rounded px-1.5 py-0.5 align-middle text-[10px] font-medium ${badgeColors.badge}`}
+                            title={`${strategyData[qType].label}题`}
+                          >
+                            {strategyData[qType].label}
+                          </span>
+                          {q.question}
                         </p>
                       </div>
                       <div className="flex flex-col gap-2">
@@ -719,6 +758,9 @@ const Reading: React.FC = () => {
                           />
                         </div>
                       )}
+
+                      {/* 做题策略 - 答题后显示，由用户自选查看；首次答错时自动展开一次 */}
+                      {isAnswered && <StrategyHint type={qType} autoOpen={shouldAutoOpenStrategy} />}
                     </div>
                   )
                 })}

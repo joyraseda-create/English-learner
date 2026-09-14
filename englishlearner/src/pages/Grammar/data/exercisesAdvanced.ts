@@ -136,4 +136,64 @@ export const advancedExercises: GrammarExercise[] = [
   { lessonId: 'compound-nouns', type: 'choice', question: 'She is a ___ teacher.', options: ['high school', 'high-school', 'high school\'s', 'school high'], answer: 'high school', explanation: '名词短语作定语，用单数形式。' },
   { lessonId: 'compound-nouns', type: 'correct', question: 'There are three passers-bys on the street.', answer: 'There are three passers-by on the street.', explanation: '合成名词复数：主体名词变复数，passers-by。' },
   { lessonId: 'compound-nouns', type: 'fill', question: 'My mother-in-law ___ (be) coming to visit us.', answer: 'is', explanation: 'mother-in-law 的复数是 mothers-in-law，但这里是单数。' },
+
+  // --- non-finite-verbs (8题) ---
+  { lessonId: 'non-finite-verbs', type: 'choice', question: 'I want ___ to France next year.', options: ['to travel', 'traveling', 'travel', 'traveled'], answer: 'to travel', explanation: 'want 后接不定式表想做某事。' },
+  { lessonId: 'non-finite-verbs', type: 'choice', question: 'She enjoys ___ classical music.', options: ['to listen', 'listening', 'listened', 'listen'], answer: 'listening', explanation: 'enjoy 后接动名词。' },
+  { lessonId: 'non-finite-verbs', type: 'fill', question: 'I look forward to ___ (hear) from you.', answer: 'hearing', explanation: 'look forward to 中的 to 是介词，后接 doing。' },
+  { lessonId: 'non-finite-verbs', type: 'correct', question: 'I enjoy to swim in summer.', answer: 'I enjoy swimming in summer.', explanation: 'enjoy 后接动名词，不用不定式。' },
+  { lessonId: 'non-finite-verbs', type: 'choice', question: 'The boy ___ in the corner is my brother.', options: ['sitting', 'sat', 'to sit', 'sits'], answer: 'sitting', explanation: '现在分词作定语，表主动或正在进行。' },
+  { lessonId: 'non-finite-verbs', type: 'fill', question: 'The book ___ (write) by him is famous.', answer: 'written', explanation: '过去分词作定语，表被动或完成。' },
+  { lessonId: 'non-finite-verbs', type: 'correct', question: 'I look forward to meet you soon.', answer: 'I look forward to meeting you soon.', explanation: 'look forward to 后接动名词。' },
+  { lessonId: 'non-finite-verbs', type: 'choice', question: 'I saw him ___ the road.', options: ['to cross', 'crossing', 'crossed', 'cross'], answer: 'cross', explanation: 'see sb do 表示看见全过程；doing 表示看见进行中。' },
+
+  // --- subject-verb-agreement (6题) ---
+  { lessonId: 'subject-verb-agreement', type: 'choice', question: 'The news ___ shocking.', options: ['is', 'are', 'were', 'have been'], answer: 'is', explanation: 'news 形式是复数但意义是单数，用 is。' },
+  { lessonId: 'subject-verb-agreement', type: 'choice', question: 'Either he or I ___ wrong.', options: ['am', 'is', 'are', 'be'], answer: 'am', explanation: '就近一致：靠近动词的是 I，用 am。' },
+  { lessonId: 'subject-verb-agreement', type: 'fill', question: 'Mathematics ___ (be) his favorite subject.', answer: 'is', explanation: 'mathematics 形式虽以 -s 结尾，但意义是单数学科。' },
+  { lessonId: 'subject-verb-agreement', type: 'correct', question: 'The news are good today.', answer: 'The news is good today.', explanation: 'news 是单数名词，动词用 is。' },
+  { lessonId: 'subject-verb-agreement', type: 'choice', question: 'Everyone ___ here.', options: ['is', 'are', 'were', 'have'], answer: 'is', explanation: 'everybody/everyone/someone 等不定代词作主语，谓语用单数。' },
+  { lessonId: 'subject-verb-agreement', type: 'fill', question: 'He is the only one of the students who ___ (be) honest.', answer: 'is', explanation: 'the only one of + 复数名词 + 单数动词。' },
+
+  // --- absolute-construction (6题) ---
+  { lessonId: 'absolute-construction', type: 'choice', question: '___ permitting, we will go on a picnic.', options: ['Weather', 'Weathers', 'Weather to', 'Weather is'], answer: 'Weather', explanation: 'Weather + 现在分词，构成独立主格。' },
+  { lessonId: 'absolute-construction', type: 'choice', question: 'He came in, ___ a book in his hand.', options: ['with', 'have', 'has', 'having'], answer: 'with', explanation: 'with 复合结构：with + 名词 + 介词短语。' },
+  { lessonId: 'absolute-construction', type: 'fill', question: 'The meeting ___, everyone went home.', answer: 'over', explanation: 'The meeting + 副词 over，独立主格结构。' },
+  { lessonId: 'absolute-construction', type: 'correct', question: 'Weather to permit, we will go.', answer: 'Weather permitting, we will go.', explanation: '独立主格用现在分词，不用不定式。' },
+  { lessonId: 'absolute-construction', type: 'choice', question: '___ him helping us, we finished quickly.', options: ['With', 'For', 'By', 'From'], answer: 'With', explanation: 'with 复合结构：with + 逻辑主语 + 现在分词。' },
+  { lessonId: 'absolute-construction', type: 'fill', question: 'All the work ___, we went home.', answer: 'done', explanation: 'All the work + 过去分词 done，独立主格结构（表被动完成）。' },
+
+  // --- formal-subject-object (6题) ---
+  { lessonId: 'formal-subject-object', type: 'choice', question: '___ is important to learn English.', options: ['It', 'This', 'That', 'What'], answer: 'It', explanation: '形式主语用 it，真正的主语是不定式短语后移。' },
+  { lessonId: 'formal-subject-object', type: 'choice', question: '___ no use crying over spilt milk.', options: ['It\'s', 'Its', 'There', 'That'], answer: 'It\'s', explanation: 'It is no use + doing，固定句型。' },
+  { lessonId: 'formal-subject-object', type: 'fill', question: 'I find ___ difficult to learn English well.', answer: 'it', explanation: '形式宾语 it，真正宾语是不定式短语后移。' },
+  { lessonId: 'formal-subject-object', type: 'correct', question: 'I think to master English is hard.', answer: 'I think it hard to master English.', explanation: '形式宾语 it + 宾补 hard + 真正宾语 to do。' },
+  { lessonId: 'formal-subject-object', type: 'choice', question: 'It ___ me two hours to finish the work.', options: ['took', 'spent', 'cost', 'paid'], answer: 'took', explanation: 'It takes sb + 时间 + to do，固定句型。' },
+  { lessonId: 'formal-subject-object', type: 'fill', question: 'It is no good ___ (cry) over it.', answer: 'crying', explanation: 'It is no use / no good + doing，固定句型。' },
+
+  // --- advanced-inversion (8题) ---
+  { lessonId: 'advanced-inversion', type: 'choice', question: 'Here ___ the bus.', options: ['come', 'comes', 'is coming', 'has come'], answer: 'comes', explanation: '全部倒装：Here + 动词第三人称单数 + 主语（名词）。' },
+  { lessonId: 'advanced-inversion', type: 'choice', question: '___ have I seen such a beautiful sunset.', options: ['Never', 'Never I', 'I never', 'Did never'], answer: 'Never', explanation: 'Never 置句首要部分倒装：Never + 助动词 + 主语 + 动词。' },
+  { lessonId: 'advanced-inversion', type: 'fill', question: 'Only by working hard ___ (you / can) achieve your dream.', answer: 'can you', explanation: 'Only + 状语置句首，部分倒装：can you achieve。' },
+  { lessonId: 'advanced-inversion', type: 'correct', question: 'Never I have seen such a thing.', answer: 'Never have I seen such a thing.', explanation: '否定副词置句首要部分倒装：Never have I seen。' },
+  { lessonId: 'advanced-inversion', type: 'choice', question: '___ I you, I would work harder.', options: ['Was', 'Were', 'Am', 'Be'], answer: 'Were', explanation: '省略 if 的虚拟条件句倒装：Were I you = If I were you。' },
+  { lessonId: 'advanced-inversion', type: 'fill', question: 'On the hill ___ (stand) an old temple.', answer: 'stands', explanation: '介词短语置句首的完全倒装：On the hill stands + 主语。' },
+  { lessonId: 'advanced-inversion', type: 'correct', question: 'Here comes the train, here comes it.', answer: 'Here comes the train, here it comes.', explanation: '主语是代词时不倒装：here it comes（而非 here comes it）。' },
+  { lessonId: 'advanced-inversion', type: 'choice', question: 'Not only ___ late, but also he forgot his homework.', options: ['he was', 'was he', 'he is', 'is he'], answer: 'was he', explanation: 'Not only 置句首，部分倒装：Not only was he late, ...。' },
+
+  // --- subjunctive-present-future (6题) ---
+  { lessonId: 'subjunctive-present-future', type: 'correct', question: 'If I was you, I would take the job.', answer: 'If I were you, I would take the job.', explanation: '与现在事实相反，if 从句 be 一律用 were，不用 was。' },
+  { lessonId: 'subjunctive-present-future', type: 'choice', question: 'If it ___ tomorrow, we would stay home.', options: ['rains', 'rained', 'will rain', 'would rain'], answer: 'rained', explanation: '与将来事实相反，if 从句用一般过去时（虚拟式）。' },
+  { lessonId: 'subjunctive-present-future', type: 'fill', question: 'If I ___ (be) you, I would apologize.', answer: 'were', explanation: '与现在事实相反，if 从句 be 动词用 were。' },
+  { lessonId: 'subjunctive-present-future', type: 'choice', question: 'If he ___ here now, he ___ help us.', options: ['is, will', 'was, would', 'were, would', 'were, will'], answer: 'were, would', explanation: '与现在事实相反：if 从句用 were，主句用 would + 动词原形。' },
+  { lessonId: 'subjunctive-present-future', type: 'fill', question: 'If I had more time, I ___ (travel) around the world.', answer: 'would travel', explanation: '与现在事实相反，主句用 would + 动词原形。' },
+  { lessonId: 'subjunctive-present-future', type: 'correct', question: 'If I have a lot of money, I would buy a big house.', answer: 'If I had a lot of money, I would buy a big house.', explanation: '与现在事实相反，if 从句用过去时 had，主句用 would + 动词原形。' },
+
+  // --- subjunctive-past-wish (6题) ---
+  { lessonId: 'subjunctive-past-wish', type: 'correct', question: 'If I studied harder, I would have passed.', answer: 'If I had studied harder, I would have passed.', explanation: '与过去事实相反，if 从句用过去完成时 had done，主句用 would have done。' },
+  { lessonId: 'subjunctive-past-wish', type: 'choice', question: 'I wish I ___ taller.', options: ['am', 'was', 'were', 'have been'], answer: 'were', explanation: 'wish 后接虚拟语气，与现在事实相反，be 用 were。' },
+  { lessonId: 'subjunctive-past-wish', type: 'fill', question: 'He talks as if he ___ (know) everything.', answer: 'knew', explanation: 'as if 后用虚拟，与现在事实相反用过去时 knew。' },
+  { lessonId: 'subjunctive-past-wish', type: 'choice', question: "I'd rather you ___ now.", options: ['go', 'goes', 'went', 'will go'], answer: 'went', explanation: 'would rather + 从句用过去时表示虚拟。' },
+  { lessonId: 'subjunctive-past-wish', type: 'fill', question: 'I wish I ___ (tell) him the truth yesterday.', answer: 'had told', explanation: 'wish 与过去事实相反，用过去完成时 had told。' },
+  { lessonId: 'subjunctive-past-wish', type: 'correct', question: 'If she had known, she would come.', answer: 'If she had known, she would have come.', explanation: '与过去事实相反，主句必须用 would have done。' },
 ]

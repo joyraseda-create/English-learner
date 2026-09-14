@@ -10,11 +10,37 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #f5f5fa;
   @apply transition-colors duration-300;
-  user-select: none;
 }
 
 html.dark body {
   background-color: #121214;
+}
+
+/* 全局键盘焦点环（a11y） */
+@layer base {
+  button:focus-visible,
+  a:focus-visible,
+  [role="button"]:focus-visible,
+  [role="tab"]:focus-visible,
+  [role="option"]:focus-visible,
+  [role="switch"]:focus-visible,
+  [role="checkbox"]:focus-visible,
+  [role="radio"]:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #4f46e5;
+    border-radius: 8px;
+  }
+
+  html.dark button:focus-visible,
+  html.dark a:focus-visible,
+  html.dark [role="button"]:focus-visible,
+  html.dark [role="tab"]:focus-visible,
+  html.dark [role="option"]:focus-visible,
+  html.dark [role="switch"]:focus-visible,
+  html.dark [role="checkbox"]:focus-visible,
+  html.dark [role="radio"]:focus-visible {
+    box-shadow: 0 0 0 2px #121214, 0 0 0 4px #818cf8;
+  }
 }
 
 code {

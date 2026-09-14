@@ -32,3 +32,21 @@ dropdown-*.png
 # OS temp
 tmp/
 *.tmp
+*.tmp.cjs
+
+# 临时调试脚本（按需随时新增）
+debug-*.js
+verify-*.js
+walk-*.js
+pw-check.js
+
+# 临时草稿文档（不入库）
+grammar-audit-report.md
+
+# 中文命名的临时方案/提示文档（不入库）
+项目生图Prompt.md
+项目设计方案.md
+自身体体推磨方案.md
+
+# 临时分享包（不入库）
+.trae-html-share-packages/

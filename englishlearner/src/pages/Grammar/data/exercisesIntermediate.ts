@@ -200,4 +200,285 @@ export const intermediateExercises: GrammarExercise[] = [
   { lessonId: 'phrasal-verbs-intermediate', type: 'choice', question: 'The fire ___ in the middle of the night.', options: ['broke out', 'broke up', 'broke down', 'broke in'], answer: 'broke out', explanation: 'break out = （火灾、战争）爆发。' },
   { lessonId: 'phrasal-verbs-intermediate', type: 'correct', question: 'I look forward to see you.', answer: 'I look forward to seeing you.', explanation: 'look forward to 后接 doing。' },
   { lessonId: 'phrasal-verbs-intermediate', type: 'choice', question: 'She ___ her mother. They look very similar.', options: ['takes after', 'takes off', 'takes up', 'takes in'], answer: 'takes after', explanation: 'take after = 长得像（父母）。' },
+
+  // --- past-continuous (8题) ---
+  { lessonId: 'past-continuous', type: 'choice', question: 'I ___ TV at 8 o\'clock last night.', options: ['watched', 'was watching', 'am watching', 'have watched'], answer: 'was watching', explanation: '过去某一时刻正在做，用过去进行时。' },
+  { lessonId: 'past-continuous', type: 'choice', question: 'They ___ football when it started to rain.', options: ['play', 'played', 'were playing', 'are playing'], answer: 'were playing', explanation: 'when 引导的瞬间动作 + 过去进行时表持续动作。' },
+  { lessonId: 'past-continuous', type: 'fill', question: 'While she ___ (cook), the phone rang.', answer: 'was cooking', explanation: 'while 引导的背景动作，用过去进行时。' },
+  { lessonId: 'past-continuous', type: 'correct', question: 'I were sleeping when you called.', answer: 'I was sleeping when you called.', explanation: '第一人称 I 用 was，不用 were。' },
+  { lessonId: 'past-continuous', type: 'choice', question: 'What ___ you ___ at this time yesterday?', options: ['were, doing', 'did, do', 'are, doing', 'was, doing'], answer: 'were, doing', explanation: '过去某时刻正在做什么，过去进行时疑问句：were/was + 主语 + doing？' },
+  { lessonId: 'past-continuous', type: 'fill', question: 'She ___ (not watch) TV at 9 pm last night; she was studying.', answer: 'wasn\'t watching', explanation: '过去进行时否定：was/were + not + doing。' },
+  { lessonId: 'past-continuous', type: 'correct', question: 'He was read a book when I came in.', answer: 'He was reading a book when I came in.', explanation: 'was + 动词-ing：was reading。' },
+  { lessonId: 'past-continuous', type: 'choice', question: 'At 10 o\'clock this morning, they ___ in the library.', options: ['studied', 'were studying', 'are studying', 'study'], answer: 'were studying', explanation: '过去某时刻正在进行的动作，用 were studying。' },
+
+  // --- object-clauses (8题) ---
+  { lessonId: 'object-clauses', type: 'choice', question: 'I believe ___ he is honest.', options: ['that', 'if', 'what', 'whether'], answer: 'that', explanation: '陈述性宾语从句用 that（可省略）。' },
+  { lessonId: 'object-clauses', type: 'choice', question: 'She asked me ___ I liked coffee.', options: ['that', 'if', 'what', 'which'], answer: 'if', explanation: '一般疑问句转化的宾语从句用 if / whether。' },
+  { lessonId: 'object-clauses', type: 'fill', question: 'He told me ___ he lived.', answer: 'where', explanation: '特殊疑问句转化的宾语从句用疑问词 where。' },
+  { lessonId: 'object-clauses', type: 'correct', question: 'He asked where did I live.', answer: 'He asked where I lived.', explanation: '宾语从句用陈述语序，不倒装。' },
+  { lessonId: 'object-clauses', type: 'choice', question: 'I don\'t know ___ he will come.', options: ['if or not', 'whether', 'that', 'which or not'], answer: 'whether', explanation: '在 whether ... or not 结构中用 whether 而非 if。' },
+  { lessonId: 'object-clauses', type: 'fill', question: 'I think (that) he ___ (be) right.', answer: 'is', explanation: '主句一般现在时，从句也用一般现在时。' },
+  { lessonId: 'object-clauses', type: 'correct', question: 'She said where does he live?', answer: 'She asked where he lived.', explanation: '间接引语 + 宾语从句，从句用陈述语序和过去时呼应。' },
+  { lessonId: 'object-clauses', type: 'choice', question: 'Could you tell me ___ the station is?', options: ['where', 'what', 'if', 'that'], answer: 'where', explanation: '询问地点用 where，从句用陈述语序。' },
+
+  // --- adverbial-clauses (8题) ---
+  { lessonId: 'adverbial-clauses', type: 'choice', question: '___ I arrived, he was reading.', options: ['When', 'Because', 'If', 'Although'], answer: 'When', explanation: '时间状语从句用 when。' },
+  { lessonId: 'adverbial-clauses', type: 'choice', question: 'I stayed home ___ it was raining.', options: ['when', 'because', 'if', 'although'], answer: 'because', explanation: '原因状语从句用 because。' },
+  { lessonId: 'adverbial-clauses', type: 'fill', question: 'If it ___ (rain) tomorrow, we will stay home.', answer: 'rains', explanation: '主将从现：主句将来时，条件从句用现在时。' },
+  { lessonId: 'adverbial-clauses', type: 'correct', question: 'Although he is rich, but he is unhappy.', answer: 'Although he is rich, he is unhappy.', explanation: 'although 与 but 不可同句并用。' },
+  { lessonId: 'adverbial-clauses', type: 'choice', question: 'It was ___ cold ___ the lake froze.', options: ['so, that', 'such, that', 'too, that', 'very, that'], answer: 'so, that', explanation: 'so + 形容词/副词 + that 从句。' },
+  { lessonId: 'adverbial-clauses', type: 'fill', question: 'We will leave ___ soon ___ possible.', answer: 'as, as', explanation: 'as ... as possible 尽可能...。' },
+  { lessonId: 'adverbial-clauses', type: 'correct', question: 'If it will rain, I won\'t go.', answer: 'If it rains, I won\'t go.', explanation: '主将从现：从句用一般现在时表示将来。' },
+  { lessonId: 'adverbial-clauses', type: 'choice', question: 'I\'ll call you ___ I arrive.', options: ['as soon as', 'as long as', 'as much as', 'as well as'], answer: 'as soon as', explanation: 'as soon as = 一...就，表紧接。' },
+
+  // --- passive-voice-basic (8题) ---
+  { lessonId: 'passive-voice-basic', type: 'choice', question: 'English ___ in many countries.', options: ['is spoken', 'speaks', 'spoke', 'is speaking'], answer: 'is spoken', explanation: '一般现在时被动：is/are + 过去分词。' },
+  { lessonId: 'passive-voice-basic', type: 'choice', question: 'The cake ___ by my grandmother.', options: ['made', 'is made', 'was made', 'has made'], answer: 'was made', explanation: '一般过去时被动：was/were + 过去分词。' },
+  { lessonId: 'passive-voice-basic', type: 'fill', question: 'The window ___ (break).', answer: 'has been broken', explanation: '现在完成时被动：have/has been + 过去分词。' },
+  { lessonId: 'passive-voice-basic', type: 'correct', question: 'The cake made by grandma.', answer: 'The cake was made by grandma.', explanation: '缺少 be 动词，被动语态应为 was made。' },
+  { lessonId: 'passive-voice-basic', type: 'choice', question: 'A new library ___ next year.', options: ['will build', 'will be built', 'is built', 'builds'], answer: 'will be built', explanation: '一般将来时被动：will be + 过去分词。' },
+  { lessonId: 'passive-voice-basic', type: 'fill', question: 'This book ___ (must return) before Friday.', answer: 'must be returned', explanation: '情态被动：情态动词 + be + 过去分词。' },
+  { lessonId: 'passive-voice-basic', type: 'correct', question: 'English is speak in many countries.', answer: 'English is spoken in many countries.', explanation: '被动语态：is + spoken（过去分词）。' },
+  { lessonId: 'passive-voice-basic', type: 'choice', question: 'This song ___ by many singers.', options: ['is sung', 'is singed', 'sings', 'sang'], answer: 'is sung', explanation: 'sing 的过去分词 sung，被动用 is sung。' },
+
+  // --- comparative-superlative (8题) ---
+  { lessonId: 'comparative-superlative', type: 'choice', question: 'Tom is ___ than Jack.', options: ['tall', 'taller', 'tallest', 'most tall'], answer: 'taller', explanation: '比较级：tall → taller。' },
+  { lessonId: 'comparative-superlative', type: 'choice', question: 'This book is ___ interesting than that one.', options: ['more', 'most', 'much', 'many'], answer: 'more', explanation: 'interesting 是长形容词，比较级前加 more。' },
+  { lessonId: 'comparative-superlative', type: 'fill', question: 'She is ___ (good) student in our class.', answer: 'the best', explanation: '最高级 the best，且前加 the。' },
+  { lessonId: 'comparative-superlative', type: 'correct', question: 'Tom is more tall than Jack.', answer: 'Tom is taller than Jack.', explanation: '短形容词用 -er 形式比较级。' },
+  { lessonId: 'comparative-superlative', type: 'choice', question: 'Of the three, this is ___ expensive one.', options: ['the most', 'more', 'most', 'the more'], answer: 'the most', explanation: '三者以上最高级 the most expensive。' },
+  { lessonId: 'comparative-superlative', type: 'fill', question: 'Today is ___ (bad) than yesterday.', answer: 'worse', explanation: 'bad 的比较级是不规则变化 worse。' },
+  { lessonId: 'comparative-superlative', type: 'correct', question: 'She is the most tall girl in her class.', answer: 'She is the tallest girl in her class.', explanation: '短形容词最高级加 -est，不用 most。' },
+  { lessonId: 'comparative-superlative', type: 'choice', question: 'I have ___ money than you.', options: ['fewer', 'less', 'littler', 'smaller'], answer: 'less', explanation: 'money 是不可数名词，比较级用 less。' },
+
+  // --- conjunctions (6题) ---
+  { lessonId: 'conjunctions', type: 'choice', question: 'I like tea ___ coffee.', options: ['and', 'but', 'or', 'so'], answer: 'and', explanation: 'and 表并列关系"和"。' },
+  { lessonId: 'conjunctions', type: 'choice', question: 'He is poor ___ happy.', options: ['and', 'but', 'or', 'because'], answer: 'but', explanation: 'but 表转折"但是"。' },
+  { lessonId: 'conjunctions', type: 'fill', question: 'Hurry up, ___ you will be late.', answer: 'or', explanation: 'or 表否则。' },
+  { lessonId: 'conjunctions', type: 'correct', question: 'Because he was sick, so he stayed home.', answer: 'Because he was sick, he stayed home.', explanation: 'because 和 so 不能同句并用。' },
+  { lessonId: 'conjunctions', type: 'choice', question: 'It was ___ a hot day ___ we stayed inside.', options: ['so, that', 'such, that', 'so, so', 'such, so'], answer: 'such, that', explanation: 'such + a + 形容词 + 单数名词 + that。' },
+  { lessonId: 'conjunctions', type: 'fill', question: '___ you work hard, you will fail.', answer: 'Unless', explanation: 'unless = if not，"除非...否则..."。' },
+
+  // --- tag-questions (6题) ---
+  { lessonId: 'tag-questions', type: 'choice', question: 'You are a student, ___?', options: ['aren\'t you', 'are you', 'do you', 'don\'t you'], answer: 'aren\'t you', explanation: '前肯后否：陈述句肯定 → 附加疑问句否定。' },
+  { lessonId: 'tag-questions', type: 'choice', question: 'She can swim, ___?', options: ['can she', 'can\'t she', 'doesn\'t she', 'won\'t she'], answer: 'can\'t she', explanation: '情态动词 can → can\'t。' },
+  { lessonId: 'tag-questions', type: 'fill', question: 'They didn\'t go home, ___ they?', answer: 'did', explanation: '过去否定 → did 肯定；前否后肯。' },
+  { lessonId: 'tag-questions', type: 'correct', question: 'I am right, am I not?', answer: 'I am right, aren\'t I?', explanation: 'I am 后的反问用 aren\'t I（特殊形式）。' },
+  { lessonId: 'tag-questions', type: 'choice', question: 'Let\'s go for a walk, ___?', options: ['shall we', 'will we', 'do we', 'don\'t we'], answer: 'shall we', explanation: 'Let\'s 开头的祈使句反问用 shall we。' },
+  { lessonId: 'tag-questions', type: 'fill', question: 'He never comes late, ___ he?', answer: 'does', explanation: '前否后肯：never 表否定 → does。' },
+
+  // --- past-future-tense (8题) ---
+  { lessonId: 'past-future-tense', type: 'choice', question: 'He said he ___ come back the next day.', options: ['will', 'would', 'comes', 'is coming'], answer: 'would', explanation: '主句过去时 + 宾语从句表过去将来，从句用 would。' },
+  { lessonId: 'past-future-tense', type: 'choice', question: 'I knew she ___ to leave soon.', options: ['will go', 'is going', 'was going', 'goes'], answer: 'was going', explanation: '从过去看原定的计划，用 was going to do。' },
+  { lessonId: 'past-future-tense', type: 'fill', question: 'We ___ (be about to) leave when the phone rang.', answer: 'were about to', explanation: 'be about to 表示"正要..."，主语是 we 用 were。' },
+  { lessonId: 'past-future-tense', type: 'correct', question: 'He said he will come tomorrow.', answer: 'He said he would come the next day.', explanation: '间接引语：will → would；tomorrow → the next day。' },
+  { lessonId: 'past-future-tense', type: 'choice', question: 'The meeting ___ at 9, but the speaker was late.', options: ['will start', 'starts', 'was to start', 'is starting'], answer: 'was to start', explanation: 'was to do 表示"原定要..."。' },
+  { lessonId: 'past-future-tense', type: 'fill', question: 'She told me she ___ (visit) Paris the following month.', answer: 'would visit', explanation: '过去将来时在宾语从句中用 would + 动词原形。' },
+  { lessonId: 'past-future-tense', type: 'correct', question: 'I was about to leave at 5 pm.', answer: 'I was about to leave. (about to 不接具体时间状语)', explanation: 'be about to 强调"正要立刻做"，不接具体时间状语。' },
+  { lessonId: 'past-future-tense', type: 'choice', question: 'I didn\'t know if he ___ come the next day.', options: ['will', 'would', 'comes', 'is coming'], answer: 'would', explanation: '主句过去时，宾语从句中表过去将来用 would。' },
+
+  // ===================== 词形变换专题（20节配套练习，140题）=====================
+  // wf-verb-5forms (7)
+  { lessonId: 'wf-verb-5forms', type: 'choice', question: 'She ___ to school every day.', options: ['go', 'goes', 'going', 'gone'], answer: 'goes', explanation: '第三人称单数现在时加 -es。' },
+  { lessonId: 'wf-verb-5forms', type: 'fill', question: 'I ___ (work) late last night.', answer: 'worked', explanation: '过去式 worked。' },
+  { lessonId: 'wf-verb-5forms', type: 'correct', question: 'He work hard every day.', answer: 'He works hard every day.', explanation: '第三人称单数现在时加 -s。' },
+  { lessonId: 'wf-verb-5forms', type: 'choice', question: 'They ___ TV when I called.', options: ['watch', 'watched', 'are watching', 'were watching'], answer: 'were watching', explanation: '过去进行时 was/were + doing。' },
+  { lessonId: 'wf-verb-5forms', type: 'fill', question: 'He has ___ (finish) his homework.', answer: 'finished', explanation: '现在完成时 has + 过去分词。' },
+  { lessonId: 'wf-verb-5forms', type: 'choice', question: 'I ___ a book now.', options: ['read', 'reads', 'am reading', 'have read'], answer: 'am reading', explanation: '现在进行时 am + V-ing。' },
+  { lessonId: 'wf-verb-5forms', type: 'correct', question: 'She is play football.', answer: 'She is playing football.', explanation: '现在进行时 be + V-ing。' },
+
+  // wf-irregular-verbs (7)
+  { lessonId: 'wf-irregular-verbs', type: 'choice', question: 'I ___ my homework yesterday.', options: ['do', 'did', 'done', 'doing'], answer: 'did', explanation: 'do 的过去式是 did。' },
+  { lessonId: 'wf-irregular-verbs', type: 'fill', question: 'I have ___ (go) to Beijing twice.', answer: 'gone', explanation: 'go 的过去分词是 gone（A-B-C 型）。' },
+  { lessonId: 'wf-irregular-verbs', type: 'choice', question: 'She ___ a beautiful dress yesterday.', options: ['buy', 'bought', 'buys', 'buying'], answer: 'bought', explanation: 'buy 的过去式是 bought（A-B-B 型）。' },
+  { lessonId: 'wf-irregular-verbs', type: 'correct', question: 'I have went there before.', answer: 'I have gone there before.', explanation: 'go 的过去分词是 gone，不是 went。' },
+  { lessonId: 'wf-irregular-verbs', type: 'fill', question: 'He ___ (cut) his finger yesterday.', answer: 'cut', explanation: 'cut 是 A-A-A 型，原形/过去式/过去分词同形。' },
+  { lessonId: 'wf-irregular-verbs', type: 'choice', question: 'She ___ home late last night.', options: ['come', 'comes', 'came', 'coming'], answer: 'came', explanation: 'come 的过去式是 came（A-B-A 型）。' },
+  { lessonId: 'wf-irregular-verbs', type: 'correct', question: 'She has took the book.', answer: 'She has taken the book.', explanation: 'take 的过去分词是 taken（A-B-C 型）。' },
+
+  // wf-verbals (7)
+  { lessonId: 'wf-verbals', type: 'choice', question: 'I want ___ to the park.', options: ['go', 'going', 'to go', 'gone'], answer: 'to go', explanation: 'want 后接不定式 to do。' },
+  { lessonId: 'wf-verbals', type: 'fill', question: 'I enjoy ___ (read) books.', answer: 'reading', explanation: 'enjoy 后接动名词 doing。' },
+  { lessonId: 'wf-verbals', type: 'correct', question: 'I look forward to meet you.', answer: 'I look forward to meeting you.', explanation: 'look forward to 中 to 是介词，后接 doing。' },
+  { lessonId: 'wf-verbals', type: 'choice', question: 'The window ___ in the storm has been repaired.', options: ['break', 'broke', 'breaking', 'broken'], answer: 'broken', explanation: '过去分词作定语，表被动或完成。' },
+  { lessonId: 'wf-verbals', type: 'fill', question: 'The boy ___ (sit) there is my brother.', answer: 'sitting', explanation: '现在分词作定语，表主动或进行。' },
+  { lessonId: 'wf-verbals', type: 'correct', question: 'I enjoy to swim.', answer: 'I enjoy swimming.', explanation: 'enjoy 后接动名词，不用不定式。' },
+  { lessonId: 'wf-verbals', type: 'choice', question: 'Let him ___ alone.', options: ['to go', 'go', 'going', 'gone'], answer: 'go', explanation: '使役动词 let 后接省 to 的不定式。' },
+
+  // wf-adjective-degree (7)
+  { lessonId: 'wf-adjective-degree', type: 'choice', question: 'Tom is ___ than Jack.', options: ['tall', 'taller', 'tallest', 'most tall'], answer: 'taller', explanation: '比较级 -er。' },
+  { lessonId: 'wf-adjective-degree', type: 'fill', question: 'She is ___ (good) student in our class.', answer: 'the best', explanation: '最高级 the best。' },
+  { lessonId: 'wf-adjective-degree', type: 'correct', question: 'Tom is more tall than Jack.', answer: 'Tom is taller than Jack.', explanation: '短形容词用 -er 形式比较级。' },
+  { lessonId: 'wf-adjective-degree', type: 'choice', question: 'This book is ___ interesting than that one.', options: ['more', 'most', 'much', 'many'], answer: 'more', explanation: '多音节形容词比较级前加 more。' },
+  { lessonId: 'wf-adjective-degree', type: 'fill', question: 'Today is ___ (bad) than yesterday.', answer: 'worse', explanation: 'bad 的比较级是不规则变化 worse。' },
+  { lessonId: 'wf-adjective-degree', type: 'correct', question: 'She is the most tall girl.', answer: 'She is the tallest girl.', explanation: '短形容词最高级加 -est，不用 most。' },
+  { lessonId: 'wf-adjective-degree', type: 'choice', question: 'I have ___ money than you.', options: ['fewer', 'less', 'littler', 'smaller'], answer: 'less', explanation: 'money 不可数，比较级用 less。' },
+
+  // wf-noun-number (7)
+  { lessonId: 'wf-noun-number', type: 'choice', question: 'I have two ___ (child).', options: ['childs', 'childes', 'children', 'child'], answer: 'children', explanation: 'child 的复数是 children（不规则加 -en）。' },
+  { lessonId: 'wf-noun-number', type: 'fill', question: 'There are many ___ (box) in the room.', answer: 'boxes', explanation: 'box 结尾 -x，加 -es。' },
+  { lessonId: 'wf-noun-number', type: 'correct', question: 'She bought three knifes.', answer: 'She bought three knives.', explanation: 'knife 复数是 knives（-fe → -ves）。' },
+  { lessonId: 'wf-noun-number', type: 'choice', question: 'I have two ___ (baby).', options: ['babys', 'babies', 'babyes', 'baby'], answer: 'babies', explanation: '辅音 + y 改 y 为 i 加 -es。' },
+  { lessonId: 'wf-noun-number', type: 'fill', question: 'Three ___ (sheep) are eating grass.', answer: 'sheep', explanation: 'sheep 单复同形。' },
+  { lessonId: 'wf-noun-number', type: 'correct', question: 'I have two childs.', answer: 'I have two children.', explanation: 'child 的复数是不规则的 children。' },
+  { lessonId: 'wf-noun-number', type: 'choice', question: 'My ___ (foot) hurt.', options: ['foots', 'feet', 'footes', 'footes'], answer: 'feet', explanation: 'foot 的复数是不规则的 feet（oo → ee）。' },
+
+  // wf-numerals (7)
+  { lessonId: 'wf-numerals', type: 'choice', question: 'Today is her ___ (twelve) birthday.', options: ['twelve', 'twelveth', 'twelfth', 'twelveth'], answer: 'twelfth', explanation: '12 的序数是 twelfth（去 e 加 th）。' },
+  { lessonId: 'wf-numerals', type: 'fill', question: 'He lives on the ___ (twenty-three) floor.', answer: 'twenty-third', explanation: '复合数词序数词个位决定词尾。' },
+  { lessonId: 'wf-numerals', type: 'correct', question: 'I have thirtien apples.', answer: 'I have thirteen apples.', explanation: '13 拼写是 thirteen。' },
+  { lessonId: 'wf-numerals', type: 'choice', question: 'She is the ___ (one) to arrive.', options: ['one', 'first', 'oneth', 'onest'], answer: 'first', explanation: '1 的序数是 first（特例）。' },
+  { lessonId: 'wf-numerals', type: 'fill', question: '___ (3/4) of the students passed.', answer: 'Three quarters', explanation: '分数分子基数 + 分母序数（>1 加 s）。' },
+  { lessonId: 'wf-numerals', type: 'correct', question: 'Today is her twelveth birthday.', answer: 'Today is her twelfth birthday.', explanation: '12 的序数是 twelfth（注意 f 字母）。' },
+  { lessonId: 'wf-numerals', type: 'choice', question: 'There are ___ (40) students.', options: ['fourty', 'fourteen', 'forty', 'fourthy'], answer: 'forty', explanation: '40 拼写是 forty（无 u）。' },
+
+  // wf-conversion (7)
+  { lessonId: 'wf-conversion', type: 'choice', question: 'Please ___ the flowers.', options: ['water (n.)', 'water (v.)', 'waters', 'watering'], answer: 'water (v.)', explanation: '作动词"浇水"，零派生。' },
+  { lessonId: 'wf-conversion', type: 'fill', question: 'I want to ___ (book v.) a table for two.', answer: 'book', explanation: 'book 作动词"预订"，零派生。' },
+  { lessonId: 'wf-conversion', type: 'correct', question: 'This room needs clean.', answer: 'This room needs cleaning.', explanation: 'needs 后接动名词 doing。' },
+  { lessonId: 'wf-conversion', type: 'choice', question: 'He is a ___ (clean adj.) boy.', options: ['clean', 'cleans', 'cleaning', 'cleaned'], answer: 'clean', explanation: '形容词 clean。' },
+  { lessonId: 'wf-conversion', type: 'fill', question: 'The room is ___ (clean adj.).', answer: 'clean', explanation: '系动词后用形容词。' },
+  { lessonId: 'wf-conversion', type: 'correct', question: 'Please waters the plants.', answer: 'Please water the plants.', explanation: '动词 water 不加 -s。' },
+  { lessonId: 'wf-conversion', type: 'choice', question: 'He ___ (name v.) his dog Lucky.', options: ['name', 'names', 'named', 'naming'], answer: 'named', explanation: 'name 作动词"命名"，过去式 named。' },
+
+  // wf-affixes (7)
+  { lessonId: 'wf-affixes', type: 'choice', question: 'He is ___ (happy) with the result.', options: ['unhappy', 'inhappy', 'dishappy', 'nonhappy'], answer: 'unhappy', explanation: '否定前缀 un- 加在 happy 前。' },
+  { lessonId: 'wf-affixes', type: 'fill', question: 'The ___ (develop) of the project took years.', answer: 'development', explanation: '动词 + -ment 变名词 development。' },
+  { lessonId: 'wf-affixes', type: 'correct', question: 'He is unkindly.', answer: 'He is unkind.', explanation: '形容词用 un-，副词用 un- + -ly。' },
+  { lessonId: 'wf-affixes', type: 'choice', question: 'Be ___ (care)! The road is dangerous.', options: ['careful', 'careless', 'uncaring', 'careing'], answer: 'careful', explanation: '形容词后缀 -ful = 充满...的。' },
+  { lessonId: 'wf-affixes', type: 'fill', question: 'Her explanation is ___ (believe) unbelievable.', answer: '', explanation: '占位（un- + believe + -able = unbelievable）。' },
+  { lessonId: 'wf-affixes', type: 'correct', question: 'She is happyness.', answer: 'She is happy. / She is filled with happiness.', explanation: '形容词 happy；名词 happiness。' },
+  { lessonId: 'wf-affixes', type: 'choice', question: 'The book is very ___ (interest).', options: ['interest', 'interested', 'interesting', 'interests'], answer: 'interesting', explanation: '物用 -ing。' },
+
+  // wf-pronouns (7)
+  { lessonId: 'wf-pronouns', type: 'choice', question: 'She gave ___ (I) a book.', options: ['I', 'me', 'my', 'mine'], answer: 'me', explanation: '宾格 me。' },
+  { lessonId: 'wf-pronouns', type: 'fill', question: 'This book is ___ (my).', answer: 'mine', explanation: '名词性物主代词 mine，独立使用。' },
+  { lessonId: 'wf-pronouns', type: 'correct', question: 'This book is the mine.', answer: 'This book is mine.', explanation: '名词性物主代词前不加 the。' },
+  { lessonId: 'wf-pronouns', type: 'choice', question: 'He hurt ___ (he) while playing.', options: ['he', 'him', 'his', 'himself'], answer: 'himself', explanation: '主语与宾语同指时用反身代词。' },
+  { lessonId: 'wf-pronouns', type: 'fill', question: 'We enjoyed ___ (we) at the party.', answer: 'ourselves', explanation: 'we 的反身代词是 ourselves。' },
+  { lessonId: 'wf-pronouns', type: 'correct', question: 'He hurt his self.', answer: 'He hurt himself.', explanation: '反身代词合写，不分 his + self。' },
+  { lessonId: 'wf-pronouns', type: 'choice', question: 'This is ___ (my) book.', options: ['me', 'my', 'mine', 'I'], answer: 'my', explanation: '形容词性物主代词后接名词。' },
+
+  // wf-determiners (7)
+  { lessonId: 'wf-determiners', type: 'choice', question: 'I need ___ advice.', options: ['a', 'an', 'some', 'many'], answer: 'some', explanation: 'advice 不可数，用 some。' },
+  { lessonId: 'wf-determiners', type: 'fill', question: 'He is ___ (university) student.', answer: 'a', explanation: 'university 首个音是 /j/，是辅音音素，用 a。' },
+  { lessonId: 'wf-determiners', type: 'correct', question: 'He is an university student.', answer: 'He is a university student.', explanation: 'university 发音 /ˌjuː.../，首个音素是 j（辅音），用 a。' },
+  { lessonId: 'wf-determiners', type: 'choice', question: 'I have ___ (much/many) friends.', options: ['much', 'many', 'a little', 'any'], answer: 'many', explanation: 'friends 是复数可数，用 many。' },
+  { lessonId: 'wf-determiners', type: 'fill', question: 'This is ___ (honest) man.', answer: 'an', explanation: 'honest 首个音是元音（不发音的 h），用 an。' },
+  { lessonId: 'wf-determiners', type: 'correct', question: 'I need a advices.', answer: 'I need some advice.', explanation: 'advice 不可数，不能加 -s。' },
+  { lessonId: 'wf-determiners', type: 'choice', question: 'She has ___ money.', options: ['many', 'few', 'little', 'a few'], answer: 'little', explanation: 'money 不可数，用 little 表否定"几乎没有"。' },
+
+  // wf-tense-aspect (7)
+  { lessonId: 'wf-tense-aspect', type: 'choice', question: 'He ___ (must leave) already.', options: ['must leave', 'must have left', 'must be leaving', 'must leaves'], answer: 'must have left', explanation: '情态 + have done 表对过去的肯定推测。' },
+  { lessonId: 'wf-tense-aspect', type: 'fill', question: 'The window ___ (break) by the ball.', answer: 'was broken', explanation: '一般过去被动 was + p.p.。' },
+  { lessonId: 'wf-tense-aspect', type: 'correct', question: 'He must left already.', answer: 'He must have left already.', explanation: 'must have done 表对过去的推测。' },
+  { lessonId: 'wf-tense-aspect', type: 'choice', question: 'The work ___ (finish).', options: ['has finished', 'has been finished', 'is finished', 'finished'], answer: 'has been finished', explanation: '现在完成被动 have/has been + p.p.。' },
+  { lessonId: 'wf-tense-aspect', type: 'fill', question: 'If I ___ (be) you, I would go.', answer: 'were', explanation: 'were 型虚拟：I/he/she/it 都用 were。' },
+  { lessonId: 'wf-tense-aspect', type: 'correct', question: 'If I was you, I would go.', answer: 'If I were you, I would go.', explanation: '虚拟语气用 were，不用 was。' },
+  { lessonId: 'wf-tense-aspect', type: 'choice', question: 'You ___ (should tell) me earlier.', options: ['should tell', 'should have told', 'should telling', 'should told'], answer: 'should have told', explanation: 'should have done = 本应做却没做（遗憾）。' },
+
+  // wf-adj-adv (7)
+  { lessonId: 'wf-adj-adv', type: 'choice', question: 'He works ___ (hard) every day.', options: ['hard', 'hardly', 'hardship', 'harden'], answer: 'hard', explanation: '"努力地"用 hard，不是 hardly（几乎不）。' },
+  { lessonId: 'wf-adj-adv', type: 'fill', question: 'I ___ (hard) know him.', answer: 'hardly', explanation: 'hardly = 几乎不。' },
+  { lessonId: 'wf-adj-adv', type: 'correct', question: 'He works hardly.', answer: 'He works hard.', explanation: '"努力工作"用 hard，hardly 意为"几乎不"。' },
+  { lessonId: 'wf-adj-adv', type: 'choice', question: 'He is ___ (high) respected.', options: ['high', 'highly', 'height', 'higher'], answer: 'highly', explanation: 'highly 抽象"高度地"；high 物理"高高地"。' },
+  { lessonId: 'wf-adj-adv', type: 'fill', question: 'I am ___ (good) today, thank you.', answer: 'well', explanation: '健康状况用 well，不是 good。' },
+  { lessonId: 'wf-adj-adv', type: 'correct', question: 'I am good today.', answer: 'I am well today.', explanation: '"身体健康"用 well；good 表"好"。' },
+  { lessonId: 'wf-adj-adv', type: 'choice', question: 'She held the baby ___ (close).', options: ['close', 'closely', 'closer', 'closest'], answer: 'close', explanation: '"紧紧地抱着"物理动作用 close；closely 表抽象"紧密地"。' },
+
+  // wf-compounds (7)
+  { lessonId: 'wf-compounds', type: 'choice', question: 'I have two ___ (mother-in-law).', options: ['mother-in-laws', 'mothers-in-law', 'mother-in-law', 'mothers-in-lawes'], answer: 'mothers-in-law', explanation: '复合名词复数在主名词（最后的 law）上变。' },
+  { lessonId: 'wf-compounds', type: 'fill', question: 'He is a ___ (five-year-old) boy.', answer: 'five-year-old', explanation: '复合形容词数+名+adj：名词必须单数。' },
+  { lessonId: 'wf-compounds', type: 'correct', question: 'He is a five-years-old boy.', answer: 'He is a five-year-old boy.', explanation: '复合形容词中名词用单数（five-year-old），不是复数。' },
+  { lessonId: 'wf-compounds', type: 'choice', question: 'This is a ___ (part-time) job.', options: ['part-time', 'parttime', 'parts-time', 'part-times'], answer: 'part-time', explanation: '复合形容词加连字符 part-time。' },
+  { lessonId: 'wf-compounds', type: 'fill', question: 'I bought a new ___ (bedside table).', answer: 'bedside table', explanation: '复合名词 n+n，bedside + table（可分开写也可用连字符）。' },
+  { lessonId: 'wf-compounds', type: 'correct', question: 'I have two mother-in-laws.', answer: 'I have two mothers-in-law.', explanation: '复合名词复数在主名词（law）上变。' },
+  { lessonId: 'wf-compounds', type: 'choice', question: 'There are five ___ (looker-on) watching the game.', options: ['looker-on', 'lookers-on', 'lookers-ones', 'looker-ons'], answer: 'lookers-on', explanation: '复合名词复数在主名词（前面的 looker）上变。' },
+
+  // wf-related-pairs (7)
+  { lessonId: 'wf-related-pairs', type: 'choice', question: 'His ___ (succeed n.) made him happy.', options: ['succeed', 'success', 'successful', 'successfully'], answer: 'success', explanation: 'success 是名词；succeed 是动词。' },
+  { lessonId: 'wf-related-pairs', type: 'fill', question: 'He will ___ (succeed v.) in the exam.', answer: 'succeed', explanation: '动词 succeed。' },
+  { lessonId: 'wf-related-pairs', type: 'correct', question: 'I success in the exam.', answer: 'I succeed in the exam.', explanation: 'success 是名词；动词用 succeed。' },
+  { lessonId: 'wf-related-pairs', type: 'choice', question: 'Please ___ (advise) me on what to do.', options: ['advice', 'advise', 'advices', 'advisable'], answer: 'advise', explanation: '动词 advise；名词 advice（不可数）。' },
+  { lessonId: 'wf-related-pairs', type: 'fill', question: 'She gave me some good ___ (advice n.).', answer: 'advice', explanation: '名词 advice，不可数。' },
+  { lessonId: 'wf-related-pairs', type: 'correct', question: 'She adviced me to go.', answer: 'She advised me to go.', explanation: 'advise 的过去式是 advised（-se 不变 -sed）。' },
+  { lessonId: 'wf-related-pairs', type: 'choice', question: 'His ___ (lose n.) is a great loss.', options: ['lose', 'loss', 'lost', 'loosing'], answer: 'loss', explanation: 'lose 是动词；名词是 loss。' },
+
+  // wf-ing-ed-adjectives (7)
+  { lessonId: 'wf-ing-ed-adjectives', type: 'choice', question: 'The movie is ___ (interest).', options: ['interested', 'interesting', 'interest', 'interests'], answer: 'interesting', explanation: '物用 -ing。' },
+  { lessonId: 'wf-ing-ed-adjectives', type: 'fill', question: 'I am ___ (interest) in the movie.', answer: 'interested', explanation: '人用 -ed。' },
+  { lessonId: 'wf-ing-ed-adjectives', type: 'correct', question: 'I am interesting in the book.', answer: 'I am interested in the book.', explanation: '"我对书感兴趣"人感受用 -ed。' },
+  { lessonId: 'wf-ing-ed-adjectives', type: 'choice', question: 'The news was ___ (shock).', options: ['shocked', 'shocking', 'shock', 'shocks'], answer: 'shocking', explanation: '消息本身特征用 -ing。' },
+  { lessonId: 'wf-ing-ed-adjectives', type: 'fill', question: 'We were ___ (shock) by the news.', answer: 'shocked', explanation: '人的感受用 -ed。' },
+  { lessonId: 'wf-ing-ed-adjectives', type: 'correct', question: 'The movie was bored.', answer: 'The movie was boring.', explanation: '电影特征用 -ing；-ed 表人的感受。' },
+  { lessonId: 'wf-ing-ed-adjectives', type: 'choice', question: 'The film is ___ (excite). I am very ___ (excite).', options: ['excited, exciting', 'exciting, excited', 'excites, exciting', 'exciting, exciting'], answer: 'exciting, excited', explanation: '物用 -ing，人用 -ed。' },
+
+  // wf-abbreviations (7)
+  { lessonId: 'wf-abbreviations', type: 'choice', question: 'I ___ (am) looking forward to seeing you.', options: ['am', 'I\'m', '\'m', 'Im'], answer: 'I\'m', explanation: 'I am 的缩约词是 I\'m（必须有撇号）。' },
+  { lessonId: 'wf-abbreviations', type: 'fill', question: 'He ___ (will not) come.', answer: 'won\'t', explanation: 'will not 的不规则缩约是 won\'t。' },
+  { lessonId: 'wf-abbreviations', type: 'correct', question: 'He dont know.', answer: 'He doesn\'t know.', explanation: '第三人称单数否定用 doesn\'t；缩约必须加撇号。' },
+  { lessonId: 'wf-abbreviations', type: 'choice', question: 'The city was covered in ___ (smoke + fog).', options: ['smog', 'smug', 'foggy', 'smoky'], answer: 'smog', explanation: 'smog = smoke + fog（混成词）。' },
+  { lessonId: 'wf-abbreviations', type: 'fill', question: 'Let\'s have ___ (breakfast + lunch) on Sunday.', answer: 'brunch', explanation: 'brunch = breakfast + lunch。' },
+  { lessonId: 'wf-abbreviations', type: 'correct', question: 'I am go there.', answer: 'I\'m going there.', explanation: '缩约 I\'m + 现在进行时 am going。' },
+  { lessonId: 'wf-abbreviations', type: 'choice', question: 'She works at the UN. UN stands for ___ ___ ___.', options: ['United Nations', 'United Nation', 'United Network', 'Universal Nations'], answer: 'United Nations', explanation: 'UN = United Nations。' },
+
+  // wf-number-prefixes (7)
+  { lessonId: 'wf-number-prefixes', type: 'choice', question: 'A ___ (3 sides) has three sides.', options: ['bicycle', 'triangle', 'octagon', 'pentagon'], answer: 'triangle', explanation: 'tri- = 三，triangle = 三角形。' },
+  { lessonId: 'wf-number-prefixes', type: 'fill', question: 'She is in her ___ (20-29 years old).', answer: 'twenties', explanation: '年代必须加 -s：in her twenties。' },
+  { lessonId: 'wf-number-prefixes', type: 'correct', question: 'She is in her twenty.', answer: 'She is in her twenties.', explanation: '表示年龄段必须加 -s。' },
+  { lessonId: 'wf-number-prefixes', type: 'choice', question: 'October comes from Latin "octo", meaning ___.', options: ['ten', 'seven', 'eight', 'nine'], answer: 'eight', explanation: 'oct- = 八（古罗马历第 8 月）。' },
+  { lessonId: 'wf-number-prefixes', type: 'fill', question: 'A ___ (5 sides) shape is a pentagon.', answer: 'five-sided', explanation: 'five + -sided 复合形容词。' },
+  { lessonId: 'wf-number-prefixes', type: 'correct', question: 'He rides a tricycle. (Wait — 1 wheel?)', answer: 'He rides a unicycle.', explanation: 'uni- = 一；tri- = 三；two 轮用 bicycle。' },
+  { lessonId: 'wf-number-prefixes', type: 'choice', question: 'A ___ (2 wheels) has two wheels.', options: ['unicycle', 'tricycle', 'bicycle', 'motorcycle'], answer: 'bicycle', explanation: 'bi- = 二，bicycle = 自行车（双轮）。' },
+
+  // wf-time-date (7)
+  { lessonId: 'wf-time-date', type: 'choice', question: 'My birthday is on ___ 5th.', options: ['June', '5 June', 'the June 5', 'June of 5'], answer: 'June', explanation: '美式 May 5th / June 5th。' },
+  { lessonId: 'wf-time-date', type: 'fill', question: 'I was born in ___ (1995).', answer: 'nineteen ninety-five', explanation: '年份两位两位读，1905 = nineteen o five。' },
+  { lessonId: 'wf-time-date', type: 'correct', question: 'She was born in one thousand nine hundred ninety-five.', answer: 'She was born in nineteen ninety-five.', explanation: '年份两位两位读，不用完整读千位。' },
+  { lessonId: 'wf-time-date', type: 'choice', question: 'It\'s 7:15. How to say it?', options: ['seven fifteen', 'a quarter past seven', 'both A and B', 'seven past fifteen'], answer: 'both A and B', explanation: '7:15 = seven fifteen / a quarter past seven。' },
+  { lessonId: 'wf-time-date', type: 'fill', question: 'She arrived at ___ (half past three).', answer: 'half past three', explanation: '3:30 = half past three。' },
+  { lessonId: 'wf-time-date', type: 'correct', question: 'It is seven fifteen o\'clock.', answer: 'It is seven fifteen.', explanation: 'o\'clock 仅用于整点；非整点不加 o\'clock。' },
+  { lessonId: 'wf-time-date', type: 'choice', question: 'The 1990s is pronounced as ___.', options: ['nineteen ninety', 'nineteen hundreds', 'the nineties', 'both A and C'], answer: 'both A and C', explanation: '年代可读 nineteen ninety / the nineties（必加 -s）。' },
+
+  // wf-sentence-patterns (7)
+  { lessonId: 'wf-sentence-patterns', type: 'choice', question: 'Birds fly. This is sentence pattern ___.', options: ['S+V', 'S+V+O', 'S+V+P', 'S+V+O+O'], answer: 'S+V', explanation: '主谓句型：S+V。' },
+  { lessonId: 'wf-sentence-patterns', type: 'fill', question: 'I love music. This is sentence pattern ___.', answer: 'S+V+O', explanation: '主谓宾结构：S+V+O。' },
+  { lessonId: 'wf-sentence-patterns', type: 'correct', question: 'He gave a book. (Incomplete)', answer: 'He gave me a book.', explanation: '双宾语动词需要间接宾语和直接宾语。' },
+  { lessonId: 'wf-sentence-patterns', type: 'choice', question: 'We elected him monitor. This is pattern ___.', options: ['S+V', 'S+V+O', 'S+V+O+O', 'S+V+O+C'], answer: 'S+V+O+C', explanation: '主谓宾宾补：elect sb + 宾补。' },
+  { lessonId: 'wf-sentence-patterns', type: 'fill', question: 'He is happy. This is pattern ___.', answer: 'S+V+P', explanation: '主系表结构：S+V+P。' },
+  { lessonId: 'wf-sentence-patterns', type: 'correct', question: 'She is a teacher. (Misread as S+V+O)', answer: 'She is a teacher. (Pattern: S+V+P, 系表结构)', explanation: 'is a teacher 是系表结构，不是主谓宾。' },
+  { lessonId: 'wf-sentence-patterns', type: 'choice', question: '___ modifies nouns; ___ modifies verbs.', options: ['Adverb, Adjective', 'Adjective, Adverb', 'Subject, Object', 'Noun, Verb'], answer: 'Adjective, Adverb', explanation: '形容词作定语修饰名词；副词作状语修饰动词。' },
+
+  // wf-ch-en-differences (7)
+  { lessonId: 'wf-ch-en-differences', type: 'choice', question: 'I ___ (think) he will come.', options: ['think he is not', 'don\'t think he will', 'don\'t think he is', 'no think'], answer: 'don\'t think he will', explanation: '否定转移：think 等动词的宾语从句否定前移到主句。' },
+  { lessonId: 'wf-ch-en-differences', type: 'fill', question: 'I met him ___ Beijing yesterday.', answer: 'in', explanation: '地点在前，时间在后。' },
+  { lessonId: 'wf-ch-en-differences', type: 'correct', question: 'I think he is not right.', answer: 'I don\'t think he is right.', explanation: '否定转移：think 后从句否定要前移到主句。' },
+  { lessonId: 'wf-ch-en-differences', type: 'choice', question: 'In English, adjectives follow a specific order. ___ goes first.', options: ['Opinion', 'Size', 'Color', 'Material'], answer: 'Opinion', explanation: '形容词顺序：观点→大小→颜色→材料→用途。' },
+  { lessonId: 'wf-ch-en-differences', type: 'fill', question: 'She has a beautiful ___ (small old red Italian leather) bag.', answer: 'small old red Italian leather', explanation: '形容词顺序：观点→大小→年龄→颜色→国籍→材料。' },
+  { lessonId: 'wf-ch-en-differences', type: 'correct', question: 'Yesterday I met him in Beijing.', answer: 'I met him in Beijing yesterday.', explanation: '英文先地点后时间，中文相反。' },
+  { lessonId: 'wf-ch-en-differences', type: 'choice', question: '"开车要小心" is best translated as ___.', options: ['Drive careful.', 'Be careful when driving.', 'You must be careful when driving.', 'To drive careful.'], answer: 'You must be careful when driving.', explanation: '英文必须有主语；动名词 driving 表伴随。' },
+
+  // --- sub-clause-object (6题) ---
+  { lessonId: 'sub-clause-object', type: 'choice', question: 'I think ___ (that) he is right.', options: ['that', 'which', 'what', 'if'], answer: 'that', explanation: '陈述句作宾语用 that 引导，口语中可省略。' },
+  { lessonId: 'sub-clause-object', type: 'fill', question: 'I wonder ___ he is at home.（是否）', answer: 'whether / if', explanation: '一般疑问句作宾语用 whether 或 if 引导。' },
+  { lessonId: 'sub-clause-object', type: 'correct', question: 'Could you tell me where does he live?', answer: 'Could you tell me where he lives?', explanation: '宾语从句必须用陈述语序，主语在前动词在后。' },
+  { lessonId: 'sub-clause-object', type: 'choice', question: 'Could you tell me ___ the train station is?', options: ['where', 'where is', 'what', 'when is'], answer: 'where', explanation: '特殊疑问句作宾语保留疑问词，用陈述语序。' },
+  { lessonId: 'sub-clause-object', type: 'fill', question: 'She doesn\'t know ___ he will come tomorrow.', answer: 'whether / if', explanation: '对将来不确定用 whether / if 引导。' },
+  { lessonId: 'sub-clause-object', type: 'correct', question: 'He said me that he was tired.', answer: 'He told me that he was tired.', explanation: '陈述内容用 tell / say to，say 不接双宾语；say 后接 that 从句。' },
+
+  // --- sub-clause-adverbial (6题) ---
+  { lessonId: 'sub-clause-adverbial', type: 'choice', question: 'When he ___, I will tell him the news.', options: ['arrives', 'will arrive', 'arrived', 'is arriving'], answer: 'arrives', explanation: '主将从现：主句将来时，时间状语从句用一般现在时。' },
+  { lessonId: 'sub-clause-adverbial', type: 'fill', question: 'She stayed home ___ she was ill.（因为）', answer: 'because', explanation: 'because 引导原因状语从句（最强因果关系）。' },
+  { lessonId: 'sub-clause-adverbial', type: 'correct', question: 'Because he was tired, so he went to bed.', answer: 'Because he was tired, he went to bed.', explanation: 'because 与 so 不可并用，保留其一。' },
+  { lessonId: 'sub-clause-adverbial', type: 'choice', question: '___ he is young, he is very mature.', options: ['Although', 'Because', 'If', 'So'], answer: 'Although', explanation: 'although / though 引导让步状语从句（虽然…但是…）。' },
+  { lessonId: 'sub-clause-adverbial', type: 'fill', question: 'If it ___ tomorrow, we will cancel the trip.', answer: 'rains', explanation: '主将从现：if 条件句用一般现在时。' },
+  { lessonId: 'sub-clause-adverbial', type: 'correct', question: 'Although he is rich, but he is unhappy.', answer: 'Although he is rich, he is unhappy.', explanation: 'although 与 but 不可并用，保留其一。' },
+
+  // --- sub-clause-relative (6题) ---
+  { lessonId: 'sub-clause-relative', type: 'choice', question: 'The man ___ is over there is my father.', options: ['who', 'which', 'where', 'what'], answer: 'who', explanation: '指人做主语用关系代词 who（不用 which）。' },
+  { lessonId: 'sub-clause-relative', type: 'fill', question: 'This is the city ___ I was born.（地点）', answer: 'where', explanation: '表地点用关系副词 where (= in which)。' },
+  { lessonId: 'sub-clause-relative', type: 'correct', question: 'The man which is talking to my mother is Tom.', answer: 'The man who is talking to my mother is Tom.', explanation: '指人用 who / that，不用 which。' },
+  { lessonId: 'sub-clause-relative', type: 'choice', question: 'I have a friend ___ father is a pilot.', options: ['whose', 'who', 'which', 'whom'], answer: 'whose', explanation: 'whose 表所属关系（某人的），既可指人也可指物。' },
+  { lessonId: 'sub-clause-relative', type: 'fill', question: 'The book ___ I bought yesterday is interesting.', answer: 'which/that', explanation: '物作宾语用 which / that，常可省略。' },
+  { lessonId: 'sub-clause-relative', type: 'correct', question: 'This is the house where I visited last year.', answer: 'This is the house (which/that) I visited last year.', explanation: 'visit 缺宾语用 which/that（=the house which I visited），不是地点状语不能用 where。' },
 ]

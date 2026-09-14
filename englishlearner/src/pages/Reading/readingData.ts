@@ -9,12 +9,15 @@ export type PhraseItem = {
   meaning: string
 }
 
+export type QuestionType = 'detail' | 'main' | 'infer' | 'vocab' | 'attitude'
+
 export type ReadingQuestion = {
   id: string
   question: string
   options: string[]
   answer: number
   explanation: string
+  type?: QuestionType
 }
 
 export type ReadingItem = {

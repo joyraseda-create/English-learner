@@ -22,7 +22,9 @@ import { useMixPanelChapterLogUploader } from '@/utils/mixpanel'
 import { useAtom, useAtomValue, useSetAtom } from 'jotai'
 import type React from 'react'
 import { useCallback, useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { useImmerReducer } from 'use-immer'
+import IconHome from '~icons/heroicons/home-solid'
 import './minimal.css'
 
 const App: React.FC = () => {
@@ -140,6 +142,15 @@ const App: React.FC = () => {
       )}
       <Layout>
         <div className="typing-top-bar w-full">
+          <Link
+            to="/gallery"
+            aria-label="返回词库"
+            title="返回词库"
+            className="my-btn-primary flex items-center gap-1 transition-all duration-300"
+          >
+            <IconHome className="h-4 w-4" />
+            <span>返回词库</span>
+          </Link>
           <DictChapterButton />
           <PronunciationSwitcher />
           <Switcher />

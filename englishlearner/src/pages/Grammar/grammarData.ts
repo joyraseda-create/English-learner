@@ -35,7 +35,7 @@ export const levelColors: Record<string, string> = {
   全套: 'bg-purple-100 text-purple-700 dark:bg-purple-900/50 dark:text-purple-300',
 }
 
-export const grammarCategories = ['时态', '从句', '词法', '句法', '虚拟语气', '非谓语', '代词', '介词', '连词', '形容词与副词', '名词', '被动语态']
+export const grammarCategories = ['时态', '从句', '词法', '句法', '虚拟语气', '非谓语', '代词', '介词', '连词', '形容词与副词', '名词', '被动语态', '词形变换']
 
 export const bookLevels = ['初级', '中级', '高级'] as const
 

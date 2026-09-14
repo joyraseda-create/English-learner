@@ -1,5 +1,6 @@
 import DropdownExport from './DropdownExport'
 import ErrorRow from './ErrorRow'
+import GrammarErrorsView from './GrammarErrorsView'
 import type { ISortType } from './HeadWrongNumber'
 import HeadWrongNumber from './HeadWrongNumber'
 import Pagination, { ITEM_PER_PAGE } from './Pagination'
@@ -14,6 +15,8 @@ import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useNavigate, NavLink } from 'react-router-dom'
 import '../a-minimal-global.css'
 
+type ErrorBookTab = 'words' | 'grammar'
+
 export function ErrorBook() {
   const [groupedRecords, setGroupedRecords] = useState<groupedWordRecords[]>([])
   const [currentPage, setCurrentPage] = useState(1)
@@ -27,6 +30,7 @@ export function ErrorBook() {
   const [isLoading, setIsLoading] = useState(true)
   const [loadError, setLoadError] = useState<string | null>(null)
   const [deletingKeys, setDeletingKeys] = useState<Set<string>>(new Set())
+  const [activeTab, setActiveTab] = useState<ErrorBookTab>('words')
 
   const onBack = useCallback(() => {
     navigate('/')
@@ -147,12 +151,33 @@ export function ErrorBook() {
         <span className="nav-sep">›</span>
         <span className="nav-current">错题本</span>
       </div>
+      <div className="page-tabs">
+        <button
+          className={`tab-pill ${activeTab === 'words' ? 'active' : ''}`}
+          onClick={() => setActiveTab('words')}
+        >
+          单词错题
+        </button>
+        <button
+          className={`tab-pill ${activeTab === 'grammar' ? 'active' : ''}`}
+          onClick={() => setActiveTab('grammar')}
+        >
+          语法错题
+        </button>
+      </div>
       <div className={`relative flex h-screen w-full flex-col items-center pb-4 ease-in ${currentRowDetail && 'blur-sm'}`}>
         <div className="mr-8 mt-4 flex w-auto items-center justify-center self-end">
           <h1 className="font-lighter mr-4 w-auto self-end text-gray-500 opacity-70">Tip: 点击错误单词查看详细信息</h1>
           <button className="back-text" onClick={onBack}>返回</button>
         </div>
 
+        {activeTab === 'grammar' ? (
+          <div className="flex w-full flex-1 items-start justify-center overflow-y-auto px-10 pt-6">
+            <div className="w-5/6">
+              <GrammarErrorsView reloadKey={reload ? 1 : 0} />
+            </div>
+          </div>
+        ) : (
         <div className="flex w-full flex-1 select-text items-start justify-center overflow-hidden">
           <div className="flex h-full w-5/6 flex-col pt-10">
             <div className="flex w-full justify-between rounded-lg bg-white px-6 py-5 text-lg text-black shadow-lg dark:bg-gray-800 dark:text-white">
@@ -191,7 +216,10 @@ export function ErrorBook() {
             </ScrollArea.Root>
           </div>
         </div>
-        <Pagination className="pt-3" page={currentPage} setPage={setPage} totalPages={totalPages} />
+        )}
+        {activeTab === 'words' && (
+          <Pagination className="pt-3" page={currentPage} setPage={setPage} totalPages={totalPages} />
+        )}
       </div>
       {currentRowDetail && <RowDetail currentRowDetail={currentRowDetail} allRecords={sortedRecords} />}
     </div>
