@@ -218,6 +218,8 @@ const Reading: React.FC = () => {
   // 自动保存进度：当所有题目都答完时，标记文章为已完成并记录错题
   useEffect(() => {
     if (!currentItem) return
+    // 防御：空题目数组不应被自动标记为完成（避免新文章/数据缺失时被错误完成）
+    if (currentItem.questions.length === 0) return
     const allAnswered = currentItem.questions.every((q) => answers[q.id] !== undefined)
     if (!allAnswered) return
     if (progress.completed.includes(currentItem.id)) return

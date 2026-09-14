@@ -171,16 +171,6 @@ export const advancedExercises: GrammarExercise[] = [
   { lessonId: 'formal-subject-object', type: 'choice', question: 'It ___ me two hours to finish the work.', options: ['took', 'spent', 'cost', 'paid'], answer: 'took', explanation: 'It takes sb + 时间 + to do，固定句型。' },
   { lessonId: 'formal-subject-object', type: 'fill', question: 'It is no good ___ (cry) over it.', answer: 'crying', explanation: 'It is no use / no good + doing，固定句型。' },
 
-  // --- advanced-inversion (8题) ---
-  { lessonId: 'advanced-inversion', type: 'choice', question: 'Here ___ the bus.', options: ['come', 'comes', 'is coming', 'has come'], answer: 'comes', explanation: '全部倒装：Here + 动词第三人称单数 + 主语（名词）。' },
-  { lessonId: 'advanced-inversion', type: 'choice', question: '___ have I seen such a beautiful sunset.', options: ['Never', 'Never I', 'I never', 'Did never'], answer: 'Never', explanation: 'Never 置句首要部分倒装：Never + 助动词 + 主语 + 动词。' },
-  { lessonId: 'advanced-inversion', type: 'fill', question: 'Only by working hard ___ (you / can) achieve your dream.', answer: 'can you', explanation: 'Only + 状语置句首，部分倒装：can you achieve。' },
-  { lessonId: 'advanced-inversion', type: 'correct', question: 'Never I have seen such a thing.', answer: 'Never have I seen such a thing.', explanation: '否定副词置句首要部分倒装：Never have I seen。' },
-  { lessonId: 'advanced-inversion', type: 'choice', question: '___ I you, I would work harder.', options: ['Was', 'Were', 'Am', 'Be'], answer: 'Were', explanation: '省略 if 的虚拟条件句倒装：Were I you = If I were you。' },
-  { lessonId: 'advanced-inversion', type: 'fill', question: 'On the hill ___ (stand) an old temple.', answer: 'stands', explanation: '介词短语置句首的完全倒装：On the hill stands + 主语。' },
-  { lessonId: 'advanced-inversion', type: 'correct', question: 'Here comes the train, here comes it.', answer: 'Here comes the train, here it comes.', explanation: '主语是代词时不倒装：here it comes（而非 here comes it）。' },
-  { lessonId: 'advanced-inversion', type: 'choice', question: 'Not only ___ late, but also he forgot his homework.', options: ['he was', 'was he', 'he is', 'is he'], answer: 'was he', explanation: 'Not only 置句首，部分倒装：Not only was he late, ...。' },
-
   // --- subjunctive-present-future (6题) ---
   { lessonId: 'subjunctive-present-future', type: 'correct', question: 'If I was you, I would take the job.', answer: 'If I were you, I would take the job.', explanation: '与现在事实相反，if 从句 be 一律用 were，不用 was。' },
   { lessonId: 'subjunctive-present-future', type: 'choice', question: 'If it ___ tomorrow, we would stay home.', options: ['rains', 'rained', 'will rain', 'would rain'], answer: 'rained', explanation: '与将来事实相反，if 从句用一般过去时（虚拟式）。' },

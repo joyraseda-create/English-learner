@@ -189,38 +189,6 @@ export const advancedLessons: GrammarLesson[] = [
     ],
   },
   {
-    id: 'advanced-inversion',
-    title: '倒装句',
-    category: '句法',
-    bookLevel: '高级',
-    difficulty: '高级',
-    bookSource: 'Advanced Grammar in Use',
-    unit: 'Unit 46',
-    summary: '强调与倒装',
-    explanation: [
-      '否定副词放句首时，主句部分倒装（助动词提前）。',
-      'Never have I seen such a beautiful place.（我从未见过如此美丽的地方。）。',
-      'Not only...but also 倒装 Not only 开头的部分。',
-      '虚拟条件句省略 if 时也需倒装：Had I known, I would have helped.。',
-    ],
-    examples: [
-      { sentence: 'Never have I seen such a beautiful place.', translation: '我从未见过如此美丽的地方。' },
-      { sentence: 'Rarely does she complain about anything.', translation: '她极少抱怨。' },
-      { sentence: 'Not only did he apologize, but he also sent flowers.', translation: '他不仅道了歉，还送了花。' },
-      { sentence: 'Had I known the truth, I would have told you.', translation: '要是我知道真相，我就告诉你了。（= If I had known...）' },
-    ],
-    rules: [
-      'Never/Rarely/Hardly/Seldom + 助动词 + 主语 + 动词',
-      'Not only + 助动词 + 主语 + 动词, but (also)...',
-      'No sooner had + 主语 + 过去分词, than...',
-      '虚拟条件句省略 if → Had/Were/Should + 主语...',
-    ],
-    commonMistakes: [
-      'Never I have seen such a place. → Never have I seen such a place.',
-      'If had I known...（省略if后不需要再加if）→ Had I known...',
-    ],
-  },
-  {
     id: 'cleft-sentences',
     title: '分裂句 It is...that...',
     category: '句法',
